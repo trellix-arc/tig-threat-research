@@ -1,0 +1,1039 @@
+Threat Actor,Tool,Type
+MuddyWater,BugSleep,Backdoor
+MuddyWater,Atera,Non-malicious tool
+MuddyWater,Egnyte,Non-malicious tool
+Tortoiseshell,AhMyth RAT,Backdoor
+Tortoiseshell,AhMyth RAT,Credential stealer
+Tortoiseshell,AhMyth RAT,Exfiltration
+Tortoiseshell,AhMyth RAT,Info stealer
+Tortoiseshell,AhMyth RAT,Reconnaissance
+Tortoiseshell,SysJoker,Backdoor
+Tortoiseshell,BiBi-Linux Wiper,Wiper
+Tortoiseshell,BiBi-Windows Wiper,Wiper
+Tortoiseshell,MoaazDroid,Backdoor
+Tortoiseshell,MoaazDroid,Info stealer
+Tortoiseshell,MythDroid,Backdoor
+Tortoiseshell,MythDroid,Remote Access Trojan (RAT)
+Tortoiseshell,CoolWipe,Wiper
+Tortoiseshell,ChillWipe,Wiper
+Tortoiseshell,RedRuse,Backdoor
+Tortoiseshell,RedRuse,Info stealer
+Tortoiseshell,Magnifi,Downloader
+Tortoiseshell,SoloDroid,Info stealer
+Tortoiseshell,PasqotDroid,Backdoor
+Tortoiseshell,PasqotDroid,Info stealer
+Tortoiseshell,LovelyDroid,Info stealer
+Tortoiseshell,PowerLess Backdoor,Backdoor
+Tortoiseshell,PowerLess Backdoor,Info stealer
+Tortoiseshell,PowerLess Backdoor,Keylogger
+Tortoiseshell,PowerLess Backdoor,Reconnaissance
+APT42,BROKEYOLK,Downloader
+APT42,MAGICDROP,Dropper
+APT42,PINEFLOWER,Backdoor
+APT42,POWERPOST,Reconnaissance
+APT42,TabbyCat,Dropper
+APT42,TameCat,Backdoor
+APT42,VBREVSHELL,Backdoor
+APT42,VINETHORN,Backdoor
+APT42,VINETHORN,Info stealer
+APT42,NICECURL,Backdoor
+APT42,Net,Info stealer
+APT42,Net,Non-malicious tool
+APT42,Net,OS native tool
+APT42,Net,Reconnaissance
+APT42,PowerShell,Non-malicious tool
+APT42,PowerShell,OS native tool
+APT42,Cmd,Non-malicious tool
+APT42,Cmd,OS native tool
+APT42,ping,Non-malicious tool
+APT42,ping,OS native tool
+APT42,whoami,Non-malicious tool
+APT42,whoami,OS native tool
+APT42,whoami,Reconnaissance
+APT42,JavaScript,Backdoor
+APT42,JavaScript,Credential stealer
+APT42,JavaScript,Downloader
+APT42,JavaScript,Dropper
+APT42,JavaScript,Exfiltration
+APT42,JavaScript,Info stealer
+APT42,JavaScript,Loader
+APT42,JavaScript,Non-malicious tool
+APT42,JavaScript,Reconnaissance
+APT42,Del,Non-malicious tool
+APT42,Del,OS native tool
+APT42,Notepad,OS native tool
+APT42,hostname.exe,Non-malicious tool
+APT42,hostname.exe,OS native tool
+APT42,Get-ChildItem,Non-malicious tool
+APT42,mkdir,Non-malicious tool
+APT42,type,OS native tool
+APT42,rm,OS native tool
+APT42,explorer,OS native tool
+APT42,exit,OS native tool
+APT42,mv,Non-malicious tool
+APT42,VBScript,Non-malicious tool
+APT42,CHAIRSMACK,Backdoor
+APT42,CHAIRSMACK,Keylogger
+APT42,CHAIRSMACK,Reconnaissance
+APT42,DOSTEALER,Info stealer
+APT42,DOSTEALER,Keylogger
+APT42,GHAMBAR,Backdoor
+APT42,GHAMBAR,Credential stealer
+APT42,GHAMBAR,Info stealer
+APT42,SILENTUPLOADER,Exfiltration
+APT42,GorjolEcho,Backdoor
+APT42,GorjolEcho,Info stealer
+APT42,Hyperscrape,Exfiltration
+APT42,Hyperscrape,Info stealer
+APT42,curl,Downloader
+APT42,curl,Exfiltration
+APT42,curl,Non-malicious tool
+APT42,curl,OS native tool
+Dune,BiBi-Windows Wiper,Wiper
+Dune,Net,Info stealer
+Dune,Net,Non-malicious tool
+Dune,Net,OS native tool
+Dune,Net,Reconnaissance
+Dune,Cmd,Non-malicious tool
+Dune,Cmd,OS native tool
+Dune,WinRAR,Compression
+Dune,WinRAR,Non-malicious tool
+Dune,ping,Non-malicious tool
+Dune,ping,OS native tool
+Dune,echo,OS native tool
+Dune,reGeorg,Tunneling
+Dune,reGeorg,Web Shell
+Dune,Active Directory Explorer,Non-malicious tool
+Dune,Active Directory Explorer,Reconnaissance
+Dune,OpenSSH,Non-malicious tool
+Dune,OpenSSH,Tunneling
+Dune,ZeroCleare,Wiper
+Dune,WMIC,OS native tool
+Dune,VSSAdmin,OS native tool
+Dune,BCDEdit,Non-malicious tool
+Dune,SDelete,Non-malicious tool
+Dune,format,OS native tool
+Dune,ssh,Non-malicious tool
+Dune,ssh,OS native tool
+Tortoiseshell,MiniBike Backdoor,Backdoor
+Tortoiseshell,MiniBike Backdoor,Exfiltration
+Tortoiseshell,MiniBike Backdoor,Info stealer
+Tortoiseshell,MiniBus Backdoor,Backdoor
+Tortoiseshell,MiniBus Backdoor,Exfiltration
+Tortoiseshell,MiniBus Backdoor,Info stealer
+Tortoiseshell,LightRail,Exfiltration
+Tortoiseshell,LightRail,Tunneling
+Tortoiseshell,LastenZug,Exfiltration
+Tortoiseshell,LastenZug,Non-malicious tool
+Tortoiseshell,LastenZug,Tunneling
+Tortoiseshell,PowerShell,Non-malicious tool
+Tortoiseshell,PowerShell,OS native tool
+Tortoiseshell,Rundll32,OS native tool
+APT33,FalseFont,Backdoor
+APT33,PowerShell,Non-malicious tool
+APT33,PowerShell,OS native tool
+APT33,Cmd,Non-malicious tool
+APT33,Cmd,OS native tool
+APT35,CharmPower,Backdoor
+APT35,CharmPower,Downloader
+APT35,CharmPower,Exfiltration
+APT35,CharmPower,Info stealer
+APT35,PowerLess Backdoor,Backdoor
+APT35,PowerLess Backdoor,Info stealer
+APT35,PowerLess Backdoor,Keylogger
+APT35,PowerLess Backdoor,Reconnaissance
+APT35,NokNok,Backdoor
+APT35,NokNok,Info stealer
+APT35,NokNok,Obfuscation
+APT35,MediaPl,Backdoor
+APT35,BasicStar,Backdoor
+APT35,7-Zip,Compression
+APT35,7-Zip,Exfiltration
+APT35,7-Zip,Non-malicious tool
+APT35,WinRAR,Compression
+APT35,WinRAR,Non-malicious tool
+APT35,RatHole,Backdoor
+APT35,CommandCam,Info stealer
+APT35,ChromeHistoryView,Non-malicious tool
+APT35,SnailProxy,Non-malicious tool
+APT35,Korku Loader,Downloader
+APT35,networksetup,OS native tool
+APT35,PowerShell,Non-malicious tool
+APT35,PowerShell,OS native tool
+APT35,NirCmd,Non-malicious tool
+APT35,Cmd,Non-malicious tool
+APT35,Cmd,OS native tool
+APT35,Console Windows Host,OS native tool
+Homeland Justice,PowerShell,Non-malicious tool
+Homeland Justice,PowerShell,OS native tool
+Homeland Justice,Plink,Tunneling
+Homeland Justice,revsocks,Tunneling
+Homeland Justice,No-Justice Wiper,Wiper
+APT35,MischiefTut,Backdoor
+APT35,curl,Downloader
+APT35,curl,Exfiltration
+APT35,curl,Non-malicious tool
+APT35,curl,OS native tool
+APT35,VBScript,Non-malicious tool
+APT42,7-Zip,Compression
+APT42,7-Zip,Exfiltration
+APT42,7-Zip,Non-malicious tool
+APT42,netview,OS native tool
+APT42,netview,Reconnaissance
+APT42,dir,OS native tool
+APT42,wget,Downloader
+APT42,wget,Non-malicious tool
+APT42,wget,OS native tool
+APT42,Console Windows Host,OS native tool
+APT42,PowerHuntShares,Non-malicious tool
+APT42,rmdir,Non-malicious tool
+APT42,cd,OS native tool
+APT42,ls,OS native tool
+MuddyWater,PowerShell,Non-malicious tool
+MuddyWater,PowerShell,OS native tool
+MuddyWater,AnyDesk,Non-malicious tool
+MuddyWater,AnyDesk,Remote command
+MuddyWater,revsocks,Tunneling
+MuddyWater,Venom Proxy,Tunneling
+MuddyWater,MuddyC2Go,Control panel
+MuddyWater,SimpleHelp,Non-malicious tool
+MuddyWater,Cmd,Non-malicious tool
+MuddyWater,Cmd,OS native tool
+MuddyWater,Schtasks.exe,OS native tool
+MuddyWater,Schtasks.exe,Remote command
+MuddyWater,WMIExec,Backdoor
+MuddyWater,WMIExec,Remote command
+MuddyWater,Invoke-WebRequest,Non-malicious tool
+MuddyWater,Invoke-WebRequest,OS native tool
+MuddyWater,JumpCloud Remote Access,Non-malicious tool
+APT34,Cmd,Non-malicious tool
+APT34,Cmd,OS native tool
+APT34,SampleCheck5000,Downloader
+APT34,OilCheck,Downloader
+APT34,ODAgent,Downloader
+APT34,OilBooster,Downloader
+APT34,gzip,Non-malicious tool
+APT34,OpenSSL,Non-malicious tool
+MuddyWater,Tactical RMM,Non-malicious tool
+MuddyWater,DarkBeatC2,Control panel
+APT35,Hyperscrape,Exfiltration
+APT35,Hyperscrape,Info stealer
+APT35,Drokbk,Backdoor
+APT35,Drokbk,Dropper
+APT35,BellaCiao,Dropper
+APT35,Sponsor,Backdoor
+APT35,DownPaper,Backdoor
+APT35,DownPaper,Downloader
+APT35,certutil,Downloader
+APT35,certutil,Non-malicious tool
+APT35,certutil,OS native tool
+APT35,Shamoon,ICS malware
+APT35,Shamoon,Wiper
+APT35,Shamoon,Worm
+APT35,sqlmap,Vulnerability scanner
+APT35,Chisel,Tunneling
+APT35,WindowsProcesses.exe,Loader
+APT35,Chromium F,Credential stealer
+APT35,Chromium F,Exfiltration
+APT35,Chromium F,Info stealer
+APT35,Sou.exe - Audio Recorder,Info stealer
+APT35,Net,Info stealer
+APT35,Net,Non-malicious tool
+APT35,Net,OS native tool
+APT35,Net,Reconnaissance
+APT35,Systeminfo,Non-malicious tool
+APT35,Systeminfo,OS native tool
+APT35,Systeminfo,Reconnaissance
+APT35,Havij,Exfiltration
+APT35,Havij,Info stealer
+APT35,Schtasks.exe,OS native tool
+APT35,Schtasks.exe,Remote command
+APT35,FireMalv,Credential stealer
+APT35,CWoolger,Keylogger
+APT35,Mimikatz,Credential stealer
+APT35,Meterpreter,Backdoor
+APT35,Meterpreter,Loader
+APT35,Tasklist,Non-malicious tool
+APT35,Tasklist,OS native tool
+APT35,Tasklist,Reconnaissance
+APT35,PupyRAT,Remote Access Trojan (RAT)
+APT35,Windows Service Configuration Tool,Non-malicious tool
+APT35,Windows Service Configuration Tool,OS native tool
+APT35,Windows Service Configuration Tool,Reconnaissance
+APT35,Plink,Tunneling
+APT35,Ps1 To Exe,Non-malicious tool
+APT35,RunPE-In-Memory,Non-malicious tool
+APT35,SQL Extractor,Non-malicious tool
+APT35,Matryoshka Framework,Backdoor
+APT35,Matryoshka Framework,Dropper
+APT35,Matryoshka Framework,Info stealer
+APT35,Matryoshka Framework,Loader
+APT35,Leash,Backdoor
+APT35,NETWoolger,Keylogger
+APT35,Gost,Tunneling
+APT35,Impacket,Non-malicious tool
+APT35,DiskCryptor,Non-malicious tool
+APT35,WMIC,OS native tool
+APT35,Memento Ransomware,Ransomware
+APT35,wevtutil,Non-malicious tool
+APT35,wevtutil,OS native tool
+APT35,Invoke-Expression,Non-malicious tool
+APT35,Invoke-Expression,OS native tool
+APT35,InterPlanetary File System,Non-malicious tool
+APT35,Soldier Backdoor,Backdoor
+APT35,IIS-Raid,Backdoor
+APT35,TDTESS,Backdoor
+APT35,TDTESS,Downloader
+APT35,TDTESS,Info stealer
+APT35,PsExec,Non-malicious tool
+APT35,LaZagne,Credential stealer
+APT35,Reg,Non-malicious tool
+APT35,Reg,OS native tool
+APT35,PsList,Non-malicious tool
+APT35,FRP,Tunneling
+APT35,ProcDump,Non-malicious tool
+APT35,WebBrowserPassView,Credential stealer
+APT35,WebBrowserPassView,Non-malicious tool
+APT35,Bitlocker,
+APT35,revsocks,Tunneling
+APT35,Telegram Grabber Tool,Credential stealer
+APT35,Telegram Grabber Tool,Dropper
+APT35,Telegram Grabber Tool,Info stealer
+APT35,Telegram,Non-malicious tool
+APT35,GHAMBAR,Backdoor
+APT35,GHAMBAR,Credential stealer
+APT35,GHAMBAR,Info stealer
+APT35,Host2IP,Non-malicious tool
+APT35,Merlin,Downloader
+APT35,Merlin,Exfiltration
+APT35,Merlin,Loader
+APT35,Merlin,Reconnaissance
+APT35,Merlin,Remote command
+APT35,SQLDump,Non-malicious tool
+APT35,Armadillo,Non-malicious tool
+APT35,Rundll32,OS native tool
+APT35,wscript,Non-malicious tool
+APT35,wscript,OS native tool
+APT35,dir,OS native tool
+APT35,ipconfig,OS native tool
+APT35,ipconfig,Reconnaissance
+APT35,netstat,Non-malicious tool
+APT35,netstat,OS native tool
+APT35,netstat,Reconnaissance
+APT35,whoami,Non-malicious tool
+APT35,whoami,OS native tool
+APT35,whoami,Reconnaissance
+Tortoiseshell,SoftPerfect Network Scanner,Reconnaissance
+Tortoiseshell,PAExec,Remote command
+Tortoiseshell,ProcDump,Non-malicious tool
+Tortoiseshell,python.exe,Non-malicious tool
+Tortoiseshell,Discord,Non-malicious tool
+Tortoiseshell,MeshCentral Agent,Non-malicious tool
+Tortoiseshell,IMAPLoader,Downloader
+Tortoiseshell,IMAPLoader,Info stealer
+Tortoiseshell,IMAPLoader,Reconnaissance
+Tortoiseshell,Cmd,Non-malicious tool
+Tortoiseshell,Cmd,OS native tool
+Tortoiseshell,VBScript,Non-malicious tool
+Tortoiseshell,StandardKeyboard,Downloader
+Tortoiseshell,StandardKeyboard,Info stealer
+Tortoiseshell,StandardKeyboard,Reconnaissance
+Tortoiseshell,SugarRush,Backdoor
+MuddyWater,msiexec,Non-malicious tool
+MuddyWater,msiexec,OS native tool
+Agrius,Mimikatz,Credential stealer
+Agrius,nbtscan,Non-malicious tool
+Agrius,nbtscan,Reconnaissance
+Agrius,GMER,Non-malicious tool
+Agrius,ProcDump,Non-malicious tool
+Agrius,Plink,Tunneling
+Agrius,Nimscan,Non-malicious tool
+Agrius,PSCP,Non-malicious tool
+Agrius,S.exe PortScanner,Reconnaissance
+Agrius,S.exe PortScanner,Tunneling
+Agrius,BadRentdrv2,Defense evasion
+Agrius,7-Zip,Compression
+Agrius,7-Zip,Exfiltration
+Agrius,7-Zip,Non-malicious tool
+Agrius,Net,Info stealer
+Agrius,Net,Non-malicious tool
+Agrius,Net,OS native tool
+Agrius,Net,Reconnaissance
+Agrius,ARP,Non-malicious tool
+Agrius,ARP,OS native tool
+Agrius,ARP,Reconnaissance
+Agrius,Reg,Non-malicious tool
+Agrius,Reg,OS native tool
+Agrius,Cmd,Non-malicious tool
+Agrius,Cmd,OS native tool
+Agrius,copy,OS native tool
+Agrius,WinSCP,Exfiltration
+Agrius,DrvIX,Loader
+Agrius,Schtasks.exe,OS native tool
+Agrius,Schtasks.exe,Remote command
+Agrius,wevtutil,Non-malicious tool
+Agrius,wevtutil,OS native tool
+Agrius,echo,OS native tool
+Agrius,Rundll32,OS native tool
+APT33,SignalIR,Non-malicious tool
+MuddyWater,N‑able RMM,Non-malicious tool
+Tortoiseshell,ipconfig,OS native tool
+Tortoiseshell,ipconfig,Reconnaissance
+Tortoiseshell,whoami,Non-malicious tool
+Tortoiseshell,whoami,OS native tool
+Tortoiseshell,whoami,Reconnaissance
+Tortoiseshell,JavaScript,Backdoor
+Tortoiseshell,JavaScript,Credential stealer
+Tortoiseshell,JavaScript,Downloader
+Tortoiseshell,JavaScript,Dropper
+Tortoiseshell,JavaScript,Exfiltration
+Tortoiseshell,JavaScript,Info stealer
+Tortoiseshell,JavaScript,Loader
+Tortoiseshell,JavaScript,Non-malicious tool
+Tortoiseshell,JavaScript,Reconnaissance
+Tortoiseshell,WMIC,OS native tool
+Tortoiseshell,LEMPO,Info stealer
+Tortoiseshell,LEMPO,Reconnaissance
+Tortoiseshell,Reg,Non-malicious tool
+Tortoiseshell,Reg,OS native tool
+Moses Staff,PyDCrypt,Downloader
+Moses Staff,DCSrv,Ransomware
+Moses Staff,StrifeWater,Remote Access Trojan (RAT)
+Moses Staff,DiskCryptor,Non-malicious tool
+APT34,Mimikatz,Credential stealer
+APT34,PowerShell,Non-malicious tool
+APT34,PowerShell,OS native tool
+APT34,Plink,Tunneling
+APT34,PowerExchange Backdoor,Backdoor
+APT34,Netsh,Non-malicious tool
+APT34,Netsh,OS native tool
+APT34,Netsh,Remote command
+APT34,netstat,Non-malicious tool
+APT34,netstat,OS native tool
+APT34,netstat,Reconnaissance
+APT34,Reg,Non-malicious tool
+APT34,Reg,OS native tool
+APT34,ssh,Non-malicious tool
+APT34,ssh,OS native tool
+APT34,Tokel,Backdoor
+APT34,Dirps,Reconnaissance
+APT34,Clipog,Info stealer
+APT34,Clipog,Keylogger
+APT34,Nessus,Vulnerability scanner
+APT34,certutil,Downloader
+APT34,certutil,Non-malicious tool
+APT34,certutil,OS native tool
+APT34,Wireshark,Non-malicious tool
+MuddyWater,Reg,Non-malicious tool
+MuddyWater,Reg,OS native tool
+MuddyWater,Attrib,Non-malicious tool
+MuddyWater,Attrib,OS native tool
+MuddyWater,MSFvenom,Loader
+MuddyWater,wget,Downloader
+MuddyWater,wget,Non-malicious tool
+MuddyWater,wget,OS native tool
+MuddyWater,python.exe,Non-malicious tool
+MuddyWater,pip,Non-malicious tool
+MuddyWater,gunzip,Non-malicious tool
+MuddyWater,ifconfig,Non-malicious tool
+MuddyWater,ifconfig,OS native tool
+MuddyWater,chmod,OS native tool
+MuddyWater,FRP,Tunneling
+MuddyWater,Chisel,Tunneling
+MuddyWater,bore,Non-malicious tool
+MuddyWater,Ligolo,Tunneling
+APT34,VBScript,Non-malicious tool
+APT34,SAPIEN Script Packager,Non-malicious tool
+APT34,SAPIEN Script Packager,Obfuscation
+APT34,Solar Backdoor,Backdoor
+APT34,Mango Backdoor,Backdoor
+APT34,MKG,Info stealer
+APT34,CDumper,Info stealer
+APT34,EDumper,Info stealer
+APT34,IDumper,Info stealer
+APT34,SmartAssembly,Non-malicious tool
+APT33,TOR-The Onion Router,Non-malicious tool
+APT33,TOR-The Onion Router,Tunneling
+APT33,AzureHound,Non-malicious tool
+APT33,AnyDesk,Non-malicious tool
+APT33,AnyDesk,Remote command
+APT33,ROADtools,Reconnaissance
+APT33,Azure Arc,Non-malicious tool
+APT33,EagleRelay,Tunneling
+APT34,Net,Info stealer
+APT34,Net,Non-malicious tool
+APT34,Net,OS native tool
+APT34,Net,Reconnaissance
+APT34,wget,Downloader
+APT34,wget,Non-malicious tool
+APT34,wget,OS native tool
+APT34,Invoke-SMBClient,Privilege escalation
+APT34,ExchangeLeech,Backdoor
+APT34,Invoke-WMIExec,Non-malicious tool
+APT34,Invoke-WMIExec,OS native tool
+Agrius,Moneybird Ransomware,Ransomware
+Agrius,SoftPerfect Network Scanner,Reconnaissance
+Agrius,FileZilla,Downloader
+Agrius,FileZilla,Exfiltration
+Agrius,ASPXSpy,Web Shell
+Agrius,ProtonVPN,Non-malicious tool
+Agrius,ProtonVPN,Remote command
+MuddyWater,WMIC,OS native tool
+MuddyWater,netstat,Non-malicious tool
+MuddyWater,netstat,OS native tool
+MuddyWater,netstat,Reconnaissance
+MuddyWater,Nltest,Non-malicious tool
+MuddyWater,Nltest,OS native tool
+MuddyWater,AADInternals,Reconnaissance
+MuddyWater,Rport,Non-malicious tool
+MuddyWater,eHorus,Non-malicious tool
+MuddyWater,Mullvad VPN,Non-malicious tool
+MuddyWater,Mullvad VPN,Obfuscation
+MuddyWater,Mullvad VPN,Tunneling
+MuddyWater,OpenSSH,Non-malicious tool
+MuddyWater,OpenSSH,Tunneling
+MuddyWater,DarkBit Ransomware,Exfiltration
+MuddyWater,DarkBit Ransomware,Info stealer
+MuddyWater,DarkBit Ransomware,Ransomware
+MuddyWater,Cobalt Strike,Backdoor
+MuddyWater,Cobalt Strike,Big Game Hunting
+MuddyWater,Cobalt Strike,Control panel
+MuddyWater,Cobalt Strike,Credential stealer
+MuddyWater,Cobalt Strike,Downloader
+MuddyWater,Cobalt Strike,Exfiltration
+MuddyWater,Cobalt Strike,Keylogger
+MuddyWater,Cobalt Strike,Loader
+MuddyWater,Cobalt Strike,Remote command
+MuddyWater,Cobalt Strike,Tunneling
+MuddyWater,Cobalt Strike,Vulnerability scanner
+MuddyWater,xcopy,OS native tool
+Moses Staff,Telegram,Non-malicious tool
+Moses Staff,DriveGuard,Loader
+TeamTNT,LaZagne,Credential stealer
+APT35,SoftPerfect Network Scanner,Reconnaissance
+MuddyWater,POWERSTATS,Backdoor
+MuddyWater,PowerSploit,Backdoor
+MuddyWater,PowerSploit,Exfiltration
+MuddyWater,PowerSploit,Info stealer
+MuddyWater,PowerSploit,Reconnaissance
+MuddyWater,LaZagne,Credential stealer
+MuddyWater,Mimikatz,Credential stealer
+MuddyWater,Koadic,Backdoor
+MuddyWater,Koadic,Loader
+MuddyWater,Koadic,Vulnerability scanner
+MuddyWater,PowGoop,Downloader
+MuddyWater,PowGoop,Loader
+MuddyWater,Mori Backdoor,Backdoor
+MuddyWater,Regsvr32,Non-malicious tool
+MuddyWater,Regsvr32,OS native tool
+MuddyWater,Canopy,Backdoor
+MuddyWater,SHARPSTATS,Backdoor
+MuddyWater,SHARPSTATS,Info stealer
+MuddyWater,Small Sieve,Backdoor
+MuddyWater,Syncro,Non-malicious tool
+MuddyWater,quser.exe,Non-malicious tool
+MuddyWater,quser.exe,OS native tool
+MuddyWater,ConnectWise Control,Non-malicious tool
+MuddyWater,Empire,Backdoor
+MuddyWater,Empire,Control panel
+MuddyWater,Empire,Credential stealer
+MuddyWater,Empire,Keylogger
+MuddyWater,Empire,Loader
+MuddyWater,Empire,Reconnaissance
+MuddyWater,Empire,Remote command
+MuddyWater,Empire,Vulnerability scanner
+MuddyWater,RemCom,Remote Access Trojan (RAT)
+MuddyWater,RemoteUtilities,Remote command
+MuddyWater,CrackMapExec,Reconnaissance
+MuddyWater,CrackMapExec,Vulnerability scanner
+MuddyWater,Meterpreter,Backdoor
+MuddyWater,Meterpreter,Loader
+MuddyWater,Net,Info stealer
+MuddyWater,Net,Non-malicious tool
+MuddyWater,Net,OS native tool
+MuddyWater,Net,Reconnaissance
+MuddyWater,ipconfig,OS native tool
+MuddyWater,ipconfig,Reconnaissance
+MuddyWater,whoami,Non-malicious tool
+MuddyWater,whoami,OS native tool
+MuddyWater,whoami,Reconnaissance
+MuddyWater,NSIS,Loader
+MuddyWater,NSIS,Non-malicious tool
+APT35,mkdir,Non-malicious tool
+APT35,echo,OS native tool
+APT35,ifconfig,Non-malicious tool
+APT35,ifconfig,OS native tool
+APT35,GorjolEcho,Backdoor
+APT35,GorjolEcho,Info stealer
+APT35,Mach-0,Non-malicious tool
+APT34,Spearal Backdoor,Backdoor
+APT34,Veaty Backdoor,Backdoor
+APT34,Listner Backdoor,Backdoor
+APT34,RGDoor,Backdoor
+APT34,RGDoor,Info stealer
+APT34,mkdir,Non-malicious tool
+APT34,PyInstaller,Non-malicious tool
+APT34,JavaScript,Backdoor
+APT34,JavaScript,Credential stealer
+APT34,JavaScript,Downloader
+APT34,JavaScript,Dropper
+APT34,JavaScript,Exfiltration
+APT34,JavaScript,Info stealer
+APT34,JavaScript,Loader
+APT34,JavaScript,Non-malicious tool
+APT34,JavaScript,Reconnaissance
+APT34,python.exe,Non-malicious tool
+APT34,Flog Webshell,Web Shell
+APT34,Laret,Tunneling
+APT34,Pinar,Tunneling
+APT34,PrimeCache,Backdoor
+APT34,RDAT,Backdoor
+APT34,RDAT,Tunneling
+APT34,VideoSRV,Backdoor
+APT34,Shahmaran,Backdoor
+APT34,P.S. Olala,Loader
+APT34,PsExec,Non-malicious tool
+APT34,Sheep Tunneler,Tunneling
+APT34,Slippery Snakelet,Backdoor
+APT34,Costura,Non-malicious tool
+APT34,Whisper Protocol,Dropper
+ShroudedSnooper,LionTail Framework,Backdoor
+ShroudedSnooper,LionTail Framework,Loader
+ShroudedSnooper,BASEWALK,Backdoor
+ShroudedSnooper,CRYPTOSLAY,Obfuscation
+ShroudedSnooper,China Chopper,Backdoor
+ShroudedSnooper,GETERQUEEN,Reconnaissance
+ShroudedSnooper,HAZIZDOOR,Web Shell
+ShroudedSnooper,HEADTOE,Web Shell
+ShroudedSnooper,OBFUSLAY,Obfuscation
+ShroudedSnooper,ROTPIPE,Backdoor
+ShroudedSnooper,SASHEYAWAY,Dropper
+ShroudedSnooper,STAYSHANTE,Web Shell
+ShroudedSnooper,TANKSHELL,Web Shell
+ShroudedSnooper,TEMPLEDOOR,Backdoor
+ShroudedSnooper,Tunna WebShell,Web Shell
+ShroudedSnooper,WinTapix,Loader
+ShroudedSnooper,XORO,Obfuscation
+ShroudedSnooper,TOFUPIPE,Backdoor
+ShroudedSnooper,FACEFACE,Web Shell
+Emennet Pasargad,Telegram,Non-malicious tool
+Emennet Pasargad,Shodan,Reconnaissance
+Emennet Pasargad,Acunetix Web Vulnerability Scanner,Vulnerability scanner
+Emennet Pasargad,Burp Suite,Reconnaissance
+Emennet Pasargad,Burp Suite,Vulnerability scanner
+Emennet Pasargad,IP2location,Non-malicious tool
+Emennet Pasargad,MASSCAN,Reconnaissance
+Emennet Pasargad,Subdomain Finder - C99.nl,Non-malicious tool
+Emennet Pasargad,sqlmap,Vulnerability scanner
+APT34,Ngrok,Backdoor
+APT34,Ngrok,Non-malicious tool
+APT34,Ngrok,Tunneling
+APT34,STEALHOOK,Backdoor
+APT34,STEALHOOK,Info stealer
+APT34,RunPE-In-Memory,Non-malicious tool
+UNK_CraftyCamel,Sosano Backdoor,Backdoor
+UNK_CraftyCamel,Cmd,Non-malicious tool
+UNK_CraftyCamel,Cmd,OS native tool
+UNK_CraftyCamel,Mshta,Non-malicious tool
+UNK_CraftyCamel,Mshta,OS native tool
+Emennet Pasargad,WezRat,Info stealer
+Emennet Pasargad,WezRat,Remote Access Trojan (RAT)
+Emennet Pasargad,Cmd,Non-malicious tool
+Emennet Pasargad,Cmd,OS native tool
+APT35,Whatsapp,Non-malicious tool
+APT35,JavaScript,Backdoor
+APT35,JavaScript,Credential stealer
+APT35,JavaScript,Downloader
+APT35,JavaScript,Dropper
+APT35,JavaScript,Exfiltration
+APT35,JavaScript,Info stealer
+APT35,JavaScript,Loader
+APT35,JavaScript,Non-malicious tool
+APT35,JavaScript,Reconnaissance
+APT35,Google Sites,Non-malicious tool
+APT35,Regsvr32,Non-malicious tool
+APT35,Regsvr32,OS native tool
+APT35,cd,OS native tool
+APT35,copy,OS native tool
+APT35,findstr,Non-malicious tool
+APT35,rm,OS native tool
+APT35,start,OS native tool
+APT35,Invoke-WebRequest,Non-malicious tool
+APT35,Invoke-WebRequest,OS native tool
+Parisite,Angry IP Scanner,Non-malicious tool
+Parisite,Angry IP Scanner,Reconnaissance
+Parisite,DarkLoadLibrary,Non-malicious tool
+Parisite,Havoc Framework,Control panel
+Parisite,MeshCentral Agent,Non-malicious tool
+Parisite,NanoDump,Credential stealer
+Parisite,NanoDump,Non-malicious tool
+Parisite,Ngrok,Backdoor
+Parisite,Ngrok,Non-malicious tool
+Parisite,Ngrok,Tunneling
+Parisite,NirSoft Network Password Recovery,Non-malicious tool
+Parisite,Plink,Tunneling
+Parisite,PsExec,Non-malicious tool
+Parisite,PuTTY,Non-malicious tool
+Parisite,PuTTY,Tunneling
+Parisite,RecShell,Web Shell
+Parisite,RemoteInjector,Loader
+Parisite,ReverseSocks5,Non-malicious tool
+Parisite,Snaffler,Credential stealer
+Parisite,Snaffler,Non-malicious tool
+Parisite,SoftPerfect Network Scanner,Reconnaissance
+Parisite,SystemBC,Backdoor
+Parisite,SystemBC,Credential stealer
+Parisite,SystemBC,Dropper
+Parisite,SystemBC,Info stealer
+Parisite,SystemBC,Tunneling
+Parisite,TightVNC,Backdoor
+Parisite,TightVNC,Exfiltration
+Parisite,TightVNC,Info stealer
+Parisite,TightVNC,Keylogger
+Parisite,TightVNC,Remote command
+Parisite,WinPEAS,Non-malicious tool
+Parisite,CredInterceptor,Credential stealer
+Parisite,DropShell,Web Shell
+Parisite,EmbedShell,Web Shell
+Parisite,HXLibrary,Backdoor
+Parisite,HanifNet,Backdoor
+Parisite,NeoExpressRAT,Remote Access Trojan (RAT)
+Parisite,Password Filter,Non-malicious tool
+Parisite,Google Workspace,Non-malicious tool
+Parisite,SoftEther VPN,Non-malicious tool
+Parisite,DiscordGo,Non-malicious tool
+Parisite,Goja,Non-malicious tool
+Parisite,HashiCorp Yamux,Non-malicious tool
+Parisite,go-socks5,Non-malicious tool
+Parisite,Console,Non-malicious tool
+Parisite,Cmd,Non-malicious tool
+Parisite,Cmd,OS native tool
+Parisite,Mimikatz,Credential stealer
+Parisite,Ping Castle,Non-malicious tool
+Parisite,PowerShell,Non-malicious tool
+Parisite,PowerShell,OS native tool
+Parisite,AnyDesk,Non-malicious tool
+Parisite,AnyDesk,Remote command
+Parisite,UltraViewer,Non-malicious tool
+Parisite,Console Windows Host,OS native tool
+Parisite,Netsh,Non-malicious tool
+Parisite,Netsh,OS native tool
+Parisite,Netsh,Remote command
+Parisite,ipconfig,OS native tool
+Parisite,ipconfig,Reconnaissance
+Parisite,netstat,Non-malicious tool
+Parisite,netstat,OS native tool
+Parisite,netstat,Reconnaissance
+Parisite,ssh,Non-malicious tool
+Parisite,ssh,OS native tool
+Parisite,findstr,Non-malicious tool
+Parisite,Vultr,Non-malicious tool
+Parisite,VSSAdmin,OS native tool
+Parisite,JavaScript,Backdoor
+Parisite,JavaScript,Credential stealer
+Parisite,JavaScript,Downloader
+Parisite,JavaScript,Dropper
+Parisite,JavaScript,Exfiltration
+Parisite,JavaScript,Info stealer
+Parisite,JavaScript,Loader
+Parisite,JavaScript,Non-malicious tool
+Parisite,JavaScript,Reconnaissance
+Parisite,format.com,OS native tool
+Parisite,wab.exe,OS native tool
+Parisite,Discord,Non-malicious tool
+Parisite,BlueVPS,Non-malicious tool
+Parisite,Microsoft SharePoint,Non-malicious tool
+Parisite,ping,Non-malicious tool
+Parisite,ping,OS native tool
+Parisite,copy,OS native tool
+MuddyWater,Csc.exe,Non-malicious tool
+MuddyWater,Csc.exe,OS native tool
+Parisite,Mimic Ransomware,Ransomware
+Parisite,Pay2Key Ransomware,Ransomware
+Parisite,7-Zip,Compression
+Parisite,7-Zip,Exfiltration
+Parisite,7-Zip,Non-malicious tool
+Parisite,Themida,Compression
+Parisite,Themida,Non-malicious tool
+Parisite,UPX - Ultimate Packer for eXecutables,Loader
+Parisite,UPX - Ultimate Packer for eXecutables,Non-malicious tool
+Parisite,Voidtools Everything,Non-malicious tool
+Parisite,no-defender,Defense evasion
+Parisite,Del,Non-malicious tool
+Parisite,Del,OS native tool
+Parisite,Invoke-Expression,Non-malicious tool
+Parisite,Invoke-Expression,OS native tool
+Parisite,Reg,Non-malicious tool
+Parisite,Reg,OS native tool
+Parisite,exit,OS native tool
+Parisite,move,OS native tool
+Parisite,popd,OS native tool
+Parisite,pushd,OS native tool
+Parisite,set,Non-malicious tool
+Parisite,set,OS native tool
+Parisite,start,OS native tool
+Parisite,timeout,OS native tool
+Parisite,Invoke-WebRequest,Non-malicious tool
+Parisite,Invoke-WebRequest,OS native tool
+Parisite,curl,Downloader
+Parisite,curl,Exfiltration
+Parisite,curl,Non-malicious tool
+Parisite,curl,OS native tool
+Parisite,wscript,Non-malicious tool
+Parisite,wscript,OS native tool
+MuddyWater,NetBird,Non-malicious tool
+MuddyWater,VBScript,Non-malicious tool
+MuddyWater,Firebase,Non-malicious tool
+MuddyWater,Windows Service Configuration Tool,Non-malicious tool
+MuddyWater,Windows Service Configuration Tool,OS native tool
+MuddyWater,Windows Service Configuration Tool,Reconnaissance
+MuddyWater,start,OS native tool
+MuddyWater,JavaScript,Backdoor
+MuddyWater,JavaScript,Credential stealer
+MuddyWater,JavaScript,Downloader
+MuddyWater,JavaScript,Dropper
+MuddyWater,JavaScript,Exfiltration
+MuddyWater,JavaScript,Info stealer
+MuddyWater,JavaScript,Loader
+MuddyWater,JavaScript,Non-malicious tool
+MuddyWater,JavaScript,Reconnaissance
+MuddyWater,Gophish,Phishing
+MuddyWater,wscript,Non-malicious tool
+MuddyWater,wscript,OS native tool
+MuddyWater,Living off the Land,
+Cyber Av3ngers,Telegram,Non-malicious tool
+Cyber Av3ngers,UPX - Ultimate Packer for eXecutables,Loader
+Cyber Av3ngers,UPX - Ultimate Packer for eXecutables,Non-malicious tool
+Cyber Av3ngers,IOCONTROL,Backdoor
+Cyber Av3ngers,hostname.exe,Non-malicious tool
+Cyber Av3ngers,hostname.exe,OS native tool
+Cyber Av3ngers,uname,OS native tool
+Cyber Av3ngers,whoami,Non-malicious tool
+Cyber Av3ngers,whoami,OS native tool
+Cyber Av3ngers,whoami,Reconnaissance
+Cyber Av3ngers,date,OS native tool
+Cyber Av3ngers,Bash,Non-malicious tool
+Cyber Av3ngers,Bash,OS native tool
+Cyber Av3ngers,echo,OS native tool
+Cyber Av3ngers,exit,OS native tool
+Cyber Av3ngers,cat,Non-malicious tool
+Cyber Av3ngers,cat,OS native tool
+Cyber Av3ngers,kill,OS native tool
+Cyber Av3ngers,rm,OS native tool
+Cyber Av3ngers,sleep,OS native tool
+Cyber Av3ngers,curl,Downloader
+Cyber Av3ngers,curl,Exfiltration
+Cyber Av3ngers,curl,Non-malicious tool
+Cyber Av3ngers,curl,OS native tool
+Homeland Justice,VBScript,Non-malicious tool
+Homeland Justice,NordVPN,Non-malicious tool
+Homeland Justice,Phoenix Backdoor,Backdoor
+MuddyWater,Fooder,Loader
+MuddyWater,Phoenix Backdoor,Backdoor
+MuddyWater,StealthCache,Backdoor
+MuddyWater,LiteInject,Poisoning
+MuddyWater,PyInstaller,Non-malicious tool
+APT34,QUADAGENT,Backdoor
+APT34,ThreeDollars,Dropper
+APT34,Milan,Backdoor
+APT34,Invoke-Obfuscation,
+APT34,LaZagne,Credential stealer
+APT34,PuTTY,Non-malicious tool
+APT34,PuTTY,Tunneling
+APT34,LONGWATCH,Keylogger
+APT34,KEYPUNCH,Keylogger
+Tortoiseshell,LinkedIn,Non-malicious tool
+Tortoiseshell,Systeminfo,Non-malicious tool
+Tortoiseshell,Systeminfo,OS native tool
+Tortoiseshell,Systeminfo,Reconnaissance
+Tortoiseshell,findstr,Non-malicious tool
+Tortoiseshell,rar.exe,Compression
+Tortoiseshell,rar.exe,Non-malicious tool
+Tortoiseshell,MiniJunk Backdoor,Backdoor
+Tortoiseshell,MiniBrowse,Info stealer
+UNK_SmudgedSerpent,PDQ Connect,Non-malicious tool
+UNK_SmudgedSerpent,MiniJunk Backdoor,Backdoor
+UNK_SmudgedSerpent,ISL Online,Non-malicious tool
+UNK_SmudgedSerpent,OnlyOffice,Non-malicious tool
+MuddyWater,UDPGangster,Backdoor
+Infy,Foudre,Downloader
+Infy,Foudre,Info stealer
+Infy,Foudre,Keylogger
+Infy,Tonnerre,Backdoor
+Infy,Tonnerre,Exfiltration
+Infy,Tonnerre,Info stealer
+Infy,Amaq Finder,Loader
+Infy,Deep Freeze,Loader
+Infy,MaxPinner,Exfiltration
+Infy,MaxPinner,Info stealer
+Infy,MaxPinner,Spyware
+Infy,Telegram,Non-malicious tool
+Infy,Rundll32,OS native tool
+Infy,Taskkill,Non-malicious tool
+Infy,Taskkill,OS native tool
+Infy,Rugissement,Loader
+APT42,Scalingo,Non-malicious tool
+APT42,Tebi,Non-malicious tool
+APT42,somee.com,Non-malicious tool
+APT42,Rundll32,OS native tool
+APT42,ren,OS native tool
+APT42,Invoke-RestMethod,Non-malicious tool
+APT42,Microsoft Edge,Non-malicious tool
+APT42,Cloudflare Workers,Non-malicious tool
+APT42,Whatsapp,Non-malicious tool
+APT42,Discord,Non-malicious tool
+APT42,Telegram,Non-malicious tool
+APT42,WebDAV,Non-malicious tool
+APT42,Microsoft OneDrive,Non-malicious tool
+APT42,PsSuspend,Non-malicious tool
+APT42,WinRAR,Compression
+APT42,WinRAR,Non-malicious tool
+APT42,Set-ItemProperty,Non-malicious tool
+APT42,copy-item,OS native tool
+APT42,Firebase,Non-malicious tool
+MuddyWater,RUSTRIC,Backdoor
+MuddyWater,explorer,OS native tool
+Tortoiseshell,CrashPad,
+Tortoiseshell,DCSyncer.Slick,Credential stealer
+Tortoiseshell,DeepRoot,Backdoor
+Tortoiseshell,GhostLine,Tunneling
+Tortoiseshell,PollBlend,Tunneling
+Tortoiseshell,SightGrab,Info stealer
+Tortoiseshell,ssh,Non-malicious tool
+Tortoiseshell,ssh,OS native tool
+Tortoiseshell,HashiCorp Yamux,Non-malicious tool
+Tortoiseshell,AWRC,Non-malicious tool
+Tortoiseshell,Active Directory Explorer,Non-malicious tool
+Tortoiseshell,Active Directory Explorer,Reconnaissance
+Tortoiseshell,Invoke-Kerberoast,Non-malicious tool
+Tortoiseshell,Net,Info stealer
+Tortoiseshell,Net,Non-malicious tool
+Tortoiseshell,Net,OS native tool
+Tortoiseshell,Net,Reconnaissance
+Tortoiseshell,SCCMVNC,Non-malicious tool
+Tortoiseshell,TrustTrap,Credential stealer
+Tortoiseshell,Ngrok,Backdoor
+Tortoiseshell,Ngrok,Non-malicious tool
+Tortoiseshell,Ngrok,Tunneling
+Tortoiseshell,ZeroTier,Non-malicious tool
+Tortoiseshell,quser.exe,Non-malicious tool
+Tortoiseshell,quser.exe,OS native tool
+RedKitten,SloppyMIO,Backdoor
+RedKitten,Cmd,Non-malicious tool
+RedKitten,Cmd,OS native tool
+RedKitten,GitHub,Non-malicious tool
+RedKitten,Google Drive,Non-malicious tool
+RedKitten,Tasklist,Non-malicious tool
+RedKitten,Tasklist,OS native tool
+RedKitten,Tasklist,Reconnaissance
+RedKitten,Telegram,Non-malicious tool
+RedKitten,WMIC,OS native tool
+RedKitten,dir,OS native tool
+RedKitten,ipconfig,OS native tool
+RedKitten,ipconfig,Reconnaissance
+RedKitten,whoami,Non-malicious tool
+RedKitten,whoami,OS native tool
+RedKitten,whoami,Reconnaissance
+Infy,Metasploit,Backdoor
+Infy,Metasploit,Control panel
+Infy,Metasploit,Credential stealer
+Infy,Metasploit,Dropper
+Infy,Metasploit,Info stealer
+Infy,Metasploit,Keylogger
+Infy,Metasploit,Loader
+Infy,Metasploit,Reconnaissance
+Infy,Metasploit,Remote command
+Infy,Metasploit,Vulnerability scanner
+Infy,PowerShell,Non-malicious tool
+Infy,PowerShell,OS native tool
+Infy,Remcos RAT,Backdoor
+Infy,Remcos RAT,Exfiltration
+Infy,Remcos RAT,Info stealer
+Infy,Remcos RAT,Remote command
+Infy,Schtasks.exe,OS native tool
+Infy,Schtasks.exe,Remote command
+Infy,Stealerium,Info stealer
+Infy,Stealerium,Keylogger
+Infy,StormKitty,Info stealer
+Infy,VBScript,Non-malicious tool
+Infy,ZZ Stealer,Info stealer
+Infy,ConfuserEx,Compression
+Infy,ConfuserEx,Non-malicious tool
+Infy,UPX - Ultimate Packer for eXecutables,Loader
+Infy,UPX - Ultimate Packer for eXecutables,Non-malicious tool
+MuddyWater,Dropbox,Non-malicious tool
+MuddyWater,Microsoft OneDrive,Non-malicious tool
+MuddyWater,Splashtop,Non-malicious tool
+MuddyWater,TeamViewer,Non-malicious tool
+MuddyWater,hostname.exe,Non-malicious tool
+MuddyWater,hostname.exe,OS native tool
+MuddyWater,nslookup,Non-malicious tool
+MuddyWater,nslookup,OS native tool
+MuddyWater,N‑able,Non-malicious tool
+MuddyWater,WinWord.exe,Non-malicious tool
+MuddyWater,Telegram,Non-malicious tool
+MuddyWater,CHAR Backdoor,Backdoor
+MuddyWater,GhostBackDoor,Backdoor
+MuddyWater,GhostFetch,Downloader
+MuddyWater,HTTP_VIP,Backdoor
+MuddyWater,HTTP_VIP,Downloader
+MuddyWater,resocks,Non-malicious tool
+MuddyWater,cd,OS native tool
+MuddyWater,curl,Downloader
+MuddyWater,curl,Exfiltration
+MuddyWater,curl,Non-malicious tool
+MuddyWater,curl,OS native tool
+MuddyWater,exit,OS native tool
+MuddyWater,ls,OS native tool
+MuddyWater,Uncomplicated Firewall,Non-malicious tool
+MuddyWater,apt,OS native tool
+MuddyWater,chown,OS native tool
+MuddyWater,grep,Non-malicious tool
+MuddyWater,grep,OS native tool
+MuddyWater,mkdir,Non-malicious tool
+MuddyWater,nano,OS native tool
+MuddyWater,rm,OS native tool
+MuddyWater,ss (utility),OS native tool
+MuddyWater,sudo,OS native tool
+MuddyWater,sudo,Privilege escalation
+MuddyWater,systemctl,OS native tool
+MuddyWater,tmux,Non-malicious tool
+MuddyWater,Taskkill,Non-malicious tool
+MuddyWater,Taskkill,OS native tool
+MuddyWater,dir,OS native tool
+MuddyWater,ping,Non-malicious tool
+MuddyWater,ping,OS native tool
+MuddyWater,Start-Process,OS native tool
+MuddyWater,Sh.exe Web Shell,Obfuscation
+MuddyWater,Sh.exe Web Shell,Web Shell
+MuddyWater,ReverseSocks5,Non-malicious tool
+MuddyWater,Flask,Non-malicious tool
+Dust Specter,GhostForm,Remote Access Trojan (RAT)
+Dust Specter,SplitDrop,Dropper
+Dust Specter,TwinTalk,Backdoor
+Dust Specter,TwinTask,Backdoor
+Dust Specter,PowerShell,Non-malicious tool
+Dust Specter,PowerShell,OS native tool
+Dust Specter,New-ItemProperty,OS native tool
+Dust Specter,exit,OS native tool
+MuddyWater,HackBrowserData,Info stealer
+MuddyWater,HashiCorp Yamux,Non-malicious tool
+MuddyWater,PDQ Connect,Non-malicious tool
+MuddyWater,go-socks5,Non-malicious tool
+MuddyWater,Level Remote Monitoring and Management Tool,Non-malicious tool
+MuddyWater,CE-Notes,Credential stealer
+MuddyWater,CE-Notes,Exfiltration
+MuddyWater,CE-Notes,Info stealer
+MuddyWater,CE-Notes,Obfuscation
+MuddyWater,MuddyViper Backdoor,Backdoor
+MuddyWater,MuddyViper Backdoor,Credential stealer
+MuddyWater,MuddyViper Backdoor,Info stealer
+MuddyWater,MuddyViper Backdoor,Reconnaissance
+MuddyWater,Blub,Credential stealer
+MuddyWater,Blub,Info stealer
+MuddyWater,LP-Notes,Credential stealer
+MuddyWater,LP-Notes,Exfiltration
+MuddyWater,LP-Notes,Info stealer
+MuddyWater,LP-Notes,Obfuscation
+MuddyWater,VAX-One Backdoor,Backdoor
+MuddyWater,VAX-One Backdoor,Remote command

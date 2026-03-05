@@ -1,0 +1,1051 @@
+Threat Actor,Category,Technique ID,Technique Name
+MuddyWater,initial-access,T1566.001,Spearphishing Attachment
+MuddyWater,initial-access,T1566.002,Spearphishing Link
+MuddyWater,execution,T1204.002,Malicious File
+MuddyWater,execution,T1204.001,Malicious Link
+MuddyWater,resource-development,T1586.002,Email Accounts
+MuddyWater,command-and-control,T1219,Remote Access Software
+MuddyWater,execution,T1053.005,Scheduled Task
+MuddyWater,command-and-control,T1102,Web Service
+MuddyWater,resource-development,T1583.001,Domains
+MuddyWater,defense-evasion,T1055.002,Portable Executable Injection
+MuddyWater,defense-evasion,T1497.003,Time Based Evasion
+MuddyWater,defense-evasion,T1140,Deobfuscate/Decode Files or Information
+MuddyWater,command-and-control,T1573,Encrypted Channel
+MuddyWater,discovery,T1082,System Information Discovery
+MuddyWater,discovery,T1033,System Owner/User Discovery
+MuddyWater,defense-evasion,T1553,Subvert Trust Controls
+MuddyWater,discovery,T1083,File and Directory Discovery
+MuddyWater,exfiltration,T1041,Exfiltration Over C2 Channel
+Tortoiseshell,initial-access,T1566.001,Spearphishing Attachment
+Tortoiseshell,initial-access,T1566.002,Spearphishing Link
+Tortoiseshell,execution,T1204.001,Malicious Link
+Tortoiseshell,execution,T1204.002,Malicious File
+Tortoiseshell,execution,T1059.001,PowerShell
+Tortoiseshell,defense-evasion,T1036,Masquerading
+Tortoiseshell,impact,T1561,Disk Wipe
+Tortoiseshell,impact,T1485,Data Destruction
+Tortoiseshell,impact,T1489,Service Stop
+Tortoiseshell,impact,T1490,Inhibit System Recovery
+Tortoiseshell,execution,T1059.003,Windows Command Shell
+Tortoiseshell,defense-evasion,T1562.001,Disable or Modify Tools
+Tortoiseshell,credential-access,T1555.003,Credentials from Web Browsers
+Tortoiseshell,collection,T1056.001,Keylogging
+Tortoiseshell,credential-access,T1539,Steal Web Session Cookie
+Tortoiseshell,command-and-control,T1573,Encrypted Channel
+Tortoiseshell,command-and-control,T1105,Ingress Tool Transfer
+Tortoiseshell,command-and-control,T1102,Web Service
+APT42,discovery,T1012,Query Registry
+APT42,discovery,T1018,Remote System Discovery
+APT42,lateral-movement,T1021.001,Remote Desktop Protocol
+APT42,defense-evasion,T1027,Obfuscated Files or Information
+APT42,defense-evasion,T1027.010,Command Obfuscation
+APT42,discovery,T1033,System Owner/User Discovery
+APT42,defense-evasion,T1036.005,Match Legitimate Name or Location
+APT42,execution,T1047,Windows Management Instrumentation
+APT42,collection,T1056.002,GUI Input Capture
+APT42,execution,T1059.001,PowerShell
+APT42,execution,T1059.003,Windows Command Shell
+APT42,execution,T1059.005,Visual Basic
+APT42,execution,T1059.007,JavaScript
+APT42,discovery,T1063,Security Software Discovery
+APT42,defense-evasion,T1070,Indicator Removal
+APT42,defense-evasion,T1070.004,File Deletion
+APT42,command-and-control,T1071.001,Web Protocols
+APT42,defense-evasion,T1078,Valid Accounts
+APT42,discovery,T1082,System Information Discovery
+APT42,discovery,T1083,File and Directory Discovery
+APT42,command-and-control,T1090,Proxy
+APT42,command-and-control,T1102,Web Service
+APT42,command-and-control,T1105,Ingress Tool Transfer
+APT42,collection,T1114,Email Collection
+APT42,command-and-control,T1132,Data Encoding
+APT42,discovery,T1135,Network Share Discovery
+APT42,defense-evasion,T1140,Deobfuscate/Decode Files or Information
+APT42,initial-access,T1192,Spearphishing Link
+APT42,execution,T1204.001,Malicious Link
+APT42,execution,T1204.002,Malicious File
+APT42,discovery,T1217,Browser Information Discovery
+APT42,credential-access,T1556.006,Multi-Factor Authentication
+APT42,collection,T1560.001,Archive via Utility
+APT42,credential-access,T1003,OS Credential Dumping
+APT42,discovery,T1016,System Network Configuration Discovery
+APT42,lateral-movement,T1021.004,SSH
+APT42,defense-evasion,T1027.002,Software Packing
+APT42,defense-evasion,T1027.005,Indicator Removal from Tools
+APT42,exfiltration,T1041,Exfiltration Over C2 Channel
+APT42,defense-evasion,T1055,Process Injection
+APT42,collection,T1056.001,Keylogging
+APT42,command-and-control,T1071.002,File Transfer Protocols
+APT42,discovery,T1087.001,Local Account
+APT42,command-and-control,T1095,Non-Application Layer Protocol
+APT42,persistence,T1098.002,Additional Email Delegate Permissions
+APT42,credential-access,T1111,Multi-Factor Authentication Interception
+APT42,defense-evasion,T1112,Modify Registry
+APT42,collection,T1113,Screen Capture
+APT42,collection,T1115,Clipboard Data
+APT42,collection,T1123,Audio Capture
+APT42,command-and-control,T1132.001,Standard Encoding
+APT42,persistence,T1133,External Remote Services
+APT42,defense-evasion,T1134,Access Token Manipulation
+APT42,collection,T1213,Data from Information Repositories
+APT42,defense-evasion,T1221,Template Injection
+APT42,defense-evasion,T1497.001,System Checks
+APT42,defense-evasion,T1497.003,Time Based Evasion
+APT42,discovery,T1518,Software Discovery
+APT42,impact,T1529,System Shutdown/Reboot
+APT42,persistence,T1543.003,Windows Service
+APT42,persistence,T1547.001,Registry Run Keys / Startup Folder
+APT42,persistence,T1547.004,Winlogon Helper DLL
+APT42,collection,T1560.002,Archive via Library
+APT42,defense-evasion,T1564,Hide Artifacts
+APT42,initial-access,T1566.001,Spearphishing Attachment
+APT42,initial-access,T1566.002,Spearphishing Link
+APT42,execution,T1569.002,Service Execution
+APT42,command-and-control,T1573.002,Asymmetric Cryptography
+Dune,impact,T1561.001,Disk Content Wipe
+Dune,lateral-movement,T1021.001,Remote Desktop Protocol
+Dune,persistence,T1505.003,Web Shell
+Dune,initial-access,T1190,Exploit Public-Facing Application
+Dune,discovery,T1083,File and Directory Discovery
+Dune,impact,T1489,Service Stop
+Dune,defense-evasion,T1140,Deobfuscate/Decode Files or Information
+Dune,command-and-control,T1105,Ingress Tool Transfer
+Dune,discovery,T1087.002,Domain Account
+Dune,command-and-control,T1572,Protocol Tunneling
+Dune,command-and-control,T1090.002,External Proxy
+Dune,impact,T1561.002,Disk Structure Wipe
+Dune,persistence,T1543.003,Windows Service
+Dune,impact,T1490,Inhibit System Recovery
+Dune,defense-evasion,T1070.004,File Deletion
+Dune,discovery,T1016.001,Internet Connection Discovery
+Dune,execution,T1059.003,Windows Command Shell
+Tortoiseshell,discovery,T1083,File and Directory Discovery
+Tortoiseshell,collection,T1005,Data from Local System
+Tortoiseshell,discovery,T1057,Process Discovery
+Tortoiseshell,persistence,T1574.001,DLL Search Order Hijacking
+Tortoiseshell,defense-evasion,T1112,Modify Registry
+Tortoiseshell,persistence,T1547.001,Registry Run Keys / Startup Folder
+Tortoiseshell,defense-evasion,T1036.005,Match Legitimate Name or Location
+Tortoiseshell,defense-evasion,T1497,Virtualization/Sandbox Evasion
+Tortoiseshell,resource-development,T1583,Acquire Infrastructure
+Tortoiseshell,command-and-control,T1090,Proxy
+Tortoiseshell,defense-evasion,T1027.005,Indicator Removal from Tools
+Tortoiseshell,defense-evasion,T1027,Obfuscated Files or Information
+Tortoiseshell,command-and-control,T1095,Non-Application Layer Protocol
+Tortoiseshell,discovery,T1518.001,Security Software Discovery
+Tortoiseshell,command-and-control,T1071,Application Layer Protocol
+Tortoiseshell,discovery,T1018,Remote System Discovery
+Tortoiseshell,discovery,T1082,System Information Discovery
+Tortoiseshell,defense-evasion,T1218.011,Rundll32
+Tortoiseshell,defense-evasion,T1564.001,Hidden Files and Directories
+Tortoiseshell,discovery,T1010,Application Window Discovery
+Tortoiseshell,defense-evasion,T1202,Indirect Command Execution
+Tortoiseshell,defense-evasion,T1553,Subvert Trust Controls
+Tortoiseshell,persistence,T1574.002,DLL Side-Loading
+Tortoiseshell,defense-evasion,T1070.006,Timestomp
+Tortoiseshell,defense-evasion,T1055,Process Injection
+Tortoiseshell,discovery,T1033,System Owner/User Discovery
+Tortoiseshell,defense-evasion,T1620,Reflective Code Loading
+Tortoiseshell,discovery,T1614,System Location Discovery
+Tortoiseshell,defense-evasion,T1027.002,Software Packing
+Tortoiseshell,collection,T1056,Input Capture
+Tortoiseshell,discovery,T1087,Account Discovery
+APT33,collection,T1113,Screen Capture
+APT33,credential-access,T1555.003,Credentials from Web Browsers
+APT33,defense-evasion,T1078,Valid Accounts
+APT33,execution,T1059.001,PowerShell
+APT33,execution,T1059.003,Windows Command Shell
+APT33,persistence,T1505.003,Web Shell
+APT33,defense-evasion,T1027,Obfuscated Files or Information
+APT33,discovery,T1083,File and Directory Discovery
+APT33,discovery,T1082,System Information Discovery
+APT33,defense-evasion,T1036,Masquerading
+APT33,command-and-control,T1573,Encrypted Channel
+APT33,discovery,T1518,Software Discovery
+APT33,command-and-control,T1105,Ingress Tool Transfer
+APT33,impact,T1489,Service Stop
+APT33,discovery,T1057,Process Discovery
+APT33,defense-evasion,T1497.001,System Checks
+APT33,defense-evasion,T1070.004,File Deletion
+APT33,impact,T1529,System Shutdown/Reboot
+APT35,resource-development,T1583.001,Domains
+APT35,initial-access,T1566.002,Spearphishing Link
+APT35,execution,T1204.001,Malicious Link
+APT35,persistence,T1547.009,Shortcut Modification
+APT35,resource-development,T1586.002,Email Accounts
+APT35,command-and-control,T1102,Web Service
+APT35,command-and-control,T1105,Ingress Tool Transfer
+APT35,discovery,T1016,System Network Configuration Discovery
+APT35,discovery,T1082,System Information Discovery
+APT35,resource-development,T1583.003,Virtual Private Server
+APT35,command-and-control,T1090.001,Internal Proxy
+APT35,command-and-control,T1573.001,Symmetric Cryptography
+APT35,collection,T1123,Audio Capture
+APT35,discovery,T1217,Browser Information Discovery
+APT35,collection,T1056.001,Keylogging
+APT35,collection,T1113,Screen Capture
+APT35,collection,T1005,Data from Local System
+APT35,persistence,T1547.004,Winlogon Helper DLL
+APT35,defense-evasion,T1027.010,Command Obfuscation
+APT35,execution,T1059.001,PowerShell
+APT35,credential-access,T1555.003,Credentials from Web Browsers
+APT35,credential-access,T1539,Steal Web Session Cookie
+APT35,persistence,T1037.001,Logon Script (Windows)
+APT35,defense-evasion,T1112,Modify Registry
+APT35,privilege-escalation,T1546.015,Component Object Model Hijacking
+APT35,defense-evasion,T1027,Obfuscated Files or Information
+APT35,discovery,T1033,System Owner/User Discovery
+APT35,command-and-control,T1132.001,Standard Encoding
+APT35,exfiltration,T1041,Exfiltration Over C2 Channel
+APT35,defense-evasion,T1070.004,File Deletion
+APT35,execution,T1047,Windows Management Instrumentation
+APT35,discovery,T1518.001,Security Software Discovery
+APT35,discovery,T1518,Software Discovery
+APT35,defense-evasion,T1036.008,Masquerade File Type
+Homeland Justice,execution,T1059.001,PowerShell
+Homeland Justice,command-and-control,T1572,Protocol Tunneling
+Homeland Justice,command-and-control,T1090.001,Internal Proxy
+Homeland Justice,resource-development,T1588.003,Code Signing Certificates
+Homeland Justice,defense-evasion,T1553.002,Code Signing
+Homeland Justice,impact,T1561.002,Disk Structure Wipe
+APT35,defense-evasion,T1036.007,Double File Extension
+APT35,persistence,T1547.001,Registry Run Keys / Startup Folder
+APT35,execution,T1053.005,Scheduled Task
+APT35,defense-evasion,T1036.005,Match Legitimate Name or Location
+APT35,execution,T1059.005,Visual Basic
+APT35,resource-development,T1585.002,Email Accounts
+APT42,resource-development,T1587.001,Malware
+APT42,resource-development,T1583.001,Domains
+APT42,reconnaissance,T1598,Phishing for Information
+APT42,resource-development,T1588,Obtain Capabilities
+APT42,resource-development,T1585.002,Email Accounts
+APT42,resource-development,T1585.001,Social Media Accounts
+APT42,resource-development,T1583.003,Virtual Private Server
+MuddyWater,collection,T1056.001,Keylogging
+MuddyWater,execution,T1059.001,PowerShell
+MuddyWater,persistence,T1574.002,DLL Side-Loading
+MuddyWater,execution,T1047,Windows Management Instrumentation
+MuddyWater,command-and-control,T1090.001,Internal Proxy
+MuddyWater,credential-access,T1003.001,LSASS Memory
+MuddyWater,discovery,T1012,Query Registry
+MuddyWater,persistence,T1543.003,Windows Service
+MuddyWater,execution,T1059.003,Windows Command Shell
+MuddyWater,defense-evasion,T1036.005,Match Legitimate Name or Location
+MuddyWater,command-and-control,T1071.001,Web Protocols
+APT34,resource-development,T1583.001,Domains
+APT34,resource-development,T1583.004,Server
+APT34,resource-development,T1583.006,Web Services
+APT34,resource-development,T1587.001,Malware
+APT34,resource-development,T1585.003,Cloud Accounts
+APT34,resource-development,T1585.002,Email Accounts
+APT34,resource-development,T1608,Stage Capabilities
+APT34,execution,T1059.003,Windows Command Shell
+APT34,execution,T1106,Native API
+APT34,defense-evasion,T1140,Deobfuscate/Decode Files or Information
+APT34,defense-evasion,T1480,Execution Guardrails
+APT34,defense-evasion,T1564.003,Hidden Window
+APT34,defense-evasion,T1070.004,File Deletion
+APT34,defense-evasion,T1202,Indirect Command Execution
+APT34,defense-evasion,T1036.005,Match Legitimate Name or Location
+APT34,defense-evasion,T1027,Obfuscated Files or Information
+APT34,discovery,T1082,System Information Discovery
+APT34,discovery,T1033,System Owner/User Discovery
+APT34,collection,T1560.003,Archive via Custom Method
+APT34,collection,T1074.001,Local Data Staging
+APT34,command-and-control,T1132.001,Standard Encoding
+APT34,command-and-control,T1573.001,Symmetric Cryptography
+APT34,command-and-control,T1008,Fallback Channels
+APT34,command-and-control,T1105,Ingress Tool Transfer
+APT34,command-and-control,T1102.002,Bidirectional Communication
+APT34,exfiltration,T1020,Automated Exfiltration
+APT34,exfiltration,T1041,Exfiltration Over C2 Channel
+APT34,exfiltration,T1567.002,Exfiltration to Cloud Storage
+APT34,exfiltration,T1567,Exfiltration Over Web Service
+APT34,command-and-control,T1102,Web Service
+MuddyWater,defense-evasion,T1027,Obfuscated Files or Information
+MuddyWater,initial-access,T1193,Spearphishing Attachment
+MuddyWater,command-and-control,T1105,Ingress Tool Transfer
+MuddyWater,resource-development,T1583.006,Web Services
+MuddyWater,resource-development,T1588,Obtain Capabilities
+MuddyWater,resource-development,T1587.001,Malware
+MuddyWater,resource-development,T1587,Develop Capabilities
+MuddyWater,command-and-control,T1132,Data Encoding
+MuddyWater,defense-evasion,T1497.001,System Checks
+MuddyWater,impact,T1485,Data Destruction
+APT35,reconnaissance,T1589.001,Credentials
+APT35,reconnaissance,T1589.002,Email Addresses
+APT35,reconnaissance,T1589,Gather Victim Identity Information
+APT35,reconnaissance,T1598.003,Spearphishing Link
+APT35,resource-development,T1584.001,Domains
+APT35,resource-development,T1585.001,Social Media Accounts
+APT35,resource-development,T1588.002,Tool
+APT35,initial-access,T1566.003,Spearphishing via Service
+APT35,execution,T1204.002,Malicious File
+APT35,execution,T1059.003,Windows Command Shell
+APT35,persistence,T1098,Account Manipulation
+APT35,persistence,T1098.002,Additional Email Delegate Permissions
+APT35,defense-evasion,T1562.004,Disable or Modify System Firewall
+APT35,defense-evasion,T1562.001,Disable or Modify Tools
+APT35,defense-evasion,T1564.003,Hidden Window
+APT35,defense-evasion,T1562,Impair Defenses
+APT35,credential-access,T1003.001,LSASS Memory
+APT35,discovery,T1083,File and Directory Discovery
+APT35,discovery,T1087.001,Local Account
+APT35,discovery,T1057,Process Discovery
+APT35,collection,T1560.001,Archive via Utility
+APT35,collection,T1114,Email Collection
+APT35,collection,T1114.001,Local Email Collection
+APT35,command-and-control,T1071,Application Layer Protocol
+APT35,command-and-control,T1102.002,Bidirectional Communication
+APT35,command-and-control,T1571,Non-Standard Port
+APT35,command-and-control,T1071.001,Web Protocols
+APT35,defense-evasion,T1218.011,Rundll32
+APT35,defense-evasion,T1027.013,Encrypted/Encoded File
+APT35,persistence,T1505.003,Web Shell
+APT35,impact,T1486,Data Encrypted for Impact
+APT35,initial-access,T1566.001,Spearphishing Attachment
+APT35,initial-access,T1190,Exploit Public-Facing Application
+APT35,execution,T1106,Native API
+APT35,persistence,T1543.003,Windows Service
+APT35,defense-evasion,T1027.002,Software Packing
+APT35,defense-evasion,T1027.007,Dynamic API Resolution
+APT35,defense-evasion,T1140,Deobfuscate/Decode Files or Information
+APT35,defense-evasion,T1036.004,Masquerade Task or Service
+APT35,defense-evasion,T1497,Virtualization/Sandbox Evasion
+APT35,defense-evasion,T1622,Debugger Evasion
+APT35,credential-access,T1552.001,Credentials In Files
+APT35,discovery,T1049,System Network Connections Discovery
+APT35,lateral-movement,T1021.006,Windows Remote Management
+APT35,lateral-movement,T1080,Taint Shared Content
+APT35,collection,T1119,Automated Collection
+APT35,command-and-control,T1090.003,Multi-hop Proxy
+APT35,command-and-control,T1095,Non-Application Layer Protocol
+APT35,command-and-control,T1001.002,Steganography
+APT35,exfiltration,T1020,Automated Exfiltration
+APT35,exfiltration,T1030,Data Transfer Size Limits
+Tortoiseshell,reconnaissance,T1590.005,IP Addresses
+Tortoiseshell,resource-development,T1584.006,Web Services
+Tortoiseshell,initial-access,T1189,Drive-by Compromise
+Tortoiseshell,execution,T1059.005,Visual Basic
+Tortoiseshell,execution,T1059.006,Python
+Tortoiseshell,persistence,T1037.005,Startup Items
+Tortoiseshell,defense-evasion,T1140,Deobfuscate/Decode Files or Information
+Tortoiseshell,command-and-control,T1071.003,Mail Protocols
+Tortoiseshell,exfiltration,T1041,Exfiltration Over C2 Channel
+Tortoiseshell,discovery,T1217,Browser Information Discovery
+Tortoiseshell,discovery,T1016,System Network Configuration Discovery
+Tortoiseshell,persistence,T1543.003,Windows Service
+Tortoiseshell,defense-evasion,T1027.010,Command Obfuscation
+Tortoiseshell,discovery,T1016.001,Internet Connection Discovery
+Tortoiseshell,execution,T1053.005,Scheduled Task
+MuddyWater,defense-evasion,T1218.007,Msiexec
+MuddyWater,initial-access,T1192,Spearphishing Link
+MuddyWater,command-and-control,T1568,Dynamic Resolution
+MuddyWater,execution,T1059,Command and Scripting Interpreter
+MuddyWater,command-and-control,T1071,Application Layer Protocol
+Agrius,persistence,T1505.003,Web Shell
+Agrius,impact,T1485,Data Destruction
+Agrius,impact,T1561,Disk Wipe
+Agrius,discovery,T1018,Remote System Discovery
+Agrius,discovery,T1046,Network Service Discovery
+Agrius,credential-access,T1003,OS Credential Dumping
+Agrius,discovery,T1057,Process Discovery
+Agrius,command-and-control,T1572,Protocol Tunneling
+Agrius,initial-access,T1190,Exploit Public-Facing Application
+Agrius,collection,T1560.001,Archive via Utility
+Agrius,credential-access,T1110,Brute Force
+Agrius,credential-access,T1110.003,Password Spraying
+Agrius,credential-access,T1003.002,Security Account Manager
+Agrius,exfiltration,T1041,Exfiltration Over C2 Channel
+Agrius,collection,T1074.001,Local Data Staging
+Agrius,collection,T1213,Data from Information Repositories
+Agrius,command-and-control,T1105,Ingress Tool Transfer
+Agrius,discovery,T1083,File and Directory Discovery
+Agrius,defense-evasion,T1070.006,Timestomp
+Agrius,defense-evasion,T1070.004,File Deletion
+Agrius,execution,T1053.005,Scheduled Task
+Agrius,defense-evasion,T1070.001,Clear Windows Event Logs
+Agrius,impact,T1490,Inhibit System Recovery
+Agrius,impact,T1561.001,Disk Content Wipe
+Agrius,impact,T1529,System Shutdown/Reboot
+Agrius,defense-evasion,T1562.001,Disable or Modify Tools
+Agrius,defense-evasion,T1112,Modify Registry
+Agrius,persistence,T1543.003,Windows Service
+Agrius,impact,T1489,Service Stop
+Agrius,defense-evasion,T1218.011,Rundll32
+APT33,command-and-control,T1071.001,Web Protocols
+APT33,collection,T1056.003,Web Portal Capture
+APT33,defense-evasion,T1562.001,Disable or Modify Tools
+APT33,discovery,T1033,System Owner/User Discovery
+APT33,command-and-control,T1071,Application Layer Protocol
+APT33,defense-evasion,T1027.002,Software Packing
+APT33,discovery,T1012,Query Registry
+APT33,discovery,T1087,Account Discovery
+APT33,defense-evasion,T1112,Modify Registry
+APT33,execution,T1059,Command and Scripting Interpreter
+MuddyWater,defense-evasion,T1036.008,Masquerade File Type
+MuddyWater,defense-evasion,T1564.001,Hidden Files and Directories
+Tortoiseshell,resource-development,T1585.002,Email Accounts
+Tortoiseshell,resource-development,T1587.001,Malware
+Tortoiseshell,resource-development,T1584,Compromise Infrastructure
+Tortoiseshell,reconnaissance,T1592,Gather Victim Host Information
+Tortoiseshell,execution,T1059.007,JavaScript
+Tortoiseshell,defense-evasion,T1036.004,Masquerade Task or Service
+Tortoiseshell,defense-evasion,T1055.001,Dynamic-link Library Injection
+Tortoiseshell,execution,T1047,Windows Management Instrumentation
+Tortoiseshell,initial-access,T1566,Phishing
+Tortoiseshell,execution,T1106,Native API
+Tortoiseshell,resource-development,T1588,Obtain Capabilities
+Moses Staff,collection,T1113,Screen Capture
+Moses Staff,defense-evasion,T1027,Obfuscated Files or Information
+Moses Staff,defense-evasion,T1140,Deobfuscate/Decode Files or Information
+Moses Staff,discovery,T1082,System Information Discovery
+Moses Staff,discovery,T1083,File and Directory Discovery
+Moses Staff,execution,T1204.002,Malicious File
+Moses Staff,collection,T1005,Data from Local System
+Moses Staff,impact,T1486,Data Encrypted for Impact
+Moses Staff,defense-evasion,T1036.004,Masquerade Task or Service
+APT34,command-and-control,T1219,Remote Access Software
+APT34,execution,T1059.001,PowerShell
+APT34,collection,T1056.001,Keylogging
+APT34,defense-evasion,T1562.004,Disable or Modify System Firewall
+APT34,discovery,T1083,File and Directory Discovery
+APT34,collection,T1115,Clipboard Data
+APT34,credential-access,T1003,OS Credential Dumping
+APT34,discovery,T1049,System Network Connections Discovery
+APT34,command-and-control,T1572,Protocol Tunneling
+APT34,collection,T1114.003,Email Forwarding Rule
+APT34,command-and-control,T1071.003,Mail Protocols
+APT34,persistence,T1037,Boot or Logon Initialization Scripts
+APT34,discovery,T1018,Remote System Discovery
+APT34,discovery,T1007,System Service Discovery
+APT34,discovery,T1069.001,Local Groups
+APT34,execution,T1047,Windows Management Instrumentation
+APT34,command-and-control,T1065,Uncommonly Used Port
+APT34,discovery,T1046,Network Service Scanning
+APT34,credential-access,T1040,Network Sniffing
+APT34,defense-evasion,T1112,Modify Registry
+APT34,lateral-movement,T1021.002,SMB/Windows Admin Shares
+APT34,discovery,T1057,Process Discovery
+APT34,discovery,T1518.001,Security Software Discovery
+APT35,exfiltration,T1567,Exfiltration Over Web Service
+APT35,command-and-control,T1132,Data Encoding
+APT35,collection,T1074.001,Local Data Staging
+APT35,discovery,T1012,Query Registry
+APT35,impact,T1489,Service Stop
+MuddyWater,command-and-control,T1132.002,Non-Standard Encoding
+MuddyWater,persistence,T1547.001,Registry Run Keys / Startup Folder
+MuddyWater,defense-evasion,T1564.003,Hidden Window
+MuddyWater,defense-evasion,T1070.004,File Deletion
+MuddyWater,defense-evasion,T1112,Modify Registry
+MuddyWater,execution,T1059.006,Python
+APT34,resource-development,T1584.004,Server
+APT34,resource-development,T1608.001,Upload Malware
+APT34,resource-development,T1608.002,Upload Tool
+APT34,initial-access,T1566.001,Spearphishing Attachment
+APT34,execution,T1053.005,Scheduled Task
+APT34,execution,T1204.002,Malicious File
+APT34,execution,T1059.005,Visual Basic
+APT34,defense-evasion,T1045,Software Packing
+APT34,defense-evasion,T1027.009,Embedded Payloads
+APT34,defense-evasion,T1036.004,Masquerade Task or Service
+APT34,defense-evasion,T1070.009,Clear Persistence
+APT34,defense-evasion,T1553,Subvert Trust Controls
+APT34,defense-evasion,T1562,Impair Defenses
+APT34,credential-access,T1503,Credentials from Web Browsers
+APT34,credential-access,T1555.004,Windows Credential Manager
+APT34,defense-evasion,T1078.003,Local Accounts
+APT34,discovery,T1217,Browser Information Discovery
+APT34,command-and-control,T1071.001,Web Protocols
+APT34,command-and-control,T1071,Application Layer Protocol
+APT34,command-and-control,T1001,Data Obfuscation
+APT34,command-and-control,T1573.002,Asymmetric Cryptography
+APT34,defense-evasion,T1497.001,System Checks
+APT34,execution,T1059,Command and Scripting Interpreter
+APT34,discovery,T1063,Security Software Discovery
+APT34,defense-evasion,T1027.002,Software Packing
+APT34,credential-access,T1555.003,Credentials from Web Browsers
+APT33,credential-access,T1110.003,Password Spraying
+APT33,initial-access,T1190,Exploit Public-Facing Application
+APT33,discovery,T1580,Cloud Infrastructure Discovery
+APT33,defense-evasion,T1610,Deploy Container
+APT33,defense-evasion,T1578.002,Create Cloud Instance
+APT33,command-and-control,T1219,Remote Access Software
+APT33,credential-access,T1606.002,SAML Tokens
+APT33,persistence,T1574.001,DLL Search Order Hijacking
+APT33,command-and-control,T1572,Protocol Tunneling
+APT33,lateral-movement,T1021.001,Remote Desktop Protocol
+APT34,discovery,T1135,Network Share Discovery
+APT34,lateral-movement,T1570,Lateral Tool Transfer
+APT34,persistence,T1505.003,Web Shell
+Tortoiseshell,command-and-control,T1071.001,Web Protocols
+Tortoiseshell,command-and-control,T1132.001,Standard Encoding
+Tortoiseshell,discovery,T1614.001,System Language Discovery
+Agrius,impact,T1486,Data Encrypted for Impact
+Agrius,resource-development,T1588.002,Tool
+Agrius,command-and-control,T1071.002,File Transfer Protocols
+Agrius,persistence,T1133,External Remote Services
+Agrius,lateral-movement,T1021.001,Remote Desktop Protocol
+Agrius,command-and-control,T1102,Web Service
+Agrius,defense-evasion,T1140,Deobfuscate/Decode Files or Information
+Agrius,credential-access,T1003.001,LSASS Memory
+APT35,discovery,T1124,System Time Discovery
+APT35,initial-access,T1566,Phishing
+APT35,defense-evasion,T1036,Masquerading
+APT35,command-and-control,T1001.001,Junk Data
+APT35,defense-evasion,T1497.001,System Checks
+APT35,resource-development,T1583,Acquire Infrastructure
+APT35,resource-development,T1587,Develop Capabilities
+APT35,defense-evasion,T1564.001,Hidden Files and Directories
+APT35,defense-evasion,T1562.006,Indicator Blocking
+APT35,exfiltration,T1022,Data Encrypted
+APT35,discovery,T1018,Remote System Discovery
+APT35,lateral-movement,T1021.001,Remote Desktop Protocol
+APT35,command-and-control,T1572,Protocol Tunneling
+APT35,resource-development,T1587.001,Malware
+APT35,defense-evasion,T1221,Template Injection
+APT35,reconnaissance,T1595,Active Scanning
+APT35,execution,T1569.002,Service Execution
+APT35,defense-evasion,T1078.003,Local Accounts
+APT35,command-and-control,T1001,Data Obfuscation
+APT35,discovery,T1069.002,Domain Groups
+MuddyWater,resource-development,T1585.002,Email Accounts
+MuddyWater,command-and-control,T1071.003,Mail Protocols
+MuddyWater,command-and-control,T1572,Protocol Tunneling
+MuddyWater,defense-evasion,T1484.001,Group Policy Modification
+MuddyWater,initial-access,T1190,Exploit Public-Facing Application
+MuddyWater,persistence,T1100,Web Shell
+MuddyWater,impact,T1486,Data Encrypted for Impact
+MuddyWater,command-and-control,T1090,Proxy
+MuddyWater,resource-development,T1585,Establish Accounts
+MuddyWater,discovery,T1049,System Network Connections Discovery
+MuddyWater,defense-evasion,T1562,Impair Defenses
+MuddyWater,defense-evasion,T1078,Valid Accounts
+MuddyWater,persistence,T1098,Account Manipulation
+MuddyWater,lateral-movement,T1021.004,SSH
+MuddyWater,lateral-movement,T1021.001,Remote Desktop Protocol
+MuddyWater,credential-access,T1528,Steal Application Access Token
+MuddyWater,defense-evasion,T1564,Hide Artifacts
+MuddyWater,credential-access,T1003,OS Credential Dumping
+MuddyWater,defense-evasion,T1578.003,Delete Cloud Instance
+MuddyWater,lateral-movement,T1210,Exploitation of Remote Services
+MuddyWater,impact,T1490,Inhibit System Recovery
+MuddyWater,defense-evasion,T1562.001,Disable or Modify Tools
+Moses Staff,resource-development,T1587,Develop Capabilities
+Moses Staff,resource-development,T1583,Acquire Infrastructure
+Moses Staff,impact,T1485,Data Destruction
+Moses Staff,persistence,T1100,Web Shell
+Moses Staff,resource-development,T1585.001,Social Media Accounts
+Moses Staff,command-and-control,T1102,Web Service
+Moses Staff,reconnaissance,T1591,Gather Victim Org Information
+Moses Staff,initial-access,T1190,Exploit Public-Facing Application
+TeamTNT,credential-access,T1555,Credentials from Password Stores
+TeamTNT,credential-access,T1555.001,Keychain
+TeamTNT,credential-access,T1555.003,Credentials from Web Browsers
+TeamTNT,credential-access,T1555.004,Windows Credential Manager
+TeamTNT,credential-access,T1003.001,LSASS Memory
+TeamTNT,credential-access,T1003.004,LSA Secrets
+TeamTNT,credential-access,T1003.005,Cached Domain Credentials
+TeamTNT,credential-access,T1003.007,Proc Filesystem
+TeamTNT,credential-access,T1003.008,/etc/passwd and /etc/shadow
+TeamTNT,credential-access,T1552.001,Credentials In Files
+APT35,resource-development,T1588.001,Malware
+APT35,persistence,T1136.001,Local Account
+APT35,persistence,T1136.002,Domain Account
+MuddyWater,defense-evasion,T1088,Bypass User Account Control
+MuddyWater,command-and-control,T1071,Standard Application Layer Protocol
+MuddyWater,persistence,T1060,Registry Run Keys / Startup Folder
+MuddyWater,execution,T1059,Command-Line Interface
+MuddyWater,execution,T1086,PowerShell
+MuddyWater,credential-access,T1503,Credentials from Web Browsers
+MuddyWater,exfiltration,T1041,Exfiltration Over Command and Control Channel
+MuddyWater,execution,T1203,Exploitation for Client Execution
+MuddyWater,execution,T1173,Dynamic Data Exchange
+MuddyWater,lateral-movement,T1175,Component Object Model and Distributed COM
+MuddyWater,command-and-control,T1104,Multi-Stage Channels
+MuddyWater,defense-evasion,T1500,Compile After Delivery
+MuddyWater,persistence,T1137,Office Application Startup
+MuddyWater,credential-access,T1003,Credential Dumping
+MuddyWater,command-and-control,T1090,Connection Proxy
+MuddyWater,execution,T1053,Scheduled Task
+MuddyWater,defense-evasion,T1085,Rundll32
+MuddyWater,defense-evasion,T1191,CMSTP
+MuddyWater,defense-evasion,T1170,Mshta
+MuddyWater,discovery,T1518,Software Discovery
+MuddyWater,execution,T1204,User Execution
+MuddyWater,discovery,T1057,Process Discovery
+MuddyWater,discovery,T1016,System Network Configuration Discovery
+MuddyWater,collection,T1113,Screen Capture
+MuddyWater,defense-evasion,T1036.001,Invalid Code Signature
+MuddyWater,execution,T1059.007,JavaScript
+MuddyWater,command-and-control,T1132.001,Standard Encoding
+MuddyWater,defense-evasion,T1218.010,Regsvr32
+MuddyWater,persistence,T1505.003,Web Shell
+APT35,collection,T1056.002,GUI Input Capture
+APT35,execution,T1059,Command and Scripting Interpreter
+APT35,resource-development,T1585,Establish Accounts
+APT35,initial-access,T1192,Spearphishing Link
+APT35,persistence,T1060,Registry Run Keys / Startup Folder
+APT35,discovery,T1046,Network Service Discovery
+APT35,execution,T1059.002,AppleScript
+APT35,execution,T1059.004,Unix Shell
+APT35,persistence,T1159,Launch Agent
+APT35,initial-access,T1193,Spearphishing Attachment
+APT34,defense-evasion,T1036.007,Double File Extension
+APT34,resource-development,T1588.002,Tool
+APT34,resource-development,T1586.002,Email Accounts
+APT34,command-and-control,T1071.004,DNS
+APT34,exfiltration,T1048,Exfiltration Over Alternative Protocol
+APT34,persistence,T1547.001,Registry Run Keys / Startup Folder
+APT34,persistence,T1505.004,IIS Components
+APT34,defense-evasion,T1036.008,Masquerade File Type
+APT34,reconnaissance,T1595.002,Vulnerability Scanning
+APT34,resource-development,T1583.003,Virtual Private Server
+APT34,resource-development,T1583,Acquire Infrastructure
+APT34,initial-access,T1190,Exploit Public-Facing Application
+APT34,execution,T1059.007,JavaScript
+APT34,execution,T1059.006,Python
+APT34,execution,T1559,Inter-Process Communication
+APT34,execution,T1569.002,Service Execution
+APT34,privilege-escalation,T1546,Event Triggered Execution
+APT34,defense-evasion,T1078,Valid Accounts
+APT34,defense-evasion,T1070.006,Timestomp
+APT34,credential-access,T1003.001,LSASS Memory
+APT34,exfiltration,T1048.001,Exfiltration Over Symmetric Encrypted Non-C2 Protocol
+ShroudedSnooper,reconnaissance,T1595.002,Vulnerability Scanning
+ShroudedSnooper,persistence,T1505.003,Web Shell
+ShroudedSnooper,defense-evasion,T1140,Deobfuscate/Decode Files or Information
+ShroudedSnooper,defense-evasion,T1036.005,Match Legitimate Name or Location
+ShroudedSnooper,lateral-movement,T1021.001,Remote Desktop Protocol
+ShroudedSnooper,command-and-control,T1071.001,Web Protocols
+ShroudedSnooper,privilege-escalation,T1068,Exploitation for Privilege Escalation
+ShroudedSnooper,initial-access,T1190,Exploit Public-Facing Application
+ShroudedSnooper,impact,T1489,Service Stop
+ShroudedSnooper,defense-evasion,T1027.013,Encrypted/Encoded File
+Emennet Pasargad,reconnaissance,T1596,Search Open Technical Databases
+Emennet Pasargad,reconnaissance,T1589,Gather Victim Identity Information
+Emennet Pasargad,reconnaissance,T1589.002,Email Addresses
+Emennet Pasargad,reconnaissance,T1589.003,Employee Names
+Emennet Pasargad,reconnaissance,T1591.001,Determine Physical Locations
+Emennet Pasargad,reconnaissance,T1595.002,Vulnerability Scanning
+Emennet Pasargad,reconnaissance,T1590.001,Domain Properties
+Emennet Pasargad,reconnaissance,T1595.001,Scanning IP Blocks
+Emennet Pasargad,resource-development,T1650,Acquire Access
+Emennet Pasargad,resource-development,T1583,Acquire Infrastructure
+Emennet Pasargad,resource-development,T1587,Develop Capabilities
+Emennet Pasargad,initial-access,T1190,Exploit Public-Facing Application
+Emennet Pasargad,credential-access,T1110.001,Password Guessing
+Emennet Pasargad,credential-access,T1110.002,Password Cracking
+Emennet Pasargad,command-and-control,T1071.001,Web Protocols
+Emennet Pasargad,command-and-control,T1219,Remote Access Software
+Emennet Pasargad,discovery,T1082,System Information Discovery
+Emennet Pasargad,defense-evasion,T1140,Deobfuscate/Decode Files or Information
+Emennet Pasargad,defense-evasion,T1027.013,Encrypted/Encoded File
+APT34,privilege-escalation,T1068,Exploitation for Privilege Escalation
+APT34,credential-access,T1556.002,Password Filter DLL
+APT34,defense-evasion,T1027.013,Encrypted/Encoded File
+APT34,credential-access,T1003.002,Security Account Manager
+APT34,credential-access,T1003.005,Cached Domain Credentials
+APT34,credential-access,T1552.001,Credentials In Files
+UNK_CraftyCamel,initial-access,T1566.002,Spearphishing Link
+UNK_CraftyCamel,defense-evasion,T1027,Obfuscated Files or Information
+UNK_CraftyCamel,command-and-control,T1071.001,Web Protocols
+UNK_CraftyCamel,resource-development,T1586.002,Email Accounts
+UNK_CraftyCamel,execution,T1204.001,Malicious Link
+UNK_CraftyCamel,defense-evasion,T1140,Deobfuscate/Decode Files or Information
+UNK_CraftyCamel,discovery,T1082,System Information Discovery
+UNK_CraftyCamel,discovery,T1083,File and Directory Discovery
+UNK_CraftyCamel,command-and-control,T1105,Ingress Tool Transfer
+UNK_CraftyCamel,resource-development,T1583.001,Domains
+UNK_CraftyCamel,resource-development,T1588.001,Malware
+UNK_CraftyCamel,defense-evasion,T1036.007,Double File Extension
+UNK_CraftyCamel,defense-evasion,T1112,Modify Registry
+UNK_CraftyCamel,resource-development,T1588.002,Tool
+UNK_CraftyCamel,defense-evasion,T1070.004,File Deletion
+UNK_CraftyCamel,defense-evasion,T1218.005,Mshta
+UNK_CraftyCamel,defense-evasion,T1497.003,Time Based Evasion
+UNK_CraftyCamel,defense-evasion,T1027.001,Binary Padding
+Emennet Pasargad,collection,T1113,Screen Capture
+Emennet Pasargad,collection,T1056.001,Keylogging
+Emennet Pasargad,collection,T1115,Clipboard Data
+Emennet Pasargad,discovery,T1083,File and Directory Discovery
+Emennet Pasargad,collection,T1005,Data from Local System
+Emennet Pasargad,initial-access,T1566.002,Spearphishing Link
+Emennet Pasargad,execution,T1204.001,Malicious Link
+Emennet Pasargad,resource-development,T1583.001,Domains
+Emennet Pasargad,persistence,T1547.001,Registry Run Keys / Startup Folder
+Emennet Pasargad,defense-evasion,T1027,Obfuscated Files or Information
+Emennet Pasargad,discovery,T1016,System Network Configuration Discovery
+Emennet Pasargad,discovery,T1033,System Owner/User Discovery
+Emennet Pasargad,exfiltration,T1041,Exfiltration Over C2 Channel
+Emennet Pasargad,credential-access,T1539,Steal Web Session Cookie
+APT34,persistence,T1543.003,Windows Service
+APT34,collection,T1005,Data from Local System
+APT34,command-and-control,T1571,Non-Standard Port
+APT34,defense-evasion,T1656,Impersonation
+APT35,defense-evasion,T1656,Impersonation
+APT35,credential-access,T1111,Multi-Factor Authentication Interception
+APT35,resource-development,T1588.007,Artificial Intelligence
+APT35,execution,T1059.007,JavaScript
+APT35,command-and-control,T1065,Uncommonly Used Port
+APT35,collection,T1056.003,Web Portal Capture
+APT35,defense-evasion,T1218.010,Regsvr32
+APT35,defense-evasion,T1027.001,Binary Padding
+APT35,command-and-control,T1568,Dynamic Resolution
+Parisite,defense-evasion,T1078.002,Domain Accounts
+Parisite,persistence,T1505.003,Web Shell
+Parisite,lateral-movement,T1021.001,Remote Desktop Protocol
+Parisite,command-and-control,T1090,Proxy
+Parisite,discovery,T1082,System Information Discovery
+Parisite,collection,T1114,Email Collection
+Parisite,lateral-movement,T1021.002,SMB/Windows Admin Shares
+Parisite,command-and-control,T1090.001,Internal Proxy
+Parisite,command-and-control,T1572,Protocol Tunneling
+Parisite,initial-access,T1566.002,Spearphishing Link
+Parisite,execution,T1204.001,Malicious Link
+Parisite,discovery,T1018,Remote System Discovery
+Parisite,credential-access,T1110,Brute Force
+Parisite,reconnaissance,T1595,Active Scanning
+Parisite,defense-evasion,T1027.013,Encrypted/Encoded File
+Parisite,discovery,T1083,File and Directory Discovery
+Parisite,defense-evasion,T1070.004,File Deletion
+Parisite,defense-evasion,T1027.010,Command Obfuscation
+Parisite,defense-evasion,T1036.004,Masquerade Task or Service
+Parisite,credential-access,T1556.002,Password Filter DLL
+Parisite,credential-access,T1003,OS Credential Dumping
+Parisite,execution,T1059.001,PowerShell
+Parisite,defense-evasion,T1112,Modify Registry
+Parisite,defense-evasion,T1036.005,Match Legitimate Name or Location
+Parisite,command-and-control,T1573.001,Symmetric Cryptography
+Parisite,command-and-control,T1132.001,Standard Encoding
+Parisite,exfiltration,T1041,Exfiltration Over C2 Channel
+Parisite,command-and-control,T1071.001,Web Protocols
+Parisite,defense-evasion,T1140,Deobfuscate/Decode Files or Information
+Parisite,command-and-control,T1102,Web Service
+Parisite,credential-access,T1003.001,LSASS Memory
+Parisite,collection,T1074.001,Local Data Staging
+Parisite,discovery,T1016,System Network Configuration Discovery
+Parisite,discovery,T1049,System Network Connections Discovery
+Parisite,lateral-movement,T1021.004,SSH
+Parisite,credential-access,T1003.002,Security Account Manager
+Parisite,execution,T1059.007,JavaScript
+Parisite,collection,T1056.003,Web Portal Capture
+Parisite,discovery,T1518,Software Discovery
+Parisite,defense-evasion,T1218,System Binary Proxy Execution
+Parisite,defense-evasion,T1497.001,System Checks
+Parisite,command-and-control,T1219,Remote Access Software
+Parisite,defense-evasion,T1070.006,Timestomp
+Parisite,command-and-control,T1090.002,External Proxy
+Parisite,initial-access,T1190,Exploit Public-Facing Application
+Parisite,credential-access,T1552.001,Credentials In Files
+Parisite,resource-development,T1586.002,Email Accounts
+Parisite,defense-evasion,T1656,Impersonation
+Parisite,persistence,T1133,External Remote Services
+Parisite,defense-evasion,T1078.003,Local Accounts
+Parisite,execution,T1053.005,Scheduled Task
+Parisite,execution,T1059.003,Windows Command Shell
+Parisite,defense-evasion,T1055,Process Injection
+Parisite,discovery,T1057,Process Discovery
+MuddyWater,defense-evasion,T1027.010,Command Obfuscation
+Parisite,defense-evasion,T1562.001,Disable or Modify Tools
+Parisite,impact,T1486,Data Encrypted for Impact
+Parisite,defense-evasion,T1027.002,Software Packing
+Parisite,defense-evasion,T1564.003,Hidden Window
+Parisite,defense-evasion,T1134,Access Token Manipulation
+Parisite,discovery,T1012,Query Registry
+MuddyWater,resource-development,T1588.002,Tool
+MuddyWater,execution,T1059.005,Visual Basic
+MuddyWater,defense-evasion,T1656,Impersonation
+MuddyWater,defense-evasion,T1078.003,Local Accounts
+MuddyWater,command-and-control,T1065,Uncommonly Used Port
+MuddyWater,resource-development,T1588.001,Malware
+MuddyWater,persistence,T1098.007,Additional Local or Domain Groups
+MuddyWater,persistence,T1133,External Remote Services
+MuddyWater,persistence,T1136.001,Local Account
+MuddyWater,defense-evasion,T1027.013,Encrypted/Encoded File
+Cyber Av3ngers,discovery,T1082,System Information Discovery
+Cyber Av3ngers,discovery,T1033,System Owner/User Discovery
+Cyber Av3ngers,command-and-control,T1571,Non-Standard Port
+Cyber Av3ngers,defense-evasion,T1055,Process Injection
+Cyber Av3ngers,command-and-control,T1071,Application Layer Protocol
+Cyber Av3ngers,resource-development,T1583.001,Domains
+Cyber Av3ngers,defense-evasion,T1027.002,Software Packing
+Cyber Av3ngers,execution,T1059.004,Unix Shell
+Cyber Av3ngers,impact,T1489,Service Stop
+Cyber Av3ngers,command-and-control,T1102,Web Service
+Cyber Av3ngers,discovery,T1124,System Time Discovery
+Cyber Av3ngers,defense-evasion,T1070.004,File Deletion
+Cyber Av3ngers,defense-evasion,T1027.013,Encrypted/Encoded File
+Cyber Av3ngers,defense-evasion,T1140,Deobfuscate/Decode Files or Information
+Cyber Av3ngers,command-and-control,T1572,Protocol Tunneling
+Cyber Av3ngers,persistence,T1037.004,RC Scripts
+Cyber Av3ngers,discovery,T1614,System Location Discovery
+Cyber Av3ngers,collection,T1074.001,Local Data Staging
+Homeland Justice,execution,T1204.002,Malicious File
+Homeland Justice,defense-evasion,T1140,Deobfuscate/Decode Files or Information
+Homeland Justice,defense-evasion,T1656,Impersonation
+Homeland Justice,discovery,T1082,System Information Discovery
+Homeland Justice,discovery,T1083,File and Directory Discovery
+Homeland Justice,command-and-control,T1105,Ingress Tool Transfer
+Homeland Justice,execution,T1059.005,Visual Basic
+Homeland Justice,resource-development,T1583.001,Domains
+Homeland Justice,command-and-control,T1090,Proxy
+Homeland Justice,resource-development,T1588.002,Tool
+Homeland Justice,resource-development,T1588.001,Malware
+Homeland Justice,resource-development,T1586.002,Email Accounts
+Homeland Justice,defense-evasion,T1036.008,Masquerade File Type
+Homeland Justice,defense-evasion,T1112,Modify Registry
+Homeland Justice,command-and-control,T1071.001,Web Protocols
+Homeland Justice,discovery,T1033,System Owner/User Discovery
+Homeland Justice,defense-evasion,T1497,Virtualization/Sandbox Evasion
+Homeland Justice,command-and-control,T1571,Non-Standard Port
+Homeland Justice,defense-evasion,T1036.005,Match Legitimate Name or Location
+Homeland Justice,initial-access,T1566.001,Spearphishing Attachment
+Homeland Justice,defense-evasion,T1027.013,Encrypted/Encoded File
+Homeland Justice,persistence,T1547.001,Registry Run Keys / Startup Folder
+Homeland Justice,defense-evasion,T1564.003,Hidden Window
+Homeland Justice,exfiltration,T1041,Exfiltration Over C2 Channel
+Homeland Justice,command-and-control,T1573.002,Asymmetric Cryptography
+MuddyWater,command-and-control,T1571,Non-Standard Port
+MuddyWater,command-and-control,T1102.002,Bidirectional Communication
+MuddyWater,collection,T1005,Data from Local System
+MuddyWater,defense-evasion,T1027.002,Software Packing
+MuddyWater,defense-evasion,T1027.007,Dynamic API Resolution
+MuddyWater,defense-evasion,T1027.009,Embedded Payloads
+MuddyWater,defense-evasion,T1036.005,Match Legitimate Resource Name or Location
+MuddyWater,defense-evasion,T1055.003,Thread Execution Hijacking
+MuddyWater,execution,T1106,Native API
+MuddyWater,execution,T1559.001,Component Object Model
+MuddyWater,collection,T1560,Archive Collected Data
+MuddyWater,command-and-control,T1573.001,Symmetric Cryptography
+MuddyWater,reconnaissance,T1598.002,Spearphishing Attachment
+MuddyWater,defense-evasion,T1620,Reflective Code Loading
+MuddyWater,defense-evasion,T1622,Debugger Evasion
+MuddyWater,collection,T1074.001,Local Data Staging
+MuddyWater,defense-evasion,T1070.006,Timestomp
+MuddyWater,command-and-control,T1573.002,Asymmetric Cryptography
+APT34,credential-access,T1555,Credentials from Password Stores
+APT34,initial-access,T1566.002,Spearphishing Link
+APT34,execution,T1204.001,Malicious Link
+APT34,defense-evasion,T1027.010,Command Obfuscation
+APT34,discovery,T1016,System Network Configuration Discovery
+APT34,lateral-movement,T1021,Remote Services
+APT34,command-and-control,T1573,Encrypted Channel
+Tortoiseshell,exfiltration,T1020,Automated Exfiltration
+Tortoiseshell,collection,T1025,Data from Removable Media
+Tortoiseshell,defense-evasion,T1027.007,Dynamic API Resolution
+Tortoiseshell,exfiltration,T1029,Scheduled Transfer
+Tortoiseshell,defense-evasion,T1036.003,Rename Legitimate Utilities
+Tortoiseshell,collection,T1039,Data from Network Shared Drive
+Tortoiseshell,defense-evasion,T1055.012,Process Hollowing
+Tortoiseshell,discovery,T1069.002,Domain Groups
+Tortoiseshell,defense-evasion,T1070.004,File Deletion
+Tortoiseshell,collection,T1114.001,Local Email Collection
+Tortoiseshell,collection,T1115,Clipboard Data
+Tortoiseshell,collection,T1119,Automated Collection
+Tortoiseshell,credential-access,T1552.001,Credentials In Files
+Tortoiseshell,credential-access,T1552.003,Bash History
+Tortoiseshell,credential-access,T1552.004,Private Keys
+Tortoiseshell,credential-access,T1555.005,Password Managers
+Tortoiseshell,collection,T1560.001,Archive via Utility
+Tortoiseshell,persistence,T1574.001,DLL
+Tortoiseshell,resource-development,T1583.001,Domains
+Tortoiseshell,resource-development,T1583.003,Virtual Private Server
+Tortoiseshell,resource-development,T1585.001,Social Media Accounts
+Tortoiseshell,resource-development,T1585.003,Cloud Accounts
+Tortoiseshell,resource-development,T1588.003,Code Signing Certificates
+Tortoiseshell,reconnaissance,T1589,Gather Victim Identity Information
+Tortoiseshell,reconnaissance,T1591,Gather Victim Org Information
+Tortoiseshell,reconnaissance,T1598.003,Spearphishing Link
+Tortoiseshell,defense-evasion,T1622,Debugger Evasion
+Tortoiseshell,defense-evasion,T1553.002,Code Signing
+Tortoiseshell,defense-evasion,T1027.001,Binary Padding
+Tortoiseshell,defense-evasion,T1027.016,Junk Code Insertion
+Tortoiseshell,defense-evasion,T1656,Impersonation
+Tortoiseshell,defense-evasion,T1027.013,Encrypted/Encoded File
+Tortoiseshell,command-and-control,T1132,Data Encoding
+UNK_SmudgedSerpent,command-and-control,T1105,Ingress Tool Transfer
+UNK_SmudgedSerpent,resource-development,T1588.002,Tool
+UNK_SmudgedSerpent,defense-evasion,T1656,Impersonation
+UNK_SmudgedSerpent,command-and-control,T1219.002,Remote Desktop Software
+UNK_SmudgedSerpent,execution,T1204.001,Malicious Link
+UNK_SmudgedSerpent,resource-development,T1583.001,Domains
+UNK_SmudgedSerpent,collection,T1056.002,GUI Input Capture
+UNK_SmudgedSerpent,lateral-movement,T1021.001,Remote Desktop Protocol
+UNK_SmudgedSerpent,discovery,T1057,Process Discovery
+UNK_SmudgedSerpent,persistence,T1574.002,DLL Side-Loading
+UNK_SmudgedSerpent,resource-development,T1587.001,Malware
+UNK_SmudgedSerpent,resource-development,T1585.002,Email Accounts
+UNK_SmudgedSerpent,resource-development,T1583.006,Web Services
+UNK_SmudgedSerpent,defense-evasion,T1553.002,Code Signing
+UNK_SmudgedSerpent,initial-access,T1566.002,Spearphishing Link
+UNK_SmudgedSerpent,defense-evasion,T1036.005,Match Legitimate Name or Location
+MuddyWater,command-and-control,T1095,Non-Application Layer Protocol
+MuddyWater,defense-evasion,T1497,Virtualization/Sandbox Evasion
+MuddyWater,discovery,T1614.001,System Language Discovery
+MuddyWater,command-and-control,T1008,Fallback Channels
+MuddyWater,privilege-escalation,T1546.015,Component Object Model Hijacking
+Infy,command-and-control,T1071.001,Web Protocols
+Infy,command-and-control,T1132.001,Standard Encoding
+Infy,command-and-control,T1001,Data Obfuscation
+Infy,command-and-control,T1102.002,Bidirectional Communication
+Infy,persistence,T1547.001,Registry Run Keys / Startup Folder
+Infy,discovery,T1016.001,Internet Connection Discovery
+Infy,command-and-control,T1568.002,Domain Generation Algorithms
+Infy,command-and-control,T1102,Web Service
+Infy,defense-evasion,T1036.008,Masquerade File Type
+Infy,defense-evasion,T1656,Impersonation
+Infy,defense-evasion,T1027.013,Encrypted/Encoded File
+Infy,discovery,T1083,File and Directory Discovery
+Infy,exfiltration,T1041,Exfiltration Over C2 Channel
+Infy,discovery,T1082,System Information Discovery
+Infy,discovery,T1016,System Network Configuration Discovery
+Infy,defense-evasion,T1070.004,File Deletion
+Infy,defense-evasion,T1218.011,Rundll32
+Infy,impact,T1489,Service Stop
+Infy,defense-evasion,T1140,Deobfuscate/Decode Files or Information
+APT42,defense-evasion,T1218.011,Rundll32
+APT42,defense-evasion,T1656,Impersonation
+APT42,defense-evasion,T1027.011,Fileless Storage
+APT42,command-and-control,T1104,Multi-Stage Channels
+APT42,collection,T1005,Data from Local System
+APT42,initial-access,T1566.003,Spearphishing via Service
+APT42,defense-evasion,T1036.008,Masquerade File Type
+APT42,command-and-control,T1573.001,Symmetric Cryptography
+APT42,exfiltration,T1567,Exfiltration Over Web Service
+APT42,exfiltration,T1567.004,Exfiltration Over Webhook
+APT42,discovery,T1057,Process Discovery
+APT42,discovery,T1518.001,Security Software Discovery
+APT42,collection,T1074.001,Local Data Staging
+APT42,defense-evasion,T1027.013,Encrypted/Encoded File
+APT42,defense-evasion,T1564.003,Hidden Window
+APT42,command-and-control,T1571,Non-Standard Port
+APT42,credential-access,T1539,Steal Web Session Cookie
+APT42,exfiltration,T1030,Data Transfer Size Limits
+APT42,exfiltration,T1048,Exfiltration Over Alternative Protocol
+MuddyWater,discovery,T1518.001,Security Software Discovery
+MuddyWater,defense-evasion,T1055,Process Injection
+MuddyWater,resource-development,T1583.003,Virtual Private Server
+Tortoiseshell,collection,T1213.002,Sharepoint
+Tortoiseshell,collection,T1113,Screen Capture
+Tortoiseshell,credential-access,T1003.006,DCSync
+Tortoiseshell,defense-evasion,T1078,Valid Accounts
+Tortoiseshell,initial-access,T1199,Trusted Relationship
+Tortoiseshell,lateral-movement,T1534,Internal Spearphishing
+Tortoiseshell,command-and-control,T1219,Remote Access Software
+Tortoiseshell,command-and-control,T1573.002,Asymmetric Cryptography
+Tortoiseshell,command-and-control,T1090.001,Internal Proxy
+Tortoiseshell,command-and-control,T1008,Fallback Channels
+Tortoiseshell,collection,T1056.002,GUI Input Capture
+Tortoiseshell,credential-access,T1558.003,Kerberoasting
+Tortoiseshell,credential-access,T1649,Steal or Forge Authentication Certificates
+Tortoiseshell,lateral-movement,T1563.002,RDP Hijacking
+Tortoiseshell,lateral-movement,T1021.001,Remote Desktop Protocol
+Tortoiseshell,collection,T1074.001,Local Data Staging
+Tortoiseshell,discovery,T1087.002,Domain Account
+Tortoiseshell,discovery,T1007,System Service Discovery
+Tortoiseshell,command-and-control,T1572,Protocol Tunneling
+Tortoiseshell,collection,T1114,Email Collection
+Tortoiseshell,reconnaissance,T1598,Phishing for Information
+Tortoiseshell,credential-access,T1110.003,Password Spraying
+RedKitten,initial-access,T1566.001,Spearphishing Attachment
+RedKitten,execution,T1204.002,Malicious File
+RedKitten,persistence,T1574.014,AppDomainManager
+RedKitten,execution,T1053.005,Scheduled Task
+RedKitten,defense-evasion,T1140,Deobfuscate/Decode Files or Information
+RedKitten,command-and-control,T1001.003,Protocol Impersonation
+RedKitten,command-and-control,T1071.001,Web Protocols
+RedKitten,command-and-control,T1105,Ingress Tool Transfer
+RedKitten,execution,T1059.003,Windows Command Shell
+RedKitten,resource-development,T1588.007,Artificial Intelligence
+RedKitten,discovery,T1016,System Network Configuration Discovery
+RedKitten,discovery,T1033,System Owner/User Discovery
+RedKitten,execution,T1047,Windows Management Instrumentation
+RedKitten,discovery,T1057,Process Discovery
+RedKitten,command-and-control,T1102,Web Service
+RedKitten,discovery,T1083,File and Directory Discovery
+RedKitten,discovery,T1082,System Information Discovery
+RedKitten,defense-evasion,T1036.005,Match Legitimate Name or Location
+RedKitten,defense-evasion,T1036.004,Masquerade Task or Service
+RedKitten,defense-evasion,T1027.013,Encrypted/Encoded File
+RedKitten,defense-evasion,T1027.003,Steganography
+RedKitten,command-and-control,T1102.001,Dead Drop Resolver
+RedKitten,exfiltration,T1567,Exfiltration Over Web Service
+RedKitten,collection,T1560,Archive Collected Data
+Infy,defense-evasion,T1027,Obfuscated Files or Information
+Infy,execution,T1059.001,PowerShell
+Infy,defense-evasion,T1036,Masquerading
+Infy,execution,T1053.005,Scheduled Task
+Infy,collection,T1056.001,Keylogging
+Infy,execution,T1059.005,Visual Basic
+Infy,collection,T1113,Screen Capture
+Infy,execution,T1203,Exploitation for Client Execution
+Infy,defense-evasion,T1497.001,System Checks
+Infy,defense-evasion,T1497.003,Time Based Evasion
+Infy,exfiltration,T1567.002,Exfiltration to Cloud Storage
+MuddyWater,defense-evasion,T1553.002,Code Signing
+MuddyWater,defense-evasion,T1027.011,Fileless Storage
+MuddyWater,defense-evasion,T1497.002,User Activity Based Checks
+MuddyWater,discovery,T1069.002,Domain Groups
+MuddyWater,discovery,T1018,Remote System Discovery
+MuddyWater,collection,T1115,Clipboard Data
+MuddyWater,command-and-control,T1219,Remote Access Tools
+MuddyWater,resource-development,T1588.007,Artificial Intelligence
+Dust Specter,resource-development,T1583.001,Domains
+Dust Specter,resource-development,T1587.001,Malware
+Dust Specter,initial-access,T1189,Drive-by Compromise
+Dust Specter,initial-access,T1566.001,Spearphishing Attachment
+Dust Specter,execution,T1204.004,Malicious Copy and Paste
+Dust Specter,defense-evasion,T1140,Deobfuscate/Decode Files or Information
+Dust Specter,persistence,T1574.002,DLL Side-Loading
+Dust Specter,execution,T1059.001,PowerShell
+Dust Specter,persistence,T1547.001,Registry Run Keys / Startup Folder
+Dust Specter,execution,T1053.005,Scheduled Task
+Dust Specter,defense-evasion,T1036.005,Match Legitimate Name or Location
+Dust Specter,defense-evasion,T1027.010,Command Obfuscation
+Dust Specter,command-and-control,T1132.001,Standard Encoding
+Dust Specter,command-and-control,T1071.001,Web Protocols
+Dust Specter,command-and-control,T1001.003,Protocol Impersonation
+Dust Specter,command-and-control,T1568.002,Domain Generation Algorithms
+Dust Specter,command-and-control,T1573.001,Symmetric Cryptography
+Dust Specter,command-and-control,T1102.002,Bidirectional Communication
+Dust Specter,discovery,T1082,System Information Discovery
+Dust Specter,exfiltration,T1041,Exfiltration Over C2 Channel
+Dust Specter,command-and-control,T1105,Ingress Tool Transfer
+Dust Specter,defense-evasion,T1497.003,Time Based Evasion
+Dust Specter,defense-evasion,T1218,Signed Binary Proxy Execution
+Dust Specter,defense-evasion,T1112,Modify Registry
+Dust Specter,defense-evasion,T1205,Traffic Signaling
+Dust Specter,defense-evasion,T1055.001,Dynamic-link Library Injection
+Dust Specter,defense-evasion,T1027.013,Encrypted/Encoded File
+MuddyWater,credential-access,T1555.003,Credentials from Web Browsers
+MuddyWater,collection,T1056.002,GUI Input Capture
+MuddyWater,command-and-control,T1001,Data Obfuscation
+MuddyWater,exfiltration,T1030,Data Transfer Size Limits
+MuddyWater,defense-evasion,T1036,Masquerading
+MuddyWater,defense-evasion,T1036.004,Masquerade Task or Service
+MuddyWater,defense-evasion,T1070.009,Clear Persistence
+MuddyWater,defense-evasion,T1134.001,Token Impersonation/Theft
+MuddyWater,defense-evasion,T1134.002,Create Process with Token
+MuddyWater,collection,T1560.001,Archive via Utility
+MuddyWater,resource-development,T1583,Acquire Infrastructure
+MuddyWater,reconnaissance,T1591,Gather Victim Org Information
+MuddyWater,resource-development,T1608,Stage Capabilities
+APT35,reconnaissance,T1598,Phishing for Information
+APT35,defense-evasion,T1078,Valid Accounts
+APT35,persistence,T1136,Create Account
+APT35,privilege-escalation,T1068,Exploitation for Privilege Escalation
+APT35,collection,T1056,Input Capture
+APT35,credential-access,T1110,Brute Force
+APT35,discovery,T1087,Account Discovery
+APT35,collection,T1530,Data from Cloud Storage
+APT35,lateral-movement,T1021,Remote Services
+APT35,establish-&-maintain-infrastructure,T1333,Dynamic DNS
+APT35,exfiltration,T1048,Exfiltration Over Alternative Protocol
+APT35,exfiltration,T1567.002,Exfiltration to Cloud Storage
+APT35,impact,T1491,Defacement
+APT35,impact,T1485,Data Destruction
+APT35,defense-evasion,T1599,Network Boundary Bridging
+APT35,resource-development,T1586,Compromise Accounts
+APT35,impact,T1657,Financial Theft

