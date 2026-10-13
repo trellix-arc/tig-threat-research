@@ -1,0 +1,1844 @@
+{
+  "authors": [
+    "Trellix Advanced Research Center"
+  ],
+  "category": "actor",
+  "description": "Threat actors are characteristics of malicious actors (or adversaries) representing a cyber attack threat including presumed intent and historically observed behaviour.",
+  "name": "Trellix Star - Threat Actor",
+  "source": "Trellix Advanced Research Center",
+  "type": "trellix-threat-actor",
+  "uuid": "e4859c7a-7abd-4bed-b018-856f0fa3be21",
+  "values": [
+    {
+      "description": "Automated Libra is a South African-based freejacking group that primarily targets cloud platforms offering limited-time trials of cloud resources in order to perform their cryptomining operations.\r\n\r\nSource: Palo Alto",
+      "meta": {
+        "country": [
+          "ZA"
+        ],
+        "mitre-attack": [
+          "Acquire Infrastructure - T1583",
+          "Automated Collection - T1119",
+          "Automated Exfiltration - T1020",
+          "Build Image on Host - T1612",
+          "Command and Scripting Interpreter - T1059",
+          "Container Administration Command - T1609",
+          "Create Account - T1136",
+          "Create or Modify System Process - T1543",
+          "Data Staged - T1074",
+          "Deploy Container - T1610",
+          "Develop Capabilities - T1587",
+          "Establish Accounts - T1585",
+          "Event Triggered Execution - T1546",
+          "Execution Guardrails - T1480",
+          "Exfiltration Over Web Service - T1567",
+          "External Remote Services - T1133",
+          "Ingress Tool Transfer - T1105",
+          "Modify Cloud Compute Infrastructure - T1578",
+          "Proxy - T1090",
+          "Resource Hijacking - T1496",
+          "Scheduled Task/Job - T1053",
+          "Stage Capabilities - T1608"
+        ],
+        "refs": [
+          "https://sysdig.com/blog/massive-cryptomining-operation-github-actions/",
+          "https://unit42.paloaltonetworks.com/atoms/automated-libra/",
+          "https://unit42.paloaltonetworks.com/purpleurchin-steals-cloud-resources/"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "106c0cf6-bf73-4601-9aa8-0945c2715ec5",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "7385dfaf-6886-4229-9ecd-6fd678040830",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "800f9819-7007-4540-a520-40e655876800",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "40597f16-0963-4249-bf4c-ac93b7fb9807",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "144e007b-e638-431d-a894-45d90c54ab90",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "e6919abc-99f9-4c6c-95a5-14761e7b2add",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "7b50a1d3-4ca7-45d1-989d-a6503f04bfe1",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "10d51417-ee35-4589-b1ff-b6df1c334e8d",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "b6301b64-ef57-4cce-bb0b-77026f14a8db",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "35dd844a-b219-4e2b-a6bb-efa9a75995a9",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "774a3188-6ba9-4dc4-879d-d54ee48a5ce9",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "56e0d8b8-3e25-49dd-9050-3aa252f5aa92",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "7dd95ff6-712e-4056-9626-312ea4ab4c5e",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "853c4192-4311-43e1-bfbb-b11b14911852",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "84771bc3-f6a0-403e-b144-01af70e5fda0",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "30208d3e-0d6b-43c8-883e-44462a514619",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "e01be9c5-e763-4caf-aeb7-000b416aef67",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "0458aab9-ad42-4eac-9e22-706a95bafee2",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "cd25c1b4-935c-4f0e-ba8d-552f28bc4783",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "cdfc5f0a-9bb9-4352-b896-553cfa2d8fd8",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "edadea33-549c-4ed1-9783-8f5a5853cbdf",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "731f4f55-b6d0-41d1-a7a9-072a66389aea",
+          "type": "uses"
+        }
+      ],
+      "uuid": "5a94ff9f-7a98-4045-8fea-02bc7770e215",
+      "value": "Automated Libra"
+    },
+    {
+      "description": "DragonForce operates a Ransomware-as-a-Service (RaaS) affiliate program using two ransomware variants: LockBit 3.0 and a modified ContiV3. The group uses double extortion tactics, encrypting data and threatening to leak it unless paid. Launched in June 2024, the program offers affiliates 80% of ransoms and tools to manage attacks. Affiliates can customize ransomware, disable security, and set encryption parameters. DragonForce employs the BYOVD technique to disable security processes and erases Windows logs to hinder investigations.",
+      "meta": {
+        "mitre-attack": [
+          "Access Token Manipulation - T1134",
+          "Clear Windows Event Logs - T1070.001",
+          "Code Signing - T1553.002",
+          "Component Object Model - T1559.001",
+          "Data Encrypted for Impact - T1486",
+          "Deobfuscate/Decode Files or Information - T1140",
+          "Disable or Modify Tools - T1562.001",
+          "Domain Accounts - T1078.002",
+          "Domain Trust Discovery - T1482",
+          "Email Accounts - T1585.002",
+          "File Deletion - T1070.004",
+          "File and Directory Discovery - T1083",
+          "Hidden Window - T1564.003",
+          "Ingress Tool Transfer - T1105",
+          "Inhibit System Recovery - T1490",
+          "Internal Defacement - T1491.001",
+          "LSASS Memory - T1003.001",
+          "Malicious File - T1204.002",
+          "Malware - T1587.001",
+          "Malware - T1588.001",
+          "Non-Standard Port - T1571",
+          "Obfuscated Files or Information - T1027",
+          "PowerShell - T1059.001",
+          "Process Discovery - T1057",
+          "Registry Run Keys / Startup Folder - T1547.001",
+          "Remote Desktop Protocol - T1021.001",
+          "Remote System Discovery - T1018",
+          "Scheduled Task - T1053.005",
+          "Service Stop - T1489",
+          "Software Packing - T1027.002",
+          "System Information Discovery - T1082",
+          "System Network Configuration Discovery - T1016",
+          "Tool - T1588.002",
+          "Valid Accounts - T1078",
+          "Web Protocols - T1071.001",
+          "Windows Command Shell - T1059.003",
+          "Windows Management Instrumentation - T1047",
+          "Windows Service - T1543.003"
+        ],
+        "refs": [
+          "https://cyble.com/threat-actor-profiles/dragonforce-ransomware-group/",
+          "https://www.fortiguard.com/threat-actor/6251/dragonforce-ransomware",
+          "https://www.group-ib.com/blog/dragonforce-ransomware/",
+          "https://www.secureworks.com/blog/ransomware-groups-evolve-affiliate-models",
+          "https://www.trendmicro.com/vinfo/us/security/news/ransomware-spotlight/ransomware-spotlight-dragonforce"
+        ],
+        "synonyms": [
+          "Water Tambanakua"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "9efb1ea7-c37b-4595-9640-b7680cd84279",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "6495ae23-3ab4-43c5-a94f-5638a2c31fd2",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "ac08589e-ee59-4935-8667-d845e38fe579",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "3ccef7ae-cb5e-48f6-8302-897105fbf55c",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "707399d6-ab3e-4963-9315-d9d3818cd6a0",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "b3d682b6-98f2-4fb0-aa3b-b4df007ca70a",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "7bc57495-ea59-4380-be31-a64af124ef18",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "b80d107d-fa0d-4b60-9684-b0433e8bdba0",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "eb062747-2193-45de-8fa2-e62549c37ddf",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "d1fcf083-a721-4223-aedf-bf8960798d62",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "2f6b4ed7-fef1-44ba-bcb8-1b4beb610b64",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "e6919abc-99f9-4c6c-95a5-14761e7b2add",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "e358d692-23c0-4a31-9eb6-ecc13a8d7735",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "354a7f88-63fb-41b5-a801-ce3b377b36f1",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "01a5a209-b94c-450b-b7f9-946497d91055",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "f5d8eed6-48a9-4cdf-a3d7-d1ffa99c3d2a",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "dcaa092b-7de9-4a21-977f-7fcb77e89c48",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "767dbf9e-df3f-45cb-8998-4903ab5f80c0",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "b18eae87-b469-4e14-b454-b171b416bc18",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "65f2d882-3f41-4d48-8a06-29af77ec9f90",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "df8b2a25-8bdf-4856-953c-a04372b1c161",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "232b7f21-adf9-4b42-b936-b9d6f7df856e",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "deb98323-e13f-4b0c-8d94-175379069062",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "c3d4bdd9-2cfe-4a80-9d0c-07a29ecdce8f",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "005a06c6-14bf-4118-afa0-ebcd8aebb0c9",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "8c41090b-aa47-4331-986b-8c9a51a91103",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "32901740-b42c-4fdd-bc02-345b5dc57082",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "65013dd2-bc61-43e3-afb5-a14c4fa7437a",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "2959d63f-73fd-46a1-abd2-109d7dcede32",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "cbb66055-0325-4111-aca0-40547b6ad5b0",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "8f4a33ec-8b1f-4b80-a2f6-642b2e479580",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "b17a1a56-e99c-403c-8948-561df0cffe81",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "20fb2507-d71c-455d-9b6d-6104461cf26b",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "970a3432-3237-47ad-bcca-7d8cbb217736",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "212306d8-efa4-44c9-8c2d-ed3d2e224aa0",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "7807d3a4-a885-4639-a786-c1ed41484970",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "a2fdce72-04b2-409a-ac10-cc1695f4fce0",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "d63a3fb8-9452-4e9d-a60a-54be68d5998c",
+          "type": "uses"
+        }
+      ],
+      "uuid": "c40f5e79-c889-4a20-9475-74e43d2ed182",
+      "value": "DragonForce Ransomware Group"
+    },
+    {
+      "description": "GhostSec is a sophisticated hacktivist group that was initially formed in 2015 as an offshoot of the Anonymous hacktivist group to disrupt ISIS-related online propaganda and recently formed a hacking collective entity known as \"The Five Families\" that includes ThreatSec, Stormous, Blackforums, SiegedSec, GhostSec.\r\n\r\nIt has compromised multiple sectors including critical infrastructure, telecommunications, energy, defense in over 18 countries for achieving its ideological objectives. It uses a wide range of techniques for launching DDoS attack, exfiltrating lucrative data and defacement.\r\n\r\nSource: Uptycs",
+      "meta": {
+        "mitre-attack": [
+          "Bidirectional Communication - T1102.002",
+          "Bypass User Account Control - T1548.002",
+          "Data Encoding - T1132",
+          "Data Encrypted for Impact - T1486",
+          "Deobfuscate/Decode Files or Information - T1140",
+          "Disable or Modify Tools - T1562.001",
+          "Domains - T1583.001",
+          "Domains - T1584.001",
+          "Exfiltration Over C2 Channel - T1041",
+          "File Deletion - T1070.004",
+          "File and Directory Discovery - T1083",
+          "Gather Victim Host Information - T1592",
+          "Internal Defacement - T1491.001",
+          "Local Account - T1087.001",
+          "Malicious File - T1204.002",
+          "Malware - T1587.001",
+          "Native API - T1106",
+          "OS Credential Dumping - T1003",
+          "Obfuscated Files or Information - T1027",
+          "Obtain Capabilities - T1588",
+          "Process Discovery - T1057",
+          "Python - T1059.006",
+          "Registry Run Keys / Startup Folder - T1547.001",
+          "Security Software Discovery - T1518.001",
+          "Service Stop - T1489",
+          "System Information Discovery - T1082",
+          "System Network Configuration Discovery - T1016",
+          "Time Based Evasion - T1497.003",
+          "Vulnerability Scanning - T1595.002",
+          "Web Protocols - T1071.001"
+        ],
+        "refs": [
+          "https://blog.talosintelligence.com/ghostsec-ghostlocker2-ransomware/",
+          "https://en.wikipedia.org/wiki/Ghost_Security",
+          "https://socradar.io/the-five-families-hacker-collaboration-redefining-the-game/",
+          "https://t.me/GhostSecc",
+          "https://www.uptycs.com/blog/ghostlocker-ransomware-ghostsec"
+        ],
+        "synonyms": [
+          "Ghost Security"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "ac08589e-ee59-4935-8667-d845e38fe579",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "3ccef7ae-cb5e-48f6-8302-897105fbf55c",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "b3d682b6-98f2-4fb0-aa3b-b4df007ca70a",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "7bc57495-ea59-4380-be31-a64af124ef18",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "b80d107d-fa0d-4b60-9684-b0433e8bdba0",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "cba37adb-d6fb-4610-b069-dd04c0643384",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "4bed873f-0b7d-41d4-b93a-b6905d1f90b0",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "354a7f88-63fb-41b5-a801-ce3b377b36f1",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "d63a3fb8-9452-4e9d-a60a-54be68d5998c",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "be055942-6e63-49d7-9fa1-9cb7d8a8f3f4",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "232b7f21-adf9-4b42-b936-b9d6f7df856e",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "8c41090b-aa47-4331-986b-8c9a51a91103",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "391d824f-0ef1-47a0-b0ee-c59a75e27670",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "8f4a33ec-8b1f-4b80-a2f6-642b2e479580",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "cc7b8c4e-9be0-47ca-b0bb-83915ec3ee2f",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "20fb2507-d71c-455d-9b6d-6104461cf26b",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "ce0687a0-e692-4b77-964a-0784a8e54ff1",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "f9cc4d06-775f-4ee1-b401-4e2cc0da30ba",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "212306d8-efa4-44c9-8c2d-ed3d2e224aa0",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "9efb1ea7-c37b-4595-9640-b7680cd84279",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "120d5519-3098-4e1c-9191-2aa61232f073",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "92d7da27-2d91-488e-a00c-059dc162766d",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "707399d6-ab3e-4963-9315-d9d3818cd6a0",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "09312b1a-c3c6-4b45-9844-3ccc78e5d82f",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "0a3ead4e-6d47-4ccb-854c-a6a4f9d96b22",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "df8b2a25-8bdf-4856-953c-a04372b1c161",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "25659dd6-ea12-45c4-97e6-381e3e4b593e",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "5502c4e9-24ef-4d5f-8ee9-9e906c2f82c4",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "cc3502b5-30cc-4473-ad48-42d51a6ef6d1",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "40f5caa0-4cb7-4117-89fc-d421bb493df3",
+          "type": "uses"
+        }
+      ],
+      "uuid": "edaa5d97-db48-4346-a6d5-d2973243afca",
+      "value": "GhostSec"
+    },
+    {
+      "description": "Gold Dupont is a financially motivated threat group who has been in operation since at least 2018. The actor uses custom malware known as Vatet loader, PyXie Remote Access Tool, and Defray777 ransomware to gain initial access, perform reconnaissance, and exfiltrate and encrypt sensitive data. The group is also known to use various commodity malware and tools including Trickbot, Cobalt Strike, and Metasploit. The threat group targets various entities in the healthcare, education, government, and technology industries.",
+      "meta": {
+        "mitre-attack": [
+          "Account Discovery - T1087",
+          "Automated Collection - T1119",
+          "Automated Exfiltration - T1020",
+          "Data Encrypted for Impact - T1486",
+          "Data Staged - T1074",
+          "Data from Local System - T1005",
+          "Deobfuscate/Decode Files or Information - T1140",
+          "Disable or Modify Tools - T1562.001",
+          "Exfiltration Over C2 Channel - T1041",
+          "File and Directory Discovery - T1083",
+          "Ingress Tool Transfer - T1105",
+          "Inhibit System Recovery - T1490",
+          "Modify Registry - T1112",
+          "Network Share Discovery - T1135",
+          "OS Credential Dumping - T1003",
+          "Obfuscated Files or Information - T1027",
+          "Phishing - T1566",
+          "Process Discovery - T1057",
+          "Query Registry - T1012",
+          "Remote System Discovery - T1018",
+          "SMB/Windows Admin Shares - T1021.002",
+          "Screen Capture - T1113",
+          "Service Stop - T1489",
+          "Software Discovery - T1518",
+          "Steal Web Session Cookie - T1539",
+          "System Information Discovery - T1082",
+          "System Network Configuration Discovery - T1016",
+          "System Network Connections Discovery - T1049",
+          "System Owner/User Discovery - T1033",
+          "Valid Accounts - T1078",
+          "Windows Command Shell - T1059.003"
+        ],
+        "refs": [
+          "https://unit42.paloaltonetworks.com/lazagne-leverages-d-bus/#post-129710-_fe2et1lrlrj6",
+          "https://www.secureworks.com/research/threat-profiles/gold-dupont"
+        ],
+        "synonyms": [
+          "Prying Libra",
+          "SPRITE SPIDER"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "ac08589e-ee59-4935-8667-d845e38fe579",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "3ccef7ae-cb5e-48f6-8302-897105fbf55c",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "3c4a2599-71ee-4405-ba1e-0e28414b4bc5",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "92d7da27-2d91-488e-a00c-059dc162766d",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "707399d6-ab3e-4963-9315-d9d3818cd6a0",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "b3d682b6-98f2-4fb0-aa3b-b4df007ca70a",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "7bc57495-ea59-4380-be31-a64af124ef18",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "7e150503-88e7-4861-866b-ff1ac82c4475",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "10ffac09-e42d-4f56-ab20-db94c67d76ff",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "b80d107d-fa0d-4b60-9684-b0433e8bdba0",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "4f9ca633-15c5-463c-9724-bdcd54fde541",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "d1fcf083-a721-4223-aedf-bf8960798d62",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "03d7999c-1f4c-42cc-8373-e7690d318104",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "0a3ead4e-6d47-4ccb-854c-a6a4f9d96b22",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "e6919abc-99f9-4c6c-95a5-14761e7b2add",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "e358d692-23c0-4a31-9eb6-ecc13a8d7735",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "354a7f88-63fb-41b5-a801-ce3b377b36f1",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "f5d8eed6-48a9-4cdf-a3d7-d1ffa99c3d2a",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "3489cfc5-640f-4bb3-a103-9137b97de79f",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "774a3188-6ba9-4dc4-879d-d54ee48a5ce9",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "c32f7008-9fea-41f7-8366-5eb9b74bd896",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "7dd95ff6-712e-4056-9626-312ea4ab4c5e",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "8f4a33ec-8b1f-4b80-a2f6-642b2e479580",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "72b74d71-8169-42aa-92e0-e7b04b9f5a08",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "b17a1a56-e99c-403c-8948-561df0cffe81",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "57340c81-c025-4189-8fa0-fc7ede51bae4",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "0259baeb-9f63-4c69-bf10-eb038c390688",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "30208d3e-0d6b-43c8-883e-44462a514619",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "e3b6daca-e963-4a69-aee6-ed4fd653ad58",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "20fb2507-d71c-455d-9b6d-6104461cf26b",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "a62a8db3-f23a-4d8f-afd6-9dbc77e7813b",
+          "type": "uses"
+        }
+      ],
+      "uuid": "104b103b-3803-4bdd-850c-38c558c15238",
+      "value": "Gold Dupont"
+    },
+    {
+      "description": "NoName057(16), also known as NoName05716, 05716nnm or Nnm05716, is a hacktivist group supporting Russia since March 2022. The NoName057(16) group is primarily focused on disrupting websites important to nations critical of Russia’s invasion of Ukraine. Distributed Denial of Service (DDoS) attacks act as the method to conduct such disruption efforts. Initial attacks focused on Ukrainian news websites, while later shifting to NATO associated targets.\r\n\r\nSource: SentinelOne",
+      "meta": {
+        "country": [
+          "RU"
+        ],
+        "mitre-attack": [
+          "Application Layer Protocol - T1071",
+          "Code Signing - T1553.002",
+          "Command and Scripting Interpreter - T1059",
+          "Deobfuscate/Decode Files or Information - T1140",
+          "Direct Network Flood - T1498.001",
+          "Disable or Modify Tools - T1562.001",
+          "Dynamic Resolution - T1568",
+          "Encrypted Channel - T1573",
+          "Endpoint Denial of Service - T1499",
+          "Hidden Files and Directories - T1564.001",
+          "Ingress Tool Transfer - T1105",
+          "Input Capture - T1056",
+          "Invalid Code Signature - T1036.001",
+          "Keylogging - T1056.001",
+          "Network Denial of Service - T1498",
+          "Non-Application Layer Protocol - T1095",
+          "Non-Standard Port - T1571",
+          "OS Exhaustion Flood - T1499.001",
+          "Obfuscated Files or Information - T1027",
+          "Plist Modification - T1547.011",
+          "Process Injection - T1055",
+          "Proxy - T1090",
+          "Python - T1059.006",
+          "Security Software Discovery - T1518.001",
+          "Service Exhaustion Flood - T1499.002",
+          "Service Stop - T1489",
+          "System Information Discovery - T1082",
+          "System Time Discovery - T1124",
+          "Systemd Service - T1543.002",
+          "Virtualization/Sandbox Evasion - T1497",
+          "Web Protocols - T1071.001",
+          "Web Service - T1102",
+          "Windows Management Instrumentation - T1047"
+        ],
+        "refs": [
+          "https://blog.avast.com/ddosia-project",
+          "https://blog.sekoia.io/noname05716-ddosia-project-2024-updates-and-behavioural-shifts/",
+          "https://decoded.avast.io/martinchlumecky/bobik/",
+          "https://decoded.avast.io/martinchlumecky/ddosia-project/",
+          "https://www.cyber.gc.ca/en/alerts-advisories/distributed-denial-service-campaign-targeting-multiple-canadian-sectors",
+          "https://www.netscout.com/blog/asert/ddos-attacks-against-japan",
+          "https://www.sentinelone.com/labs/noname05716-the-pro-russian-hacktivist-group-targeting-nato/"
+        ],
+        "synonyms": [
+          "05716nnm",
+          "Nnm05716",
+          "NoName05716"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "ac08589e-ee59-4935-8667-d845e38fe579",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "ec8fc7e2-b356-455c-8db5-2e37be158e7d",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "3ccef7ae-cb5e-48f6-8302-897105fbf55c",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "b3d682b6-98f2-4fb0-aa3b-b4df007ca70a",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "7385dfaf-6886-4229-9ecd-6fd678040830",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "d74c4a7e-ffbf-432f-9365-7ebf1f787cab",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "c675646d-e204-4aa8-978d-e3d6d65885c4",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "c21d5a77-d422-4a69-acd7-2c53c1faa34b",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "b4b7458f-81f2-4d38-84be-1c5ba0167a52",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "cba37adb-d6fb-4610-b069-dd04c0643384",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "0bda01d5-4c1d-4062-8ee2-6872334383c3",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "0df05477-c572-4ed6-88a9-47c581f548f7",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "38eb0c22-6caf-46ce-8869-5964bd735858",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "e6919abc-99f9-4c6c-95a5-14761e7b2add",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "355be19c-ffc9-46d5-8d50-d6a036c675b6",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "354a7f88-63fb-41b5-a801-ce3b377b36f1",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "01a5a209-b94c-450b-b7f9-946497d91055",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "f3c544dc-673c-4ef3-accb-53229f1ae077",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "b18eae87-b469-4e14-b454-b171b416bc18",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "df8b2a25-8bdf-4856-953c-a04372b1c161",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "dfefe2ed-4389-4318-8762-f0272b350a1b",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "32901740-b42c-4fdd-bc02-345b5dc57082",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "6747daa2-3533-4e78-8fb8-446ebb86448a",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "82caa33e-d11a-433a-94ea-9b5a5fbef81d",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "830c9528-df21-472c-8c14-a036bf17d665",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "43e7dc91-05b2-474c-b9ac-2ed4fe101f4d",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "bb5a00de-e086-4859-a231-fa793f6797e2",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "b8902400-e6c5-4ba2-95aa-2d35b442b118",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "20fb2507-d71c-455d-9b6d-6104461cf26b",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "7bd9c723-2f78-4309-82c5-47cad406572b",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "09a60ea3-a8d1-4ae5-976e-5783248b72a4",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "cc3502b5-30cc-4473-ad48-42d51a6ef6d1",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "731f4f55-b6d0-41d1-a7a9-072a66389aea",
+          "type": "uses"
+        }
+      ],
+      "uuid": "5c4fd6e6-84a5-47a6-bb36-e78cdd78ada7",
+      "value": "NoName057(16)"
+    },
+    {
+      "description": "Ransomhouse is a sophisticated ransomware-as-a-service (RaaS) group that emerged in late 2021. The group employs double extortion tactics, first encrypting victim networks then threatening to publish exfiltrated data if ransom demands are not met. Ransomhouse operates a Tor-based leak site to name-and-shame non-paying victims. The group tries to portray a professional image, offering personalized Onion chat links for negotiation and advice to bolster victims' security. Technically, Ransomhouse utilizes specialized tools like Babuk ransomware, and its variant Mario ransomware. It uses MrAgent to automate ransomware deployment across large environments. The group has targeted entities worldwide, with a focus on Western industries like technology and industrials.",
+      "meta": {
+        "mitre-attack": [
+          "Application Layer Protocol - T1071",
+          "Archive Collected Data - T1560",
+          "Clear Windows Event Logs - T1070.001",
+          "Command and Scripting Interpreter - T1059",
+          "Data Encrypted for Impact - T1486",
+          "Domain Accounts - T1078.002",
+          "Exfiltration to Cloud Storage - T1567.002",
+          "Exploit Public-Facing Application - T1190",
+          "Internet Connection Discovery - T1016.001",
+          "Malware - T1588.001",
+          "PowerShell - T1059.001",
+          "Remote Desktop Protocol - T1021.001",
+          "SMB/Windows Admin Shares - T1021.002",
+          "Server - T1583.004",
+          "System Network Configuration Discovery - T1016",
+          "Unix Shell - T1059.004"
+        ],
+        "refs": [
+          "https://unit42.paloaltonetworks.com/ransomhouse-encryption-upgrade/",
+          "https://www.sogeti.com/globalassets/common/other/cert-sogeti-esec/cybersec-chronicles/tlp-white-cybersecchronicles---babuk.pdf",
+          "https://www.trellix.com/blogs/research/ransomhouse-am-see/"
+        ],
+        "synonyms": [
+          "Jolly Scorpius"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "bf1b6176-597c-4600-bfcd-ac989670f96b",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "707399d6-ab3e-4963-9315-d9d3818cd6a0",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "7385dfaf-6886-4229-9ecd-6fd678040830",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "b80d107d-fa0d-4b60-9684-b0433e8bdba0",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "3f886f2a-874f-4333-b794-aa6075009b1c",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "4f9ca633-15c5-463c-9724-bdcd54fde541",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "eb062747-2193-45de-8fa2-e62549c37ddf",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "132d5b37-aac5-4378-a8dc-3127b18a73dc",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "355be19c-ffc9-46d5-8d50-d6a036c675b6",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "53ac20cd-aca3-406e-9aa0-9fc7fdc60a5a",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "c3d4bdd9-2cfe-4a80-9d0c-07a29ecdce8f",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "a9d4b653-6915-42af-98b2-5758c4ceee56",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "7807d3a4-a885-4639-a786-c1ed41484970",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "60c4b628-4807-4b0b-bbf5-fdac8643c337",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "6495ae23-3ab4-43c5-a94f-5638a2c31fd2",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "970a3432-3237-47ad-bcca-7d8cbb217736",
+          "type": "uses"
+        }
+      ],
+      "uuid": "081cc18e-512f-4bcd-a381-46d8b59c93c6",
+      "value": "Ransomhouse Group"
+    },
+    {
+      "description": "The Chinese cyber espionage group UNC3886 demonstrates a sophisticated capability to compromise target systems through the exploitation of zero-day vulnerabilities affecting firewall and virtualization technologies lacking Endpoint Detection and Response (EDR) support. Their primary focus has been on defense, technology, and telecommunications organizations situated in the United States and the Asia-Pacific-Japan (APJ) regions.",
+      "meta": {
+        "country": [
+          "CN"
+        ],
+        "mitre-attack": [
+          "Account Discovery - T1087",
+          "Application Layer Protocol - T1071",
+          "Archive Collected Data - T1560",
+          "Archive via Utility - T1560.001",
+          "Asymmetric Cryptography - T1573.002",
+          "Boot or Logon Autostart Execution - T1547",
+          "Clear Command History - T1070.003",
+          "Command and Scripting Interpreter - T1059",
+          "Cron - T1053.003",
+          "Data Staged - T1074",
+          "Dead Drop Resolver - T1102.001",
+          "Deobfuscate/Decode Files or Information - T1140",
+          "Disable or Modify System Firewall - T1562.004",
+          "Encrypted Channel - T1573",
+          "Exfiltration Over C2 Channel - T1041",
+          "Exploit Public-Facing Application - T1190",
+          "Exploitation for Client Execution - T1203",
+          "Exploitation for Credential Access - T1212",
+          "Exploitation for Privilege Escalation - T1068",
+          "File Deletion - T1070.004",
+          "File and Directory Discovery - T1083",
+          "File and Directory Permissions Modification - T1222",
+          "Hidden Files and Directories - T1564.001",
+          "Hide Artifacts - T1564",
+          "Impair Command History Logging - T1562.003",
+          "Indicator Removal on Host - T1070",
+          "Indirect Command Execution - T1202",
+          "Ingress Tool Transfer - T1105",
+          "Input Capture - T1056",
+          "Keylogging - T1056.001",
+          "LSASS Memory - T1003.001",
+          "Local Data Staging - T1074.001",
+          "Match Legitimate Name or Location - T1036.005",
+          "Modify System Image - T1601",
+          "Network Device CLI - T1059.008",
+          "Network Sniffing - T1040",
+          "Non-Application Layer Protocol - T1095",
+          "Non-Standard Port - T1571",
+          "OS Credential Dumping - T1003",
+          "Obfuscated Files or Information - T1027",
+          "Password Managers - T1555.005",
+          "Port Knocking - T1205.001",
+          "PowerShell - T1059.001",
+          "Proc Memory - T1055.009",
+          "Process Discovery - T1057",
+          "Process Injection - T1055",
+          "Proxy - T1090",
+          "Python - T1059.006",
+          "RC Scripts - T1037.004",
+          "Reflective Code Loading - T1620",
+          "Remote Access Software - T1219",
+          "Rootkit - T1014",
+          "Rundll32 - T1218.011",
+          "SSH - T1021.004",
+          "SSH Hijacking - T1563.001",
+          "Shared Modules - T1129",
+          "Software Discovery - T1518",
+          "Stored Data Manipulation - T1565.001",
+          "Symmetric Cryptography - T1573.001",
+          "System Checks - T1497.001",
+          "System Information Discovery - T1082",
+          "System Network Configuration Discovery - T1016",
+          "System Owner/User Discovery - T1033",
+          "Systemd Service - T1543.002",
+          "Timestomp - T1070.006",
+          "Unix Shell - T1059.004",
+          "Unsecured Credentials - T1552",
+          "Valid Accounts - T1078",
+          "Virtualization/Sandbox Evasion - T1497",
+          "Web Protocols - T1071.001",
+          "Web Service - T1102",
+          "Windows Command Shell - T1059.003"
+        ],
+        "refs": [
+          "https://cloud.google.com/blog/topics/threat-intelligence/china-nexus-espionage-targets-juniper-routers",
+          "https://cloud.google.com/blog/topics/threat-intelligence/uncovering-unc3886-espionage-operations/",
+          "https://www.csa.gov.sg/news-events/press-releases/largest-multi-agency-cyber-operation-mounted-to-counter-threat-posed-by-advanced-persistent-threat--apt--actor-unc3886-to-singapore-s-telecommunications-sector",
+          "https://www.mandiant.com/resources/blog/esxi-hypervisors-malware-persistence",
+          "https://www.mandiant.com/resources/blog/fortinet-malware-ecosystem",
+          "https://www.mandiant.com/resources/blog/investigating-ivanti-exploitation-persistence",
+          "https://www.mandiant.com/resources/blog/vmware-esxi-zero-day-bypass",
+          "https://www.sygnia.co/blog/fire-ant-a-deep-dive-into-hypervisor-level-espionage/",
+          "https://www.team-cymru.com/post/tracking-orbs-on-singapores-telecommunications-networks",
+          "https://www.trendmicro.com/en_us/research/25/g/revisiting-unc3886-tactics-to-defend-against-present-risk.html"
+        ],
+        "synonyms": [
+          "Fire Ant"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "799ace7f-e227-4411-baa0-8868704f2a69",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "5372c5fe-f424-4def-bcd5-d3a8e770f07b",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "65917ae0-b854-4139-83fe-bf2441cf0196",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "1ecb2399-e8ba-4f6b-8ba7-5c27d49405cf",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "ec8fc7e2-b356-455c-8db5-2e37be158e7d",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "3ccef7ae-cb5e-48f6-8302-897105fbf55c",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "707399d6-ab3e-4963-9315-d9d3818cd6a0",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "b3d682b6-98f2-4fb0-aa3b-b4df007ca70a",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "7bc57495-ea59-4380-be31-a64af124ef18",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "7385dfaf-6886-4229-9ecd-6fd678040830",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "b21c3b2d-02e6-45b1-980b-e69051040839",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "9c306d8d-cde7-4b4c-b6e8-d0bb16caca36",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "3f886f2a-874f-4333-b794-aa6075009b1c",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "c21d5a77-d422-4a69-acd7-2c53c1faa34b",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "3aef9463-9a7a-43ba-8957-a867e07c1e6a",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "f7827069-0bf2-4764-af4f-23fae0d181b7",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "1c34f7aa-9341-4a48-bfab-af22e51aca6c",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "00f90846-cbd1-4fc5-9233-df5c2bf2a662",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "d1fcf083-a721-4223-aedf-bf8960798d62",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "1cfcb312-b8d7-47a4-b560-4b16cc677292",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "03d7999c-1f4c-42cc-8373-e7690d318104",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "0a3ead4e-6d47-4ccb-854c-a6a4f9d96b22",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "e6919abc-99f9-4c6c-95a5-14761e7b2add",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "3b0e52ce-517a-4614-a523-1bd5deef6c5e",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "4933e63b-9b77-476e-ab29-761bc5b7d15a",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "354a7f88-63fb-41b5-a801-ce3b377b36f1",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "53ac20cd-aca3-406e-9aa0-9fc7fdc60a5a",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "b18eae87-b469-4e14-b454-b171b416bc18",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "65f2d882-3f41-4d48-8a06-29af77ec9f90",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "d63a3fb8-9452-4e9d-a60a-54be68d5998c",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "df8b2a25-8bdf-4856-953c-a04372b1c161",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "8868cb5b-d575-4a60-acb2-07d37389a2fd",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "dca670cf-eeec-438f-8185-fd959d9ef211",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "a9d4b653-6915-42af-98b2-5758c4ceee56",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "4d2a5b3e-340d-4600-9123-309dd63c9bf8",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "24bfaeba-cb0d-4525-b3dc-507c77ecec41",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "29be378d-262d-4e99-b00d-852d573628e6",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "dfefe2ed-4389-4318-8762-f0272b350a1b",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "bf176076-b789-408e-8cba-7275e81c0ada",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "315f51f0-6b03-4c1e-bfb2-84740afb8e21",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "82caa33e-d11a-433a-94ea-9b5a5fbef81d",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "3257eb21-f9a7-4430-8de1-d8b6e288f529",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "830c9528-df21-472c-8c14-a036bf17d665",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "43e7dc91-05b2-474c-b9ac-2ed4fe101f4d",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "8f4a33ec-8b1f-4b80-a2f6-642b2e479580",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "72b74d71-8169-42aa-92e0-e7b04b9f5a08",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "b17a1a56-e99c-403c-8948-561df0cffe81",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "0a5231ec-41af-4a35-83d0-6bdf11f28c65",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "e3b6daca-e963-4a69-aee6-ed4fd653ad58",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "435dfb86-2697-4867-85b5-2fef496c0517",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "22905430-4901-4c2a-84f6-98243cb173f8",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "47f2d673-ca62-47e9-929b-1b0be9657611",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "2db31dcd-54da-405d-acef-b9129b816ed6",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "09a60ea3-a8d1-4ae5-976e-5783248b72a4",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "970a3432-3237-47ad-bcca-7d8cbb217736",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "2acf44aa-542f-4366-b4eb-55ef5747759c",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "cc3502b5-30cc-4473-ad48-42d51a6ef6d1",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "045d0922-2310-4e60-b5e4-3302302cb3c5",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "0f20e3cb-245b-4a61-8a91-2d93f7cb0e9b",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "1c4e5d32-1fe9-4116-9d9d-59e3925bd6a2",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "4061e78c-1284-44b4-9116-73e4ac3912f7",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "8f504411-cb96-4dac-a537-8d2bb7679c59",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "be2dcee9-a7a7-4e38-afd6-21b31ecc3d63",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "92d7da27-2d91-488e-a00c-059dc162766d",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "818302b2-d640-477b-bf88-873120ce85c4",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "355be19c-ffc9-46d5-8d50-d6a036c675b6",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "ae7f3575-0a5e-427e-991b-fe03ad44c754",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "d201d4cc-214d-4a74-a1ba-b3fa09fd4591",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "bb5a00de-e086-4859-a231-fa793f6797e2",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "7dd95ff6-712e-4056-9626-312ea4ab4c5e",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "731f4f55-b6d0-41d1-a7a9-072a66389aea",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "b8902400-e6c5-4ba2-95aa-2d35b442b118",
+          "type": "uses"
+        }
+      ],
+      "uuid": "f8148943-a72d-4d24-8b64-e54363b9e8b0",
+      "value": "UNC3886"
+    },
+    {
+      "description": "UNC5221 is a threat actor that is known to leverage mutilple vulnerabilities to infect devices with custom malware. The group was found leveraging compromised out-of-support Cyberoam VPN appliances for command and control. The group, also tracked under the alias UTA0178, is suspected to be a Chinese nation-state-level threat actor.",
+      "meta": {
+        "country": [
+          "CN"
+        ],
+        "mitre-attack": [
+          "Archive via Utility - T1560.001",
+          "Automated Collection - T1119",
+          "Boot or Logon Initialization Scripts - T1037",
+          "Browser Bookmark Discovery - T1217",
+          "Clear Linux or Mac System Logs - T1070.002",
+          "Data Staged - T1074",
+          "Data from Local System - T1005",
+          "Deobfuscate/Decode Files or Information - T1140",
+          "Exfiltration Over Alternative Protocol - T1048",
+          "Exfiltration Over C2 Channel - T1041",
+          "Exploit Public-Facing Application - T1190",
+          "Exploitation for Client Execution - T1203",
+          "Exploitation for Privilege Escalation - T1068",
+          "File Deletion - T1070.004",
+          "File and Directory Discovery - T1083",
+          "Ingress Tool Transfer - T1105",
+          "Local Data Staging - T1074.001",
+          "Malicious File - T1204.002",
+          "Malware - T1587.001",
+          "Match Legitimate Name or Location - T1036.005",
+          "Network Share Discovery - T1135",
+          "Obfuscated Files or Information - T1027",
+          "PowerShell - T1059.001",
+          "Protocol Tunneling - T1572",
+          "Python - T1059.006",
+          "Remote Desktop Protocol - T1021.001",
+          "Remote Service Session Hijacking - T1563",
+          "Remote Services - T1021",
+          "Run Virtual Instance - T1564.006",
+          "Symmetric Cryptography - T1573.001",
+          "System Information Discovery - T1082",
+          "Timestomp - T1070.006",
+          "Unix Shell - T1059.004",
+          "Valid Accounts - T1078",
+          "Web Protocols - T1071.001",
+          "Web Shell - T1505.003"
+        ],
+        "refs": [
+          "https://cloud.google.com/blog/topics/threat-intelligence/brickstorm-espionage-campaign/",
+          "https://cloud.google.com/blog/topics/threat-intelligence/ivanti-post-exploitation-lateral-movement",
+          "https://cloud.google.com/blog/topics/threat-intelligence/unc6201-exploiting-dell-recoverpoint-zero-day/",
+          "https://ptsecurity.com/research/pt-esc-threat-intelligence/dragons-in-thunder/",
+          "https://quointelligence.eu/2024/01/unc5221-unreported-and-undetected-wirefire-web-shell-variant/",
+          "https://www.crowdstrike.com/en-us/blog/warp-panda-cloud-threats/",
+          "https://www.mandiant.com/resources/blog/suspected-apt-targets-ivanti-zero-day",
+          "https://www.volexity.com/blog/2024/01/10/active-exploitation-of-two-zero-day-vulnerabilities-in-ivanti-connect-secure-vpn/",
+          "https://www.volexity.com/blog/2026/06/04/verdantbamboo-just-another-brickstorm-in-the-firewall/"
+        ],
+        "synonyms": [
+          "QuietCrabs",
+          "Red Dev 61",
+          "UNC6201",
+          "UTA0178",
+          "VerdantBamboo",
+          "Warp Panda"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "232b7f21-adf9-4b42-b936-b9d6f7df856e",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "970a3432-3237-47ad-bcca-7d8cbb217736",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "212306d8-efa4-44c9-8c2d-ed3d2e224aa0",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "5e4a2073-9643-44cb-a0b5-e7f4048446c7",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "2bce5b30-7014-4a5d-ade7-12913fe6ac36",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "1c4e5d32-1fe9-4116-9d9d-59e3925bd6a2",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "03259939-0b57-482f-8eb5-87c0e0d54334",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "3ccef7ae-cb5e-48f6-8302-897105fbf55c",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "3c4a2599-71ee-4405-ba1e-0e28414b4bc5",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "92d7da27-2d91-488e-a00c-059dc162766d",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "be2dcee9-a7a7-4e38-afd6-21b31ecc3d63",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "b3d682b6-98f2-4fb0-aa3b-b4df007ca70a",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "7bc57495-ea59-4380-be31-a64af124ef18",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "a19e86f8-1c0a-4fea-8407-23b73d615776",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "b21c3b2d-02e6-45b1-980b-e69051040839",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "5b0ad6f8-6a16-4966-a4ef-d09ea6e2a9f5",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "3f886f2a-874f-4333-b794-aa6075009b1c",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "eb062747-2193-45de-8fa2-e62549c37ddf",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "1c34f7aa-9341-4a48-bfab-af22e51aca6c",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "00f90846-cbd1-4fc5-9233-df5c2bf2a662",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "b5327dd1-6bf9-4785-a199-25bcbd1f4a9d",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "e6919abc-99f9-4c6c-95a5-14761e7b2add",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "354a7f88-63fb-41b5-a801-ce3b377b36f1",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "3489cfc5-640f-4bb3-a103-9137b97de79f",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "d63a3fb8-9452-4e9d-a60a-54be68d5998c",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "df8b2a25-8bdf-4856-953c-a04372b1c161",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "5d0d3609-d06d-49e1-b9c9-b544e0c618cb",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "a9d4b653-6915-42af-98b2-5758c4ceee56",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "24bfaeba-cb0d-4525-b3dc-507c77ecec41",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "54a649ff-439a-41a4-9856-8d144a2551ba",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "7dd95ff6-712e-4056-9626-312ea4ab4c5e",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "b17a1a56-e99c-403c-8948-561df0cffe81",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "30208d3e-0d6b-43c8-883e-44462a514619",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "4fe28b27-b13c-453e-a386-c2ef362a573b",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "47f2d673-ca62-47e9-929b-1b0be9657611",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "cc3502b5-30cc-4473-ad48-42d51a6ef6d1",
+          "type": "uses"
+        }
+      ],
+      "uuid": "7b7aa725-78a2-4296-8f19-790a9890fca8",
+      "value": "UNC5221"
+    },
+    {
+      "description": "UNC5325 is a suspected Chinese cyber espionage operator that exploited CVE-2024-21893 to compromise Ivanti Connect Secure appliances. UNC5325 leveraged code from open-source projects, installed custom malware, and modified the appliance's settings in order to evade detection and attempt to maintain persistence.\r\n\r\nSource: Mandiant",
+      "meta": {
+        "country": [
+          "CN"
+        ],
+        "mitre-attack": [
+          "Asymmetric Cryptography - T1573.002",
+          "Create or Modify System Process - T1543",
+          "Deobfuscate/Decode Files or Information - T1140",
+          "Exploit Public-Facing Application - T1190",
+          "Exploitation for Privilege Escalation - T1068",
+          "File Deletion - T1070.004",
+          "File and Directory Discovery - T1083",
+          "Obfuscated Files or Information - T1027",
+          "Process Injection - T1055",
+          "Python - T1059.006",
+          "Standard Encoding - T1132.001",
+          "Symmetric Cryptography - T1573.001",
+          "System Information Discovery - T1082",
+          "Timestomp - T1070.006",
+          "Unix Shell - T1059.004",
+          "Vulnerability Scanning - T1595.002",
+          "Web Shell - T1505.003"
+        ],
+        "refs": [
+          "https://www.mandiant.com/resources/blog/investigating-ivanti-exploitation-persistence"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "106c0cf6-bf73-4601-9aa8-0945c2715ec5",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "3ccef7ae-cb5e-48f6-8302-897105fbf55c",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "b3d682b6-98f2-4fb0-aa3b-b4df007ca70a",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "7bc57495-ea59-4380-be31-a64af124ef18",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "b21c3b2d-02e6-45b1-980b-e69051040839",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "3f886f2a-874f-4333-b794-aa6075009b1c",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "354a7f88-63fb-41b5-a801-ce3b377b36f1",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "d63a3fb8-9452-4e9d-a60a-54be68d5998c",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "5d0d3609-d06d-49e1-b9c9-b544e0c618cb",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "a9d4b653-6915-42af-98b2-5758c4ceee56",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "04fd5427-79c7-44ea-ae13-11b24778ff1c",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "24bfaeba-cb0d-4525-b3dc-507c77ecec41",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "bf176076-b789-408e-8cba-7275e81c0ada",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "5502c4e9-24ef-4d5f-8ee9-9e906c2f82c4",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "43e7dc91-05b2-474c-b9ac-2ed4fe101f4d",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "47f2d673-ca62-47e9-929b-1b0be9657611",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "cc3502b5-30cc-4473-ad48-42d51a6ef6d1",
+          "type": "uses"
+        }
+      ],
+      "uuid": "5aa33c7d-2223-49d6-902b-57e995bf60d8",
+      "value": "UNC5325"
+    },
+    {
+      "description": "The Water Curupira threat actor engages in campaigns to deploy backdoors like Cobalt Strike, ultimately facilitating Black Basta ransomware attacks. Initially involved in DarkGate and IcedID spam campaigns in the early weeks of the third quarter of 2023, the threat actor later shifted focus exclusively to Pikabot.\r\n\r\nSource: Trend Micro",
+      "meta": {
+        "mitre-attack": [
+          "Command and Scripting Interpreter - T1059",
+          "Data Encrypted for Impact - T1486",
+          "Deobfuscate/Decode Files or Information - T1140",
+          "Domains - T1583.001",
+          "File and Directory Discovery - T1083",
+          "Hide Artifacts - T1564",
+          "Ingress Tool Transfer - T1105",
+          "JavaScript - T1059.007",
+          "Malicious File - T1204.002",
+          "Native API - T1106",
+          "Obfuscated Files or Information - T1027",
+          "Obtain Capabilities - T1588",
+          "Phishing - T1566",
+          "Process Discovery - T1057",
+          "Process Injection - T1055",
+          "Remote Services - T1021",
+          "Remote System Discovery - T1018",
+          "Rundll32 - T1218.011",
+          "Spearphishing Attachment - T1566.001",
+          "System Checks - T1497.001",
+          "System Information Discovery - T1082",
+          "System Language Discovery - T1614.001",
+          "System Network Configuration Discovery - T1016",
+          "System Network Connections Discovery - T1049",
+          "System Owner/User Discovery - T1033",
+          "Virtualization/Sandbox Evasion - T1497",
+          "Windows Command Shell - T1059.003"
+        ],
+        "refs": [
+          "https://www.trendmicro.com/en_us/research/24/a/a-look-into-pikabot-spam-wave-campaign.html"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "3ccef7ae-cb5e-48f6-8302-897105fbf55c",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "707399d6-ab3e-4963-9315-d9d3818cd6a0",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "b3d682b6-98f2-4fb0-aa3b-b4df007ca70a",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "7bc57495-ea59-4380-be31-a64af124ef18",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "7e150503-88e7-4861-866b-ff1ac82c4475",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "7385dfaf-6886-4229-9ecd-6fd678040830",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "b80d107d-fa0d-4b60-9684-b0433e8bdba0",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "d1fcf083-a721-4223-aedf-bf8960798d62",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "c1b68a96-3c48-49ea-a6c0-9b27359f9c19",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "03d7999c-1f4c-42cc-8373-e7690d318104",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "e6919abc-99f9-4c6c-95a5-14761e7b2add",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "e358d692-23c0-4a31-9eb6-ecc13a8d7735",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "354a7f88-63fb-41b5-a801-ce3b377b36f1",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "232b7f21-adf9-4b42-b936-b9d6f7df856e",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "29be378d-262d-4e99-b00d-852d573628e6",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "82caa33e-d11a-433a-94ea-9b5a5fbef81d",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "54a649ff-439a-41a4-9856-8d144a2551ba",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "391d824f-0ef1-47a0-b0ee-c59a75e27670",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "43e7dc91-05b2-474c-b9ac-2ed4fe101f4d",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "8f4a33ec-8b1f-4b80-a2f6-642b2e479580",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "22905430-4901-4c2a-84f6-98243cb173f8",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "ce0687a0-e692-4b77-964a-0784a8e54ff1",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "0f4a0c76-ab2d-4cb0-85d3-3f0efb8cba0d",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "40f5caa0-4cb7-4117-89fc-d421bb493df3",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "045d0922-2310-4e60-b5e4-3302302cb3c5",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "a62a8db3-f23a-4d8f-afd6-9dbc77e7813b",
+          "type": "uses"
+        },
+        {
+          "dest-uuid": "2e34237d-8574-43f6-aace-ae2915de8597",
+          "type": "uses"
+        }
+      ],
+      "uuid": "148d55bf-21d8-4b6d-9f30-911cf4cbdd49",
+      "value": "Water Curupira"
+    }
+  ],
+  "version": 20261014
+}

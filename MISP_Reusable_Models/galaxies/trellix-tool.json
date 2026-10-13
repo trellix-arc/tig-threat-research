@@ -1,0 +1,9 @@
+{
+  "description": "Threat actors tools is an enumeration of tools used by adversaries. The list includes malware but also common software regularly used by the adversaries.",
+  "icon": "optin-monster",
+  "name": "Trellix Star - Tool",
+  "namespace": "trellix",
+  "type": "trellix-tool",
+  "uuid": "facb609b-887d-4b47-a04a-9c0b578e78ea",
+  "version": 3
+}
